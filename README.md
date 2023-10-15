@@ -14,3 +14,11 @@ Collection of papers on state-space models
 10. Gated recurrent neural networks discover attention(https://openreview.net/forum?id=rfSfDSFrRL)
 11. GateLoop: Fully Data-Controlled Linear Recurrence for Sequence Modeling(https://openreview.net/forum?id=02Ug9N8DCI)
 12. 
+
+## Neurips 2023
+TODO
+
+## TODO
+1. Summarize the paper for ICLR 2024
+2. Collect works on Neurips 2023
+3. 
