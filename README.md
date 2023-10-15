@@ -92,6 +92,19 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 
     **Data-controlled state transitions sound similar to 9, TODO comparison**
 
+12. Never Train from Scratch: Fair Comparison of Long-Sequence Models Requires Data-Driven Priors (https://openreview.net/forum?id=PdaPky8MUn)
+
+    In this work, we show that random initialization leads to gross overestimation of the differences between architectures and that pretraining with standard denoising objectives, using only the downstream task data, leads to dramatic gains across multiple architectures and to very small gaps between Transformers and state space models (SSMs).
+    In stark contrast to prior works, we find vanilla Transformers to match the performance of S4 on Long Range Arena when properly pretrained, and we improve the best reported results of SSMs on the PathX-256 task by 20 absolute points.
+    Subsequently, we analyze the utility of previously-proposed structured parameterizations for SSMs and show they become mostly redundant in the presence of data-driven initialization obtained through pretraining.
+    Our work shows that, when evaluating different architectures on supervised tasks, incorporation of data-driven priors via pretraining is essential for reliable performance estimation, and can be done efficiently.
+
+    **TODO**
+
+13. Mastering Memory Tasks with World Models (https://openreview.net/forum?id=1vDArHJ68h)
+
+    **TODO**
+
 ## Neurips 2023
 1. 
 
