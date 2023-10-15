@@ -70,7 +70,9 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 
     **Time-dependent or input-dependent state-space models** (This is the classical state-space model approach.) + **Hardware acceleration**
 
-10. Gated recurrent neural networks discover attention(https://openreview.net/forum?id=rfSfDSFrRL)
+   A very nice analysis *in Chinese*: https://zhuanlan.zhihu.com/p/661237120
+
+11. Gated recurrent neural networks discover attention(https://openreview.net/forum?id=rfSfDSFrRL)
 
     These modern RNNs feature a prominent design pattern: linear recurrent layers interconnected by feedforward paths with multiplicative gating. 
     Here, we show how RNNs equipped with these two design elements can exactly implement (linear) self-attention, the main building block of Transformers. 
@@ -84,7 +86,7 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 
     **TODO**: I am interested in the reverse-engineering part, further check! 
 
-11. GateLoop: Fully Data-Controlled Linear Recurrence for Sequence Modeling(https://openreview.net/forum?id=02Ug9N8DCI)
+12. GateLoop: Fully Data-Controlled Linear Recurrence for Sequence Modeling(https://openreview.net/forum?id=02Ug9N8DCI)
 
     We develop GateLoop, a foundational sequence model that generalizes linear recurrent models such as S4, S5, LRU and RetNet, by employing **data-controlled state transitions**.
     Furthermore, we derive an $O(l^2)$ **surrogate-attention mode**, revealing remarkable implications for Transformer and recently proposed architectures.
@@ -92,7 +94,7 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 
     **Data-controlled state transitions sound similar to 9, TODO comparison**
 
-12. Never Train from Scratch: Fair Comparison of Long-Sequence Models Requires Data-Driven Priors (https://openreview.net/forum?id=PdaPky8MUn)
+13. Never Train from Scratch: Fair Comparison of Long-Sequence Models Requires Data-Driven Priors (https://openreview.net/forum?id=PdaPky8MUn)
 
     In this work, we show that random initialization leads to gross overestimation of the differences between architectures and that pretraining with standard denoising objectives, using only the downstream task data, leads to dramatic gains across multiple architectures and to very small gaps between Transformers and state space models (SSMs).
     In stark contrast to prior works, we find vanilla Transformers to match the performance of S4 on Long Range Arena when properly pretrained, and we improve the best reported results of SSMs on the PathX-256 task by 20 absolute points.
@@ -101,7 +103,7 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 
     **TODO**
 
-13. Mastering Memory Tasks with World Models (https://openreview.net/forum?id=1vDArHJ68h)
+14. Mastering Memory Tasks with World Models (https://openreview.net/forum?id=1vDArHJ68h)
 
     **TODO**
 
