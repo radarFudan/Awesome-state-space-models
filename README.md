@@ -96,22 +96,34 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 
 13. Never Train from Scratch: Fair Comparison of Long-Sequence Models Requires Data-Driven Priors (https://openreview.net/forum?id=PdaPky8MUn)
 
-    In this work, we show that random initialization leads to gross overestimation of the differences between architectures and that pretraining with standard denoising objectives, using only the downstream task data, leads to dramatic gains across multiple architectures and to very small gaps between Transformers and state space models (SSMs).
-    In stark contrast to prior works, we find vanilla Transformers to match the performance of S4 on Long Range Arena when properly pretrained, and we improve the best reported results of SSMs on the PathX-256 task by 20 absolute points.
-    Subsequently, we analyze the utility of previously-proposed structured parameterizations for SSMs and show they become mostly redundant in the presence of data-driven initialization obtained through pretraining.
+    In this work, we show that **random initialization leads to gross overestimation of the differences between architectures** and that pretraining with standard denoising objectives, using only the downstream task data, leads to dramatic gains across multiple architectures and to very small gaps between Transformers and state space models (SSMs).
+    In stark contrast to prior works, we find **vanilla Transformers to match the performance of S4** on Long Range Arena when properly pretrained, and we improve the best reported results of SSMs on the PathX-256 task by 20 absolute points.
+    Subsequently, we analyze the utility of previously-proposed **structured parameterizations for SSMs** and show they become mostly **redundant** in the presence of data-driven initialization obtained through pretraining.
     Our work shows that, when evaluating different architectures on supervised tasks, incorporation of data-driven priors via pretraining is essential for reliable performance estimation, and can be done efficiently.
 
-    **TODO**
+    *I don't think **fair** comparison requires data-driven priors but this paper's results are still interesting.*
 
 14. Mastering Memory Tasks with World Models (https://openreview.net/forum?id=1vDArHJ68h)
 
-    **TODO**
+    To improve temporal coherence, we integrate a new family of state space models (SSMs) in world models of MBRL agents to present a new method, Recall to Imagine (R2I). 
+    This integration aims to enhance both long-term memory and long-horizon credit assignment. 
+    Through a diverse set of illustrative tasks, we systematically demonstrate that R2I establishes a new state-of-the-art performance in challenging memory and credit assignment RL tasks, such as Memory Maze, BSuite, and POPGym. 
+    We also show that R2I is **faster** than the state-of-the-art MBRL method, DreamerV3, resulting in faster wall-time convergence.
+
+    **Reinforcement Learning**
+
+
+## Arxiv
+1. RWKV (https://arxiv.org/abs/2305.13048): https://github.com/BlinkDL/RWKV-LM
+2. RetNet (https://arxiv.org/pdf/2307.08621.pdf)
+3. 
 
 ## Neurips 2023
-1. 
+1. State-space Models with Layer-wise Nonlinearity are Universal Approximators with Exponential Decaying Memory (https://arxiv.org/abs/2309.13414)
 
 ## ICML 2023
-1. 
+1. Resurrecting Recurrent Neural Networks for Long Sequences (https://icml.cc/virtual/2023/oral/25438)
+2. Hyena Hierarchy: Towards Larger Convolutional Language Models (https://arxiv.org/abs/2302.10866)
 
 ## Before 2023
 1. See [State-spaces](https://github.com/HazyResearch/state-spaces) for [S4](https://arxiv.org/abs/2111.00396), including [HiPPO](https://arxiv.org/abs/2008.07669), [LSSL](https://arxiv.org/abs/2110.13985), [SaShiMi](https://arxiv.org/abs/2202.09729), [DSS](https://arxiv.org/abs/2203.14343), [HTTYH](https://arxiv.org/abs/2206.12037), [S4D](https://arxiv.org/abs/2206.11893), and [S4ND](https://arxiv.org/abs/2210.06583).
@@ -121,6 +133,8 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 ## TODO
 1. Summarize the submission for ICLR 2024 based on abstracts
 2. Collect works from Neurips 2023, ICML 2023, Before 2023
-3. Summarize the most important unsolved questions in state-space models. 
-4. 
-
+3. Summarize the important unsolved questions in state-space models. (Personal viewpoint)
+    1. Scale-up, how to train a larger SSM with better performance such as smaller perplexity in language modelling. Interesting topics include but are not limited to scaling law. Scale-up depth / width or other dimensions. 
+    2. Speed-up, how to make the SSM layer faster. (This topic can borrow a lot of idea from [Flash-Attention](https://github.com/Dao-AILab/flash-attention))
+    3. Cheaper, given a large model, how to perserve the model performance and run the inference with fewer FLOPs. (Personally I believe the training cost does not matter that much in the cheaper sense.) **Quantization** belongs to this part. 
+    4. Theoretical guarantees, universality, rates for approximation/generalization/optimization, stability/initialisation in approximation/generalization/optimization...
