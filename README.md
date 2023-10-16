@@ -1,4 +1,5 @@
 # Awesome-state-space-models
+
 Collection of papers on state-space models. 
 
 ## ICLR 2024 submissions
@@ -17,21 +18,21 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 
     **SSM + Transformer**
 
-3. StableSSM: Alleviating the Curse of Memory in State-space Models through Stable Reparameterization(https://openreview.net/forum?id=BwG8hwohU4)
+3. StableSSM: Alleviating the Curse of Memory in State-space Models through Stable **Reparameterization**(https://openreview.net/forum?id=BwG8hwohU4)
 
     Our analysis identifies this ``curse of memory'' as a result of the recurrent weights converging to a stability boundary, suggesting that a reparameterization technique can be effective. 
     To this end, we introduce a class of reparameterization techniques for SSMs that effectively lift its memory limitations. 
     Besides improving approximation capabilities, we further illustrate that a principled choice of reparameterization scheme can also enhance **optimization stability**.
 
-    **Stability**
+    **Stability, more on parameterisation**
 
 4. Robustifying State-space Models for Long Sequences via Approximate Diagonalization(https://openreview.net/forum?id=DjeQ39QoLQ)
 
     We introduce a generic, backward-stable ''perturb-then-diagonalize'' (PTD) methodology, which is based on the pseudospectral theory of non-normal operators, and which may be interpreted as the approximate diagonalization of the non-normal matrices defining SSMs. 
     Based on this, we introduce the S4-PTD and S5-PTD models. 
-    Through theoretical analysis of the transfer functions of different initialization schemes, we demonstrate that the S4-PTD/S5-PTD initialization strongly converges to the HiPPO framework, while the S4D/S5 initialization only achieves weak convergences. 
+    Through theoretical analysis of the transfer functions of different initialization schemes, we demonstrate that the S4-PTD/S5-PTD **initialization** strongly converges to the HiPPO framework, while the S4D/S5 initialization only achieves weak convergences. 
 
-    **Robustness (I need to further compare against 3)**
+    **Robustness, more on initialization**
 
 5. From **generalization** analysis to **optimization** designs for state space models(https://openreview.net/forum?id=EGjvMcKrrl)
 
@@ -116,10 +117,10 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 ## Arxiv
 1. RWKV (https://arxiv.org/abs/2305.13048): https://github.com/BlinkDL/RWKV-LM
 2. RetNet (https://arxiv.org/pdf/2307.08621.pdf)
-3. 
 
 ## Neurips 2023
 1. State-space Models with Layer-wise Nonlinearity are Universal Approximators with Exponential Decaying Memory (https://arxiv.org/abs/2309.13414)
+2. Laughing Hyena Distillery: Extracting Compact Recurrences from Convolutions (https://www.danfu.org)
 
 ## ICML 2023
 1. Resurrecting Recurrent Neural Networks for Long Sequences (https://icml.cc/virtual/2023/oral/25438)
