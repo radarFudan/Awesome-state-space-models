@@ -3,7 +3,7 @@ Collection of papers on state-space models.
 
 ## ICLR 2024 submissions
 
-I try to use the most important 2-3 sentences in the abstract to summarize the paper. 
+I try to use the most important 2-3 sentences in the abstract to summarize the paper. (https://openreview.net/group?id=ICLR.cc/2024/Conference)
 
 1. Variational **quantization** for state space models(https://openreview.net/forum?id=EAkjVCtRO2)
 
