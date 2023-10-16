@@ -11,3 +11,5 @@ Here I focus on temporal convolution.
 5. Spatio-Temporal Approximation: A Training-Free SNN Conversion for Transformers (https://openreview.net/forum?id=XrunSYwoLr)
 
 6. RefConv: Re-parameterized Refocusing Convolution for Powerful ConvNets (https://openreview.net/forum?id=You77eOFDv)
+
+    This one works on re-parameterization, TODO, what's the relationship with the StableSSM reparameterization? 
