@@ -142,4 +142,5 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
     1. Scale-up, how to train a larger SSM with better performance such as smaller perplexity in language modelling. Interesting topics include but are not limited to scaling law. Scale-up depth / width or other dimensions. 
     2. Speed-up, how to make the SSM layer faster. (This topic can borrow a lot of idea from [Flash-Attention](https://github.com/Dao-AILab/flash-attention))
     3. Cheaper, given a large model, how to perserve the model performance and run the inference with fewer FLOPs. (Personally I believe the training cost does not matter that much in the cheaper sense.) **Quantization** belongs to this part. 
+        1. Maybe we can consider some minimal realization of the state-space models: https://ocw.mit.edu/courses/6-241j-dynamic-systems-and-control-spring-2011/resources/mit6_241js11_lec21/ 
     4. Theoretical guarantees, universality, rates for approximation/generalization/optimization, stability/initialisation in approximation/generalization/optimization...
