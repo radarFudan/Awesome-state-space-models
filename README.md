@@ -124,7 +124,9 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 3. Structured State Space Models for In-Context Reinforcement Learning (https://arxiv.org/abs/2303.03982)
 
      We propose a modification to a variant of S4 that enables us to initialise and reset the hidden state in parallel, allowing us to tackle reinforcement learning tasks.
-     We show that our modified architecture runs asymptotically faster than Transformers in sequence length and performs better than RNN's on a simple memory-based task. 
+     We show that our modified architecture runs asymptotically faster than Transformers in sequence length and performs better than RNN's on a simple memory-based task.
+
+4. Convolutional State Space Models for Long-Range Spatiotemporal Modeling
 
 ## ICML 2023
 1. Resurrecting Recurrent Neural Networks for Long Sequences (https://icml.cc/virtual/2023/oral/25438)
