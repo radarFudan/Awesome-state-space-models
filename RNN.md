@@ -33,3 +33,6 @@
 8. Sparse Spiking Neural Network: Exploiting Heterogeneity in Timescales for Pruning Recurrent SNN (https://openreview.net/forum?id=0jsfesDZDq)
 
 
+
+9. Parallelizing non-linear sequential models over the sequence length (https://openreview.net/forum?id=E34AlVLN0v)
+
