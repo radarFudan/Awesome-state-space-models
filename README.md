@@ -6,6 +6,10 @@ Collection of papers on state-space models.
 
 I try to use the most important 2-3 sentences in the abstract to summarize the paper. (https://openreview.net/group?id=ICLR.cc/2024/Conference)
 
+0. FlashFFTConv(https://openreview.net/forum?id=gPKTTAfYBp)
+
+    FlashFFTConv speeds up exact FFT convolutions by up to 8.7 over PyTorch and achieves up to 4.4 speedup end-to-end.
+
 1. Variational **quantization** for state space models(https://openreview.net/forum?id=EAkjVCtRO2)
 
     In this work, we propose a new forecasting model that combines discrete state space hidden Markov models with recent neural network architectures and training procedures inspired by vector quantized variational autoencoders.
