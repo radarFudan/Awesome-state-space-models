@@ -2,15 +2,19 @@
 
 Collection of papers on state-space models. 
 
+## ICML 2024 submissions
+
+TODO. 
+
 ## ICLR 2024 submissions
 
 I try to use the most important 2-3 sentences in the abstract to summarize the paper. (https://openreview.net/group?id=ICLR.cc/2024/Conference)
 
-0. FlashFFTConv(https://openreview.net/forum?id=gPKTTAfYBp)
+1. FlashFFTConv(https://openreview.net/forum?id=gPKTTAfYBp)
 
-    FlashFFTConv speeds up exact FFT convolutions by up to 8.7 over PyTorch and achieves up to 4.4 speedup end-to-end.
+    FlashFFTConv speeds up exact FFT convolutions by up to 8.7 over PyTorch and achieves up to 4.4 speedup end-to-end. [GitHub](https://github.com/HazyResearch/flash-fft-conv). 
 
-1. Variational **quantization** for state space models(https://openreview.net/forum?id=EAkjVCtRO2)
+2. Variational **quantization** for state space models(https://openreview.net/forum?id=EAkjVCtRO2)
 
     In this work, we propose a new forecasting model that combines discrete state space hidden Markov models with recent neural network architectures and training procedures inspired by vector quantized variational autoencoders.
     We introduce a variational discrete posterior distribution of the latent states given the observations and a two-stage training procedure to alternatively train the parameters of the latent states and of the emission distributions.
