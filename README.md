@@ -79,7 +79,9 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 
     **Time-dependent or input-dependent state-space models** (This is the classical state-space model approach.) + **Hardware acceleration**
 
-   A very nice analysis *in Chinese*: https://zhuanlan.zhihu.com/p/661237120
+    [GitHub](https://github.com/state-spaces/mamba)
+
+   A very nice analysis *in Chinese*: https://zhuanlan.zhihu.com/p/661237120.
 
 11. Gated recurrent neural networks discover attention(https://openreview.net/forum?id=rfSfDSFrRL)
 
