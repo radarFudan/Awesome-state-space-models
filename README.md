@@ -6,6 +6,14 @@ Collection of papers on state-space models.
 
 TODO. 
 
+## On the replacement of transformer by SSMs
+
+1. Pretraining Without Attention (https://arxiv.org/abs/2212.10544) [GitHub](https://github.com/jxiw/BiGS)
+   
+2. Diffusion Models Without Attention (https://arxiv.org/abs/2311.18257) 
+
+3. Recurrent Distance-Encoding Neural Networks for Graph Representation Learning (https://arxiv.org/abs/2312.01538) [GitHub](https://github.com/skeletondyh/GRED)
+
 ## ICLR 2024 submissions
 
 I try to use the most important 2-3 sentences in the abstract to summarize the paper. (https://openreview.net/group?id=ICLR.cc/2024/Conference)
