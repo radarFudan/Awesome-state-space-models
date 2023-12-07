@@ -2,9 +2,6 @@
 
 Collection of papers on state-space models. 
 
-## ICML 2024 submissions
-
-TODO. 
 
 ## On the replacement of transformer by SSMs
 
@@ -138,18 +135,25 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 
 ## Neurips 2023
 1. State-space Models with Layer-wise Nonlinearity are Universal Approximators with Exponential Decaying Memory (https://arxiv.org/abs/2309.13414)
+
+   The authors show that the layer-wise nonlinearity is enough to achieve the universality when the state-space models are multi-layer. 
+
 2. Sparse Modular Activation for Efficient Sequence Modeling (https://arxiv.org/abs/2306.11197)
 3. Laughing Hyena Distillery: Extracting Compact Recurrences from Convolutions (https://arxiv.org/abs/2310.18780)
-4. Structured State Space Models for In-Context Reinforcement Learning (https://arxiv.org/abs/2303.03982)
+
+   Given a convolution-based Hyena model, the authors want to extract the recurrent weights for the convolution kernel so that the convolution model can be converted into a recurrent models.
+   Method used are based on Hankel matrix SVD. 
+
+5. Structured State Space Models for In-Context Reinforcement Learning (https://arxiv.org/abs/2303.03982)
 
      We propose a modification to a variant of S4 that enables us to initialise and reset the hidden state in parallel, allowing us to tackle reinforcement learning tasks.
      We show that our modified architecture runs asymptotically faster than Transformers in sequence length and performs better than RNN's on a simple memory-based task.
 
-5. Convolutional State Space Models for Long-Range Spatiotemporal Modeling (https://arxiv.org/abs/2310.19694)
+6. Convolutional State Space Models for Long-Range Spatiotemporal Modeling (https://arxiv.org/abs/2310.19694)
 
 ## ICML 2023
 1. Resurrecting Recurrent Neural Networks for Long Sequences (https://icml.cc/virtual/2023/oral/25438)
-2. Hyena Hierarchy: Towards Larger Convolutional Language Models (https://arxiv.org/abs/2302.10866)
+2. Hyena Hierarchy: Towards Larger Convolutional Language Models (https://arxiv.org/abs/2302.10866) [GitHub](https://github.com/HazyResearch/safari)
 
 ## Before 2023
 1. See [State-spaces](https://github.com/HazyResearch/state-spaces) for [S4](https://arxiv.org/abs/2111.00396), including [HiPPO](https://arxiv.org/abs/2008.07669), [LSSL](https://arxiv.org/abs/2110.13985), [SaShiMi](https://arxiv.org/abs/2202.09729), [DSS](https://arxiv.org/abs/2203.14343), [HTTYH](https://arxiv.org/abs/2206.12037), [S4D](https://arxiv.org/abs/2206.11893), and [S4ND](https://arxiv.org/abs/2210.06583).
@@ -162,6 +166,6 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 3. Summarize the important unsolved questions in state-space models. (Personal viewpoint)
     1. Scale-up, how to train a larger SSM with better performance such as smaller perplexity in language modelling. Interesting topics include but are not limited to scaling law. Scale-up depth / width or other dimensions. 
     2. Speed-up, how to make the SSM layer faster. (This topic can borrow a lot of idea from [Flash-Attention](https://github.com/Dao-AILab/flash-attention))
-    3. Cheaper, given a large model, how to perserve the model performance and run the inference with fewer FLOPs. (Personally I believe the training cost does not matter that much in the cheaper sense.) **Quantization** belongs to this part. 
+    3. Cheaper, given a large model, how to perserve the model performance and run the inference with fewer FLOPs. (Personally I believe the training cost does not matter that much in the cheaper sense.) Quantization belongs to this part. 
         1. Maybe we can consider some minimal realization of the state-space models: https://ocw.mit.edu/courses/6-241j-dynamic-systems-and-control-spring-2011/resources/mit6_241js11_lec21/ 
-    4. Theoretical guarantees, universality, rates for approximation/generalization/optimization, stability/initialisation in approximation/generalization/optimization...
+    4. Theoretical guarantees, rates for approximation/generalization/optimization, stability in approximation/optimization, initialization scheme (for example, task dependent initialization)...
