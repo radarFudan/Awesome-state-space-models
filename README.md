@@ -29,7 +29,7 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
     We propose SPADE, short for State Space Augmented Transformer. 
     Specifically, we augment a SSM into the bottom layer of SPADE, and we employ efficient local attention methods for the other layers.
 
-    **SSM + Transformer**
+    **SSM + Transformer** [GitHub](https://github.com/microsoft/EfficientLongSequenceModeling)
 
 3. StableSSM: Alleviating the Curse of Memory in State-space Models through Stable **Reparameterization**(https://openreview.net/forum?id=BwG8hwohU4)
 
@@ -37,7 +37,7 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
     To this end, we introduce a class of reparameterization techniques for SSMs that effectively lift its memory limitations. 
     Besides improving approximation capabilities, we further illustrate that a principled choice of reparameterization scheme can also enhance **optimization stability**.
 
-    **Stability, more on parameterisation**
+    **Stability, more on parameterisation** [GitHub](https://github.com/radarFudan/StableSSM)
 
 4. Robustifying State-space Models for Long Sequences via Approximate Diagonalization(https://openreview.net/forum?id=DjeQ39QoLQ)
 
@@ -108,7 +108,7 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
     Furthermore, we derive an $O(l^2)$ **surrogate-attention mode**, revealing remarkable implications for Transformer and recently proposed architectures.
     While many existing models solely rely on data-controlled cumulative sums for context aggregation, our findings suggest that incorporating data-controlled complex cumulative products may be a crucial step towards more powerful sequence models.
 
-    **Data-controlled state transitions sound similar to 9, TODO comparison**
+    **Data-controlled state transitions sound similar to 9, TODO comparison** [GitHub](https://github.com/lucidrains/gateloop-transformer)
 
 13. Never Train from Scratch: Fair Comparison of Long-Sequence Models Requires Data-Driven Priors (https://openreview.net/forum?id=PdaPky8MUn)
 
@@ -117,7 +117,7 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
     Subsequently, we analyze the utility of previously-proposed **structured parameterizations for SSMs** and show they become mostly **redundant** in the presence of data-driven initialization obtained through pretraining.
     Our work shows that, when evaluating different architectures on supervised tasks, incorporation of data-driven priors via pretraining is essential for reliable performance estimation, and can be done efficiently.
 
-    *I don't think **fair** comparison requires data-driven priors but this paper's results are still interesting.*
+    *I don't think **fair** comparison requires data-driven priors but this paper's results are still interesting.* [GitHub](https://github.com/IdoAmos/not-from-scratch)
 
 14. Mastering Memory Tasks with World Models (https://openreview.net/forum?id=1vDArHJ68h)
 
@@ -126,11 +126,11 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
     Through a diverse set of illustrative tasks, we systematically demonstrate that R2I establishes a new state-of-the-art performance in challenging memory and credit assignment RL tasks, such as Memory Maze, BSuite, and POPGym. 
     We also show that R2I is **faster** than the state-of-the-art MBRL method, DreamerV3, resulting in faster wall-time convergence.
 
-    **Reinforcement Learning**
+    **Reinforcement Learning** [GitHub](https://github.com/danijar/dreamerv3)
 
 
 ## Arxiv
-1. RWKV (https://arxiv.org/abs/2305.13048): https://github.com/BlinkDL/RWKV-LM
+1. RWKV (https://arxiv.org/abs/2305.13048): [GitHub](https://github.com/BlinkDL/RWKV-LM)
 2. RetNet (https://arxiv.org/pdf/2307.08621.pdf) [GitHub](https://github.com/microsoft/torchscale/blob/main/README.md) 
 
 ## Neurips 2023
