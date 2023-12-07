@@ -134,7 +134,7 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 
 ## Arxiv
 1. RWKV (https://arxiv.org/abs/2305.13048): https://github.com/BlinkDL/RWKV-LM
-2. RetNet (https://arxiv.org/pdf/2307.08621.pdf)
+2. RetNet (https://arxiv.org/pdf/2307.08621.pdf) [GitHub](https://github.com/microsoft/torchscale/blob/main/README.md) 
 
 ## Neurips 2023
 1. State-space Models with Layer-wise Nonlinearity are Universal Approximators with Exponential Decaying Memory (https://arxiv.org/abs/2309.13414)
