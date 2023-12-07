@@ -151,6 +151,8 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 
 6. Convolutional State Space Models for Long-Range Spatiotemporal Modeling (https://arxiv.org/abs/2310.19694)
 
+7. Hierarchically Gated Recurrent Neural Network for Sequence Modeling (https://paperswithcode.com/paper/hierarchically-gated-recurrent-neural-network) [GitHub](https://github.com/OpenNLPLab/HGRN)
+
 ## ICML 2023
 1. Resurrecting Recurrent Neural Networks for Long Sequences (https://icml.cc/virtual/2023/oral/25438)
 2. Hyena Hierarchy: Towards Larger Convolutional Language Models (https://arxiv.org/abs/2302.10866) [GitHub](https://github.com/HazyResearch/safari)
