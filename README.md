@@ -1,15 +1,30 @@
 # Awesome-state-space-models
 
-Collection of papers on state-space models. 
+Collection of papers/repos on state-space models. 
 
+## (Potential) SOTA
 
-## On the replacement of transformer by SSMs
+1. Mamba (https://arxiv.org/abs/2312.00752) https://github.com/state-spaces/mamba
 
-1. Pretraining Without Attention (https://arxiv.org/abs/2212.10544) [GitHub](https://github.com/jxiw/BiGS)
+    $$g_k = \sigma(Linear(x_k)),$$
+    $$h_{k+1} = (1-g_k) h_{k} + g_k x_k.$$
+
+    The activation is SiLU / Swish. The continuous form is 
+    $$\frac{dh_t}{dt} = -g_t (x_t - h_t).$$
+
+2. Gated Linear Attention (GLA) (https://arxiv.org/abs/2312.06635) https://github.com/berlino/gated_linear_attention
+
+## On the replacement of transformer/attention by SSMs
+
+1. [Language model] Pretraining Without Attention (https://arxiv.org/abs/2212.10544) [GitHub](https://github.com/jxiw/BiGS)
+
+    Feature: Bidirectional Language Modeling with State Space Model
    
-2. Diffusion Models Without Attention (https://arxiv.org/abs/2311.18257) 
+2. [Diffusion model] Diffusion Models Without Attention (https://arxiv.org/abs/2311.18257) (NeurIPS 2023 Workshop on Diffusion Models)
 
-3. Recurrent Distance-Encoding Neural Networks for Graph Representation Learning (https://arxiv.org/abs/2312.01538) [GitHub](https://github.com/skeletondyh/GRED)
+3. [RL] Structured State Space Models for In-Context Reinforcement Learning (https://arxiv.org/abs/2303.03982)
+
+4. [Graph] Recurrent Distance-Encoding Neural Networks for Graph Representation Learning (https://arxiv.org/abs/2312.01538) [GitHub](https://github.com/skeletondyh/GRED)
 
 ## ICLR 2024 submissions
 
@@ -131,23 +146,35 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 
 ## Arxiv
 1. RWKV (https://arxiv.org/abs/2305.13048): [GitHub](https://github.com/BlinkDL/RWKV-LM)
-2. RetNet (https://arxiv.org/pdf/2307.08621.pdf) [GitHub](https://github.com/microsoft/torchscale/blob/main/README.md) 
 
-## Neurips 2023
+2. RetNet (https://arxiv.org/abs/2307.08621) [GitHub](https://github.com/microsoft/torchscale/blob/main/README.md) 
+
+3. Zoology (https://arxiv.org/abs/2312.04927) [GitHub](https://github.com/HazyResearch/zoology)
+
+## NeurIPS 2023
 1. State-space Models with Layer-wise Nonlinearity are Universal Approximators with Exponential Decaying Memory (https://arxiv.org/abs/2309.13414)
 
    The authors show that the layer-wise nonlinearity is enough to achieve the universality when the state-space models are multi-layer. 
 
-2. Sparse Modular Activation for Efficient Sequence Modeling (https://arxiv.org/abs/2306.11197)
+   It is also shown that similar to traditional nonlinear recurrent neural networks, SSMs also suffer from the aymptotically exponential memory decay. 
+
+2. Sparse Modular Activation for Efficient Sequence Modeling (SMA) (https://arxiv.org/abs/2306.11197)
+
+    SSM + Attention, SOTA at LRA. 
+
+    We design a novel neural architecture, SeqBoat, which employs SMA to sparsely activate a Gated Attention Unit (GAU) based on the state representations learned from an SSM.
+
 3. Laughing Hyena Distillery: Extracting Compact Recurrences from Convolutions (https://arxiv.org/abs/2310.18780)
 
    Given a convolution-based Hyena model, the authors want to extract the recurrent weights for the convolution kernel so that the convolution model can be converted into a recurrent models.
    Method used are based on Hankel matrix SVD. 
 
+   Question: Why not just train directly? 
+
 5. Structured State Space Models for In-Context Reinforcement Learning (https://arxiv.org/abs/2303.03982)
 
-     We propose a modification to a variant of S4 that enables us to initialise and reset the hidden state in parallel, allowing us to tackle reinforcement learning tasks.
-     We show that our modified architecture runs asymptotically faster than Transformers in sequence length and performs better than RNN's on a simple memory-based task.
+    We propose a modification to a variant of S4 that enables us to initialise and reset the hidden state in parallel, allowing us to tackle reinforcement learning tasks.
+    We show that our modified architecture runs asymptotically faster than Transformers in sequence length and performs better than RNN's on a simple memory-based task.
 
 6. Convolutional State Space Models for Long-Range Spatiotemporal Modeling (https://arxiv.org/abs/2310.19694)
 
@@ -155,12 +182,15 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 
 ## ICML 2023
 1. Resurrecting Recurrent Neural Networks for Long Sequences (https://icml.cc/virtual/2023/oral/25438)
+
 2. Hyena Hierarchy: Towards Larger Convolutional Language Models (https://arxiv.org/abs/2302.10866) [GitHub](https://github.com/HazyResearch/safari)
 
 ## Before 2023
-1. See [State-spaces](https://github.com/HazyResearch/state-spaces) for [S4](https://arxiv.org/abs/2111.00396), including [HiPPO](https://arxiv.org/abs/2008.07669), [LSSL](https://arxiv.org/abs/2110.13985), [SaShiMi](https://arxiv.org/abs/2202.09729), [DSS](https://arxiv.org/abs/2203.14343), [HTTYH](https://arxiv.org/abs/2206.12037), [S4D](https://arxiv.org/abs/2206.11893), and [S4ND](https://arxiv.org/abs/2210.06583).
+1. See github repo [State-spaces](https://github.com/HazyResearch/state-spaces) for [S4](https://arxiv.org/abs/2111.00396), including [HiPPO](https://arxiv.org/abs/2008.07669), [LSSL](https://arxiv.org/abs/2110.13985), [SaShiMi](https://arxiv.org/abs/2202.09729), [DSS](https://arxiv.org/abs/2203.14343), [HTTYH](https://arxiv.org/abs/2206.12037), [S4D](https://arxiv.org/abs/2206.11893), and [S4ND](https://arxiv.org/abs/2210.06583).
+
 2. Simplified State Space Layers for Sequence Modeling (S5) (https://openreview.net/forum?id=Ai8Hw3AXqks) [GitHub](https://github.com/lindermanlab/S5)
 
+3. Mega: Moving Average Equipped Gated Attention (Mega) [GitHub](https://github.com/facebookresearch/mega)
 
 ## TODO
 1. Summarize the submission for ICLR 2024 based on abstracts
