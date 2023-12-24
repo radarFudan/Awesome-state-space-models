@@ -8,7 +8,7 @@ For sequence modelling, the phenomenon of in-context learning is interesting in 
 
 2. One Step of Gradient Descent is Provably the Optimal In-Context Learner with One Layer of Linear Self-Attention (https://openreview.net/forum?id=8p3fu56lKc&noteId=n3z3Y6l28Q)
 
-    Then, we find that changing the distribu- tion of the covariates and weight vector to a non-isotropic Gaussian distribution has a strong impact on the learned algorithm: the global minimizer of the pre- training loss now implements a single step of pre-conditioned GD. However, if only the distribution of the responses is changed, then this does not have a large effect on the learned algorithm: even when the response comes from a more gen- eral family of nonlinear functions, the global minimizer of the pre-training loss still implements a single step of GD on a least-squares linear regression objective.
+    Then, we find that changing the distribution of the covariates and weight vector to a non-isotropic Gaussian distribution has a strong impact on the learned algorithm: the global minimizer of the pre-training loss now implements a single step of pre-conditioned GD. However, if only the distribution of the responses is changed, then this does not have a large effect on the learned algorithm: even when the response comes from a more general family of nonlinear functions, the global minimizer of the pre-training loss still implements a single step of GD on a least-squares linear regression objective.
 
     Model: Single-layer linear attention
 
@@ -30,8 +30,9 @@ For sequence modelling, the phenomenon of in-context learning is interesting in 
 
 4. How Many Pretraining Tasks Are Needed for In-Context Learning of Linear Regression? (https://openreview.net/forum?id=vSh5ePa0ph)
 
-    In this paper, we study ICL in one of its simplest setups: pretraining a single-layer linear attention model for lin- ear regression with a Gaussian prior. We establish a statistical task complexity bound for the attention model pretraining, showing that effective pretraining only requires a small number of independent tasks. 
+    In this paper, we study ICL in one of its simplest setups: pretraining a single-layer linear attention model for linear regression with a Gaussian prior. We establish a statistical task complexity bound for the attention model pretraining, showing that effective pretraining only requires a small number of independent tasks. 
 
+    Question: Does the paper provide a rate? Can the rate be verified in the numerical experiments? 
 
 
 5. Understanding In-Context Learning in Transformers and LLMs by Learning to Learn Discrete Functions (https://openreview.net/forum?id=ekeyCgeRfC)
