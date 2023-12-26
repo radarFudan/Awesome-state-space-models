@@ -192,6 +192,8 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 
 3. Mega: Moving Average Equipped Gated Attention (Mega) [GitHub](https://github.com/facebookresearch/mega)
 
+4. [Annotated S4](https://srush.github.io/annotated-s4/) By [Sasha Rush](http://rush-nlp.com) and [Sidd Karamcheti](https://www.siddkaramcheti.com) [GitHub](https://github.com/srush/annotated-s4)
+
 ## TODO
 1. Summarize the submission for ICLR 2024 based on abstracts
 2. Collect works from Neurips 2023, ICML 2023, Before 2023
