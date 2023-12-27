@@ -4,6 +4,8 @@ Collection of papers/repos on state-space models.
 
 ## (Potential) SOTA
 
+Main idea: input-dependent gating. 
+
 1. Mamba (https://arxiv.org/abs/2312.00752) https://github.com/state-spaces/mamba
 
     $$g_k = \sigma(Linear(x_k)),$$
@@ -39,14 +41,14 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
     In this work, we propose a new forecasting model that combines discrete state space hidden Markov models with recent neural network architectures and training procedures inspired by vector quantized variational autoencoders.
     We introduce a variational discrete posterior distribution of the latent states given the observations and a two-stage training procedure to alternatively train the parameters of the latent states and of the emission distributions.
 
-2. Efficient Long Sequence Modeling via State Space Augmented Transformer(https://openreview.net/forum?id=xuxYaBMd9F)
+3. Efficient Long Sequence Modeling via State Space Augmented Transformer(https://openreview.net/forum?id=xuxYaBMd9F)
 
     We propose SPADE, short for State Space Augmented Transformer. 
     Specifically, we augment a SSM into the bottom layer of SPADE, and we employ efficient local attention methods for the other layers.
 
     **SSM + Transformer** [GitHub](https://github.com/microsoft/EfficientLongSequenceModeling)
 
-3. StableSSM: Alleviating the Curse of Memory in State-space Models through Stable **Reparameterization**(https://openreview.net/forum?id=BwG8hwohU4)
+4. StableSSM: Alleviating the Curse of Memory in State-space Models through Stable **Reparameterization**(https://openreview.net/forum?id=BwG8hwohU4)
 
     Our analysis identifies this ``curse of memory'' as a result of the recurrent weights converging to a stability boundary, suggesting that a reparameterization technique can be effective. 
     To this end, we introduce a class of reparameterization techniques for SSMs that effectively lift its memory limitations. 
@@ -54,7 +56,7 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 
     **Stability, more on parameterisation** [GitHub](https://github.com/radarFudan/StableSSM)
 
-4. Robustifying State-space Models for Long Sequences via Approximate Diagonalization(https://openreview.net/forum?id=DjeQ39QoLQ)
+5. Robustifying State-space Models for Long Sequences via Approximate Diagonalization(https://openreview.net/forum?id=DjeQ39QoLQ)
 
     We introduce a generic, backward-stable ''perturb-then-diagonalize'' (PTD) methodology, which is based on the pseudospectral theory of non-normal operators, and which may be interpreted as the approximate diagonalization of the non-normal matrices defining SSMs. 
     Based on this, we introduce the S4-PTD and S5-PTD models. 
@@ -62,13 +64,13 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 
     **Robustness, more on initialization**
 
-5. From **generalization** analysis to **optimization** designs for state space models(https://openreview.net/forum?id=EGjvMcKrrl)
+6. From **generalization** analysis to **optimization** designs for state space models(https://openreview.net/forum?id=EGjvMcKrrl)
 
     In this paper, we theoretically study the generalization of SSMs and propose improvements to training algorithms based on the generalization results. 
     Specifically, we give a data-dependent generalization bound for SSMs, showing an interplay between the SSM parameters and the temporal dependencies of the training sequences. 
     Leveraging the generalization bound, we (1) set up a **scaling rule for model initialization** based on the proposed generalization measure, which significantly improves the robustness of SSMs to different temporal patterns in the sequence data; (2) introduce a new **regularization method for training SSMs to enhance the generalization performance**. Numerical results are conducted to validate our results.
 
-6. A 2-Dimensional State Space Layer for Spatial Inductive Bias(https://openreview.net/forum?id=BGkqypmGvm)
+7. A 2-Dimensional State Space Layer for Spatial Inductive Bias(https://openreview.net/forum?id=BGkqypmGvm)
 
     We leverage an expressive variation of the multidimensional State Space Model (SSM). 
     Our approach introduces efficient parameterization, accelerated computation, and a suitable normalization scheme. 
@@ -77,13 +79,13 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 
     **Vision task**
 
-7. Hieros: Hierarchical Imagination on Structured State Space Sequence World Models(https://openreview.net/forum?id=5j6wtOO6Fk)
+8. Hieros: Hierarchical Imagination on Structured State Space Sequence World Models(https://openreview.net/forum?id=5j6wtOO6Fk)
 
     We propose HIEROS, a hierarchical policy that learns time abstracted world representations and imagines trajectories at multiple time scales in latent space. HIEROS uses an S5 layer-based world model, which predicts next world states in parallel during training and iteratively during environment interaction. Due to the special properties of S5 layers, our method can train in parallel and predict next world states iteratively during imagination. This allows for more efficient training than RNN-based world models and more efficient imagination than Transformer-based world models.
 
     **Reinforcement Learning** (Use SSM instead of Transformer)
 
-8. S4++: Elevating Long Sequence Modeling with State Memory Reply(https://openreview.net/forum?id=bdnw4qjfH9)
+9. S4++: Elevating Long Sequence Modeling with State Memory Reply(https://openreview.net/forum?id=bdnw4qjfH9)
 
     1. Non-Stable-States (NSS): Significant state variance discrepancies arise among discrete sampling steps, occasionally resulting in divergence.
     2. Dependency Bias: The unidirectional state space dependency in SSM impedes the effective modeling of intricate dependencies. In this paper, we conduct theoretical analysis of SSM from the even-triggered control (ETC) theory perspective and first propose the presence of NSS Phenomenon.
@@ -93,7 +95,7 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 
     **Stability**
 
-9. Mamba: Linear-Time Sequence Modeling with Selective State Spaces(https://openreview.net/forum?id=AL1fq05o7H)
+10. Mamba: Linear-Time Sequence Modeling with Selective State Spaces(https://openreview.net/forum?id=AL1fq05o7H)
 
     Many subquadratic-time architectures such as linear attention, gated convolution and recurrent models, and structured state space models (SSMs) have been developed to address Transformers' computational inefficiency on long sequences, but they have not performed as well as attention on important modalities such as language. We identify that a key weakness of such models is their inability to perform content-based reasoning, and make several improvements. First, simply letting the **SSM parameters be functions of the input** addresses their weakness with discrete modalities, allowing the model to selectively propagate or forget information along the sequence length dimension depending on the current token. Second, even though this change prevents the use of efficient convolutions, we design a **hardware-aware parallel algorithm in recurrent mode**. We integrate these selective SSMs into a simplified end-to-end neural network architecture without attention or even MLP blocks (Mamba).
 
@@ -194,12 +196,16 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 
 4. [Annotated S4](https://srush.github.io/annotated-s4/) By [Sasha Rush](http://rush-nlp.com) and [Sidd Karamcheti](https://www.siddkaramcheti.com) [GitHub](https://github.com/srush/annotated-s4)
 
+5. [Annotated Mamba](https://github.com/srush/annotated-mamba)
+
 ## TODO
-1. Summarize the submission for ICLR 2024 based on abstracts
-2. Collect works from Neurips 2023, ICML 2023, Before 2023
-3. Summarize the important unsolved questions in state-space models. (Personal viewpoint)
-    1. Scale-up, how to train a larger SSM with better performance such as smaller perplexity in language modelling. Interesting topics include but are not limited to scaling law. Scale-up depth / width or other dimensions. 
-    2. Speed-up, how to make the SSM layer faster. (This topic can borrow a lot of idea from [Flash-Attention](https://github.com/Dao-AILab/flash-attention))
-    3. Cheaper, given a large model, how to perserve the model performance and run the inference with fewer FLOPs. (Personally I believe the training cost does not matter that much in the cheaper sense.) Quantization belongs to this part. 
-        1. Maybe we can consider some minimal realization of the state-space models: https://ocw.mit.edu/courses/6-241j-dynamic-systems-and-control-spring-2011/resources/mit6_241js11_lec21/ 
-    4. Theoretical guarantees, rates for approximation/generalization/optimization, stability in approximation/optimization, initialization scheme (for example, task dependent initialization)...
+Summarize the important unsolved questions in state-space models. (Personal viewpoint)
+
+1. Scale-up, how to train a larger SSM with better performance such as smaller perplexity in language modelling. Interesting topics include but are not limited to scaling law. 
+    Scale-up depth / width or other dimensions. 
+    How to scale up the hidden states and parameters at the same time? 
+    Intuitively the scaleup of parameters should be faster than the scaleup of hidden states. 
+2. Speed-up, how to make the SSM layer faster. (This topic can borrow a lot of idea from [Flash-Attention](https://github.com/Dao-AILab/flash-attention))
+3. Cheaper, given a large model, how to perserve the model performance and run the inference with fewer FLOPs. (Personally I believe the training cost does not matter that much in the cheaper sense.) Quantization belongs to this part. 
+    1. Maybe we can consider some minimal realization of the state-space models: https://ocw.mit.edu/courses/6-241j-dynamic-systems-and-control-spring-2011/resources/mit6_241js11_lec21/ 
+4. Theoretical guarantees, rates for approximation/generalization/optimization, stability in approximation/optimization, initialization scheme (for example, task dependent initialization)...
