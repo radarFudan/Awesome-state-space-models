@@ -1,5 +1,7 @@
 1. iTransformer: Inverted Transformers Are Effective for Time Series Forecasting: (https://openreview.net/forum?id=JePfAI8fah)
 
+    [GitHub](https://github.com/thuml/iTransformer)
+
 2. CLEX: Continuous Length Extrapolation for Large Language Models (https://openreview.net/forum?id=wXpSidPpc5)
 
 3. Embed-Search-Align: DNA Sequence Alignment using Transformer models (https://openreview.net/forum?id=oNlPtI7QfQ)

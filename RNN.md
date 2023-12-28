@@ -1,5 +1,7 @@
 1. Inverse Approximation Theory for Nonlinear Recurrent Neural Networks (https://openreview.net/forum?id=yC2waD70Vj)
 
+    In particular, we show that nonlinear sequence relationships that can be stably approximated by nonlinear RNNs must have an exponential decaying memory structure - a notion that can be made precise. This extends the previously identified curse of memory in linear RNNs into the general nonlinear setting, and quantifies the essential limitations of the RNN architecture for learning sequential relationships with long-term memory. 
+    
 
 
 2. Sufficient conditions for offline reactivation in recurrent neural networks(https://openreview.net/forum?id=RVrINT6MT7)
