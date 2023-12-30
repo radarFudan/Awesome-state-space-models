@@ -6,13 +6,17 @@ Collection of papers/repos on state-space models.
 
 Main idea: input-dependent gating. 
 
-1. Mamba (https://arxiv.org/abs/2312.00752) https://github.com/state-spaces/mamba
+1. Mamba (https://arxiv.org/abs/2312.00752) [Official GitHub](https://github.com/state-spaces/mamba)
 
     $$g_k = \sigma(Linear(x_k)),$$
     $$h_{k+1} = (1-g_k) h_{k} + g_k x_k.$$
 
     The activation is SiLU / Swish. The continuous form is 
     $$\frac{dh_t}{dt} = -g_t (x_t - h_t).$$
+
+    [Mamba-minimal-in-PyTorch](https://github.com/johnma2006/mamba-minimal)
+
+    [Mamba-minimal-in-JAX](https://github.com/radarFudan/mamba-minimal-jax)
 
 2. Gated Linear Attention (GLA) (https://arxiv.org/abs/2312.06635) https://github.com/berlino/gated_linear_attention
 
