@@ -18,7 +18,9 @@ Main idea: input-dependent gating.
 
     [Mamba-minimal-in-JAX](https://github.com/radarFudan/mamba-minimal-jax)
 
-2. Gated Linear Attention (GLA) (https://arxiv.org/abs/2312.06635) https://github.com/berlino/gated_linear_attention
+2. Gated Linear Attention (GLA) (https://arxiv.org/abs/2312.06635) [Official GitHub][https://github.com/berlino/gated_linear_attention]
+
+    [flash-linear-attention](https://github.com/sustcsonglin/flash-linear-attention)
 
 ## On the replacement of transformer/attention by SSMs
 
