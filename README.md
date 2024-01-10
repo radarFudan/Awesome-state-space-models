@@ -14,9 +14,11 @@ Main idea: input-dependent gating.
     The activation is SiLU / Swish. The continuous form is 
     $$\frac{dh_t}{dt} = -g_t (x_t - h_t).$$
 
-    [Mamba-minimal-in-PyTorch](https://github.com/johnma2006/mamba-minimal)
-
-    [Mamba-minimal-in-JAX](https://github.com/radarFudan/mamba-minimal-jax)
+    Various (unofficial) implementations: 
+    1. [Mamba-minimal-in-PyTorch](https://github.com/johnma2006/mamba-minimal)
+    2. [Mamba-minimal-in-JAX](https://github.com/radarFudan/mamba-minimal-jax)
+    3. [Mamba-jax](https://github.com/vvvm23/mamba-jax)
+    4. [Mamba.py](https://github.com/alxndrTL/mamba.py)
 
 2. Gated Linear Attention (GLA) (https://arxiv.org/abs/2312.06635) [Official GitHub][https://github.com/berlino/gated_linear_attention]
 
@@ -33,6 +35,8 @@ Main idea: input-dependent gating.
 3. [RL] Structured State Space Models for In-Context Reinforcement Learning (https://arxiv.org/abs/2303.03982)
 
 4. [Graph] Recurrent Distance-Encoding Neural Networks for Graph Representation Learning (https://arxiv.org/abs/2312.01538) [GitHub](https://github.com/skeletondyh/GRED)
+
+5. [MoE] MoE-Mamba: Efficient Selective State Space Models with Mixture of Experts (https://arxiv.org/abs/2401.04081)
 
 ## ICLR 2024 submissions
 
