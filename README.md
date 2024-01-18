@@ -38,8 +38,9 @@ Main idea: input-dependent gating.
 
 5. [MoE] MoE-Mamba: Efficient Selective State Space Models with Mixture of Experts (https://arxiv.org/abs/2401.04081)
 
-6. [Bio] U-Mamba, a versatile network designed specifically for biomedical image segmentation. (https://arxiv.org/abs/2401.04722)
+6. [Bio] U-Mamba, a versatile network designed specifically for biomedical image segmentation. (https://arxiv.org/abs/2401.04722) [GitHub](https://github.com/bowang-lab/U-Mamba)
 
+7. [Vision] Vision Mamba (Vim) is 2.8× faster than DeiT and saves 86.8% GPU memory when performing batch inference to extract features on images with a resolution of 1248×1248. (https://arxiv.org/abs/2401.09417)
 
 
 ## ICLR 2024 submissions
