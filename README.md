@@ -218,9 +218,13 @@ Summarize the important unsolved questions in state-space models. (Personal view
 
 1. Scale-up, how to train a larger SSM with better performance such as smaller perplexity in language modelling. Interesting topics include but are not limited to scaling law. 
     Scale-up depth / width or other dimensions. 
-    How to scale up the hidden states and parameters at the same time? 
-    Intuitively the scaleup of parameters should be faster than the scaleup of hidden states. 
-2. Speed-up, how to make the SSM layer faster. (This topic can borrow a lot of idea from [Flash-Attention](https://github.com/Dao-AILab/flash-attention))
+    How to scale up the hidden states and parameters at the same time? Mamba's hidden states are 1D while linear attention hidden states are 2D.
+    Intuitively the scaleup of parameters should be faster than the scaleup of hidden states. Because the recurrent model is approximating the $(x_k,h_k)->(y_k,h_{k+1})$ map.
+2. Speed-up, how to make the SSM layer faster. This topic can borrow a lot of idea from [Flash-Attention](https://github.com/Dao-AILab/flash-attention). This has been done in FlashFFTConv, Mamba and gated linear attention. 
 3. Cheaper, given a large model, how to perserve the model performance and run the inference with fewer FLOPs. (Personally I believe the training cost does not matter that much in the cheaper sense.) Quantization belongs to this part. 
     1. Maybe we can consider some minimal realization of the state-space models: https://ocw.mit.edu/courses/6-241j-dynamic-systems-and-control-spring-2011/resources/mit6_241js11_lec21/ 
 4. Theoretical guarantees, rates for approximation/generalization/optimization, stability in approximation/optimization, initialization scheme (for example, task dependent initialization)...
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=radarFudan/Awesome-state-space-models&type=Date)](https://star-history.com/#radarFudan/Awesome-state-space-models)
