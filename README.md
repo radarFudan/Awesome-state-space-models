@@ -207,11 +207,14 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 
 2. Simplified State Space Layers for Sequence Modeling (S5) (https://openreview.net/forum?id=Ai8Hw3AXqks) [GitHub](https://github.com/lindermanlab/S5)
 
-3. Mega: Moving Average Equipped Gated Attention (Mega) [GitHub](https://github.com/facebookresearch/mega)
+3. Bayesian state-space models [GitHub](https://github.com/lindermanlab/ssm). 
+    Another very good note is: http://personal.strath.ac.uk/gary.koop/GSE_Bayesian/Bayesian_State_Space_Methods.pdf
 
-4. [Annotated S4](https://srush.github.io/annotated-s4/) By [Sasha Rush](http://rush-nlp.com) and [Sidd Karamcheti](https://www.siddkaramcheti.com) [GitHub](https://github.com/srush/annotated-s4)
+4. Mega: Moving Average Equipped Gated Attention (Mega) [GitHub](https://github.com/facebookresearch/mega)
 
-5. [Annotated Mamba](https://github.com/srush/annotated-mamba)
+5. [Annotated S4](https://srush.github.io/annotated-s4/) By [Sasha Rush](http://rush-nlp.com) and [Sidd Karamcheti](https://www.siddkaramcheti.com) [GitHub](https://github.com/srush/annotated-s4)
+
+6. [Annotated Mamba](https://github.com/srush/annotated-mamba)
 
 ## TODO
 Summarize the important unsolved questions in state-space models. (Personal viewpoint)
