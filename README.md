@@ -42,6 +42,10 @@ Main idea: input-dependent gating.
 
 7. [Vision] Vision Mamba (Vim) is 2.8× faster than DeiT and saves 86.8% GPU memory when performing batch inference to extract features on images with a resolution of 1248×1248. (https://arxiv.org/abs/2401.09417)
 
+8. [Token-free language models] MambaByte: Token-free Selective State Space Model.（https://arxiv.org/abs/2401.13660）
+    
+    **Token-free** language models learn directly from raw bytes and remove the bias of subword tokenization.
+
 
 ## ICLR 2024 submissions
 
