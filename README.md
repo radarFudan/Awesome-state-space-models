@@ -46,6 +46,13 @@ Main idea: input-dependent gating.
     
     **Token-free** language models learn directly from raw bytes and remove the bias of subword tokenization.
 
+9. [Vision] SegMamba: Long-range Sequential Modeling Mamba For 3D Medical Image Segmentation. (https://arxiv.org/abs/2401.13560) [GitHub](https://github.com/ge-xing/SegMamba)
+
+10. [Vision] MambaMorph: a Mamba-based Backbone with Contrastive Feature Learning for Deformable MR-CT Registration. (https://arxiv.org/abs/2401.13934) [GitHub](https://github.com/Guo-Stone/MambaMorph)
+
+11. [Vision] VMamba: Visual State Space Model. (https://arxiv.org/abs/2401.10166) [GitHub](https://github.com/MzeroMiko/VMamba)
+
+12. [Video] Vivim: a Video Vision Mamba for Medical Video Object Segmentation (https://arxiv.org/pdf/2401.14168.pdf) [GitHub](https://github.com/scott-yjyang/Vivim)
 
 ## ICLR 2024 submissions
 
@@ -171,6 +178,8 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 2. RetNet (https://arxiv.org/abs/2307.08621) [GitHub](https://github.com/microsoft/torchscale/blob/main/README.md) 
 
 3. Zoology (https://arxiv.org/abs/2312.04927) [GitHub](https://github.com/HazyResearch/zoology)
+
+4. Structured state-space models are deep Wiener models (https://arxiv.org/abs/2312.06211)
 
 ## NeurIPS 2023
 1. State-space Models with Layer-wise Nonlinearity are Universal Approximators with Exponential Decaying Memory (https://arxiv.org/abs/2309.13414)
