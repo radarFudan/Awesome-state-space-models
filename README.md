@@ -56,6 +56,8 @@ Main idea: input-dependent gating.
 
 13. [Tabular data] MambaTab: A Simple Yet Effective Approach for Handling Tabular Data (https://arxiv.org/abs/2401.08867)
 
+14. [MoE] BlackMamba: Mixture of Experts for State-Space Models (https://www.zyphra.com/blackmamba)
+
 ## ICLR 2024 submissions
 
 I try to use the most important 2-3 sentences in the abstract to summarize the paper. (https://openreview.net/group?id=ICLR.cc/2024/Conference)
