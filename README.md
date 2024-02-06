@@ -60,6 +60,8 @@ Main idea: input-dependent gating.
 
 15. [RWKV-TS] RWKV-TS: Beyond Traditional Recurrent Neural Network for Time Series Tasks (https://arxiv.org/abs/2401.09093)
 
+16. LOCOST: State-Space Models for Long Document Abstractive Summarization: (https://arxiv.org/abs/2401.17919)
+
 ## ICLR 2024 submissions
 
 I try to use the most important 2-3 sentences in the abstract to summarize the paper. (https://openreview.net/group?id=ICLR.cc/2024/Conference)
