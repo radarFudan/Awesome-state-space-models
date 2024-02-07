@@ -62,6 +62,10 @@ Main idea: input-dependent gating.
 
 16. LOCOST: State-Space Models for Long Document Abstractive Summarization: (https://arxiv.org/abs/2401.17919)
 
+17. nnMamba: 3D Biomedical Image Segmentation, Classification and Landmark Detection with State Space Model (https://arxiv.org/abs/2402.03526)
+
+18. Can Mamba Learn How to Learn? A Comparative Study on In-Context Learning Tasks (https://arxiv.org/abs/2402.04248)
+
 ## ICLR 2024 submissions
 
 I try to use the most important 2-3 sentences in the abstract to summarize the paper. (https://openreview.net/group?id=ICLR.cc/2024/Conference)
