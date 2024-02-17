@@ -20,7 +20,7 @@ Main idea: input-dependent gating.
     3. [Mamba-jax](https://github.com/vvvm23/mamba-jax)
     4. [Mamba.py](https://github.com/alxndrTL/mamba.py)
 
-2. Gated Linear Attention (GLA) (https://arxiv.org/abs/2312.06635) [Official GitHub][https://github.com/berlino/gated_linear_attention]
+2. Gated Linear Attention (GLA) (https://arxiv.org/abs/2312.06635) [Official GitHub](https://github.com/berlino/gated_linear_attention)
 
     [flash-linear-attention](https://github.com/sustcsonglin/flash-linear-attention)
 
@@ -61,15 +61,15 @@ Main idea: input-dependent gating.
 
 16. LOCOST: State-Space Models for Long Document Abstractive Summarization: (https://arxiv.org/abs/2401.17919)
 
-17. Graph-Mamba: Towards Long-Range Graph Sequence Modeling with Selective State Spaces (https://arxiv.org/abs/2402.00789) [GitHub](https://github.com/bowang-lab/Graph-Mamba)
+17. [Graph] Graph-Mamba: Towards Long-Range Graph Sequence Modeling with Selective State Spaces (https://arxiv.org/abs/2402.00789) [GitHub](https://github.com/bowang-lab/Graph-Mamba)
 
 18. Swin-UMamba: Mamba-based UNet with ImageNet-based pretraining (https://arxiv.org/abs/2402.03302)
 
-19. nnMamba: 3D Biomedical Image Segmentation, Classification and Landmark Detection with State Space Model (https://arxiv.org/abs/2402.03526)
+19. [Bio] nnMamba: 3D Biomedical Image Segmentation, Classification and Landmark Detection with State Space Model (https://arxiv.org/abs/2402.03526)
 
 20. Can Mamba Learn How to Learn? A Comparative Study on In-Context Learning Tasks (https://arxiv.org/abs/2402.04248)
 
-21. Graph Mamba: Towards Learning on Graphs with State Space Models (https://arxiv.org/abs/2402.08678) 
+21. [Graph] Graph Mamba: Towards Learning on Graphs with State Space Models (https://arxiv.org/abs/2402.08678) 
 
 
 
