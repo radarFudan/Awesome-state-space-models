@@ -69,6 +69,8 @@ Main idea: input-dependent gating.
 
 20. Can Mamba Learn How to Learn? A Comparative Study on In-Context Learning Tasks (https://arxiv.org/abs/2402.04248)
 
+21. Graph Mamba: Towards Learning on Graphs with State Space Models (https://arxiv.org/abs/2402.08678) 
+
 
 
 ## ICLR 2024 submissions
