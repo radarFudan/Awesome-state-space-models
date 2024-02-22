@@ -45,31 +45,33 @@ Main idea: input-dependent gating.
 
 8. [Tabular data] MambaTab: A Simple Yet Effective Approach for Handling Tabular Data (https://arxiv.org/abs/2401.08867)
 
-9. [MoE] BlackMamba: Mixture of Experts for State-Space Models (https://www.zyphra.com/blackmamba)
+9. [MoE] BlackMamba: Mixture of Experts for State-Space Models (https://www.zyphra.com/blackmamba) [GitHub](https://github.com/Zyphra/BlackMamba)
 
 10. [RWKV-TS] RWKV-TS: Beyond Traditional Recurrent Neural Network for Time Series Tasks (https://arxiv.org/abs/2401.09093)
 
-11. [Vision] Vision Mamba (Vim) is 2.8× faster than DeiT and saves 86.8% GPU memory when performing batch inference to extract features on images with a resolution of 1248×1248. (https://arxiv.org/abs/2401.09417)
+11. [Vision] Vision Mamba (Vim) is 2.8× faster than DeiT and saves 86.8% GPU memory when performing batch inference to extract features on images with a resolution of 1248×1248. (https://arxiv.org/abs/2401.09417) [GitHub](https://github.com/hustvl/Vim)
 
 12. [Vision] SegMamba: Long-range Sequential Modeling Mamba For 3D Medical Image Segmentation. (https://arxiv.org/abs/2401.13560) [GitHub](https://github.com/ge-xing/SegMamba)
 
-13. [Token-free language models] MambaByte: Token-free Selective State Space Model.（https://arxiv.org/abs/2401.13660）
+13. [Token-free language models] MambaByte: Token-free Selective State Space Model.（https://arxiv.org/abs/2401.13660）[GitHub](https://github.com/kyegomez/MambaByte)
 
 14. [Vision] MambaMorph: a Mamba-based Backbone with Contrastive Feature Learning for Deformable MR-CT Registration. (https://arxiv.org/abs/2401.13934) [GitHub](https://github.com/Guo-Stone/MambaMorph)
 
 15. [Video] Vivim: a Video Vision Mamba for Medical Video Object Segmentation (https://arxiv.org/pdf/2401.14168.pdf) [GitHub](https://github.com/scott-yjyang/Vivim)
 
-16. LOCOST: State-Space Models for Long Document Abstractive Summarization: (https://arxiv.org/abs/2401.17919)
+16. LOCOST: State-Space Models for Long Document Abstractive Summarization (https://arxiv.org/abs/2401.17919) [GitHub](https://github.com/flbbb/locost-summarization)
 
 17. [Graph] Graph-Mamba: Towards Long-Range Graph Sequence Modeling with Selective State Spaces (https://arxiv.org/abs/2402.00789) [GitHub](https://github.com/bowang-lab/Graph-Mamba)
 
-18. Swin-UMamba: Mamba-based UNet with ImageNet-based pretraining (https://arxiv.org/abs/2402.03302)
+18. Swin-UMamba: Mamba-based UNet with ImageNet-based pretraining (https://arxiv.org/abs/2402.03302) [GitHub](https://github.com/JiarunLiu/Swin-UMamba)
 
-19. [Bio] nnMamba: 3D Biomedical Image Segmentation, Classification and Landmark Detection with State Space Model (https://arxiv.org/abs/2402.03526)
+19. [Bio] nnMamba: 3D Biomedical Image Segmentation, Classification and Landmark Detection with State Space Model (https://arxiv.org/abs/2402.03526) [GitHub](https://github.com/lhaof/nnMamba)
 
-20. Can Mamba Learn How to Learn? A Comparative Study on In-Context Learning Tasks (https://arxiv.org/abs/2402.04248)
+20. IS MAMBA CAPABLE OF IN-CONTEXT LEARNING? (https://arxiv.org/abs/2402.03170)
 
-21. [Graph] Graph Mamba: Towards Learning on Graphs with State Space Models (https://arxiv.org/abs/2402.08678) [GitHub](https://github.com/GraphMamba/GMN)
+21. Can Mamba Learn How to Learn? A Comparative Study on In-Context Learning Tasks (https://arxiv.org/abs/2402.04248)
+
+22. [Graph] Graph Mamba: Towards Learning on Graphs with State Space Models (https://arxiv.org/abs/2402.08678) [GitHub](https://github.com/GraphMamba/GMN)
 
 
 
