@@ -6,7 +6,7 @@ Collection of papers/repos on state-space models.
 
 Main idea: input-dependent gating. 
 
-1. Mamba (https://arxiv.org/abs/2312.00752) [Official GitHub](https://github.com/state-spaces/mamba)
+1. Mamba (https://arxiv.org/abs/2312.00752) [GitHub](https://github.com/state-spaces/mamba)
 
     $$g_k = \sigma(Linear(x_k)),$$
     $$h_{k+1} = (1-g_k) h_{k} + g_k x_k.$$
@@ -20,19 +20,19 @@ Main idea: input-dependent gating.
     3. [Mamba-jax](https://github.com/vvvm23/mamba-jax)
     4. [Mamba.py](https://github.com/alxndrTL/mamba.py)
 
-2. Gated Linear Attention (GLA) (https://arxiv.org/abs/2312.06635) [Official GitHub](https://github.com/berlino/gated_linear_attention)
+2. Gated Linear Attention (GLA) (https://arxiv.org/abs/2312.06635) [GitHub](https://github.com/berlino/gated_linear_attention)
 
-    [flash-linear-attention](https://github.com/sustcsonglin/flash-linear-attention)
+    [GitHub-flash-linear-attention](https://github.com/sustcsonglin/flash-linear-attention)
 
 ## On the replacement of transformer/attention by SSMs
 
 1. [Language model] Pretraining Without Attention (https://arxiv.org/abs/2212.10544) [GitHub](https://github.com/jxiw/BiGS)
 
-    Feature: Bidirectional Language Modeling with State Space Model
+    Feature: Bidirectional Language Modeling with State-space Model
 
-2. [RL] Structured State Space Models for In-Context Reinforcement Learning (https://arxiv.org/abs/2303.03982)
+2. [RL] Structured State Space Models for In-Context Reinforcement Learning (https://arxiv.org/abs/2303.03982) [GitHub](https://github.com/luchris429/popjaxrl)
    
-3. [Diffusion model] Diffusion Models Without Attention (https://arxiv.org/abs/2311.18257) (NeurIPS 2023 Workshop on Diffusion Models)
+3. [Diffusion] Diffusion Models Without Attention (https://arxiv.org/abs/2311.18257) (NeurIPS 2023 Workshop on Diffusion Models)
 
 4. [Graph] Recurrent Distance-Encoding Neural Networks for Graph Representation Learning (https://arxiv.org/abs/2312.01538) [GitHub](https://github.com/skeletondyh/GRED)
 
@@ -40,7 +40,6 @@ Main idea: input-dependent gating.
 
 6. [Bio] U-Mamba, a versatile network designed specifically for biomedical image segmentation. (https://arxiv.org/abs/2401.04722) [GitHub](https://github.com/bowang-lab/U-Mamba)
     
-    **Token-free** language models learn directly from raw bytes and remove the bias of subword tokenization.
 7. [Vision] VMamba: Visual State Space Model. (https://arxiv.org/abs/2401.10166) [GitHub](https://github.com/MzeroMiko/VMamba)
 
 8. [Tabular data] MambaTab: A Simple Yet Effective Approach for Handling Tabular Data (https://arxiv.org/abs/2401.08867)
@@ -54,6 +53,8 @@ Main idea: input-dependent gating.
 12. [Vision] SegMamba: Long-range Sequential Modeling Mamba For 3D Medical Image Segmentation. (https://arxiv.org/abs/2401.13560) [GitHub](https://github.com/ge-xing/SegMamba)
 
 13. [Token-free language models] MambaByte: Token-free Selective State Space Model.（https://arxiv.org/abs/2401.13660）[GitHub](https://github.com/kyegomez/MambaByte)
+
+    **Token-free** language models learn directly from raw bytes and remove the bias of subword tokenization.    
 
 14. [Vision] MambaMorph: a Mamba-based Backbone with Contrastive Feature Learning for Deformable MR-CT Registration. (https://arxiv.org/abs/2401.13934) [GitHub](https://github.com/Guo-Stone/MambaMorph)
 
@@ -73,6 +74,7 @@ Main idea: input-dependent gating.
 
 22. [Graph] Graph Mamba: Towards Learning on Graphs with State Space Models (https://arxiv.org/abs/2402.08678) [GitHub](https://github.com/GraphMamba/GMN)
 
+23. Spectral State Space Models (https://arxiv.org/abs/2312.06837v3) [GitHub](https://github.com/google-deepmind/spectral_ssm)
 
 
 ## ICLR 2024 submissions
