@@ -2,6 +2,7 @@
 
 Collection of papers/repos on state-space models. 
 
+
 ## (Potential) SOTA
 
 Main idea: input-dependent gating. 
@@ -19,10 +20,13 @@ Main idea: input-dependent gating.
     2. [Mamba-minimal-in-JAX](https://github.com/radarFudan/mamba-minimal-jax)
     3. [Mamba-jax](https://github.com/vvvm23/mamba-jax)
     4. [Mamba.py](https://github.com/alxndrTL/mamba.py)
+    5. [Annotated Mamba](https://github.com/srush/annotated-mamba) [Mamba the hard way](https://srush.github.io/annotated-mamba/hard.html)
+    6. [Mamba the easy way](https://jackcook.com/2024/02/23/mamba.html)
 
 2. Gated Linear Attention (GLA) (https://arxiv.org/abs/2312.06635) [GitHub](https://github.com/berlino/gated_linear_attention)
 
     [GitHub-flash-linear-attention](https://github.com/sustcsonglin/flash-linear-attention)
+
 
 ## On the replacement of transformer/attention by SSMs
 
@@ -46,7 +50,7 @@ Main idea: input-dependent gating.
 
 9. [MoE] BlackMamba: Mixture of Experts for State-Space Models (https://www.zyphra.com/blackmamba) [GitHub](https://github.com/Zyphra/BlackMamba)
 
-10. [RWKV-TS] RWKV-TS: Beyond Traditional Recurrent Neural Network for Time Series Tasks (https://arxiv.org/abs/2401.09093)
+10. [RWKV-TS] RWKV-TS: Beyond Traditional Recurrent Neural Network for Time Series Tasks (https://arxiv.org/abs/2401.09093) [GitHub](https://github.com/howard-hou/rwkv-ts)
 
 11. [Vision] Vision Mamba (Vim) is 2.8× faster than DeiT and saves 86.8% GPU memory when performing batch inference to extract features on images with a resolution of 1248×1248. (https://arxiv.org/abs/2401.09417) [GitHub](https://github.com/hustvl/Vim)
 
@@ -103,7 +107,7 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
     To this end, we introduce a class of reparameterization techniques for SSMs that effectively lift its memory limitations. 
     Besides improving approximation capabilities, we further illustrate that a principled choice of reparameterization scheme can also enhance **optimization stability**.
 
-    **Stability, more on parameterisation** [GitHub](https://github.com/radarFudan/StableSSM)
+    **Stability, more on parameterisation** 
 
 5. Robustifying State-space Models for Long Sequences via Approximate Diagonalization(https://openreview.net/forum?id=DjeQ39QoLQ)
 
@@ -148,11 +152,9 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 
     Many subquadratic-time architectures such as linear attention, gated convolution and recurrent models, and structured state space models (SSMs) have been developed to address Transformers' computational inefficiency on long sequences, but they have not performed as well as attention on important modalities such as language. We identify that a key weakness of such models is their inability to perform content-based reasoning, and make several improvements. First, simply letting the **SSM parameters be functions of the input** addresses their weakness with discrete modalities, allowing the model to selectively propagate or forget information along the sequence length dimension depending on the current token. Second, even though this change prevents the use of efficient convolutions, we design a **hardware-aware parallel algorithm in recurrent mode**. We integrate these selective SSMs into a simplified end-to-end neural network architecture without attention or even MLP blocks (Mamba).
 
-    **Time-dependent or input-dependent state-space models** (This is the classical state-space model approach.) + **Hardware acceleration**
+    **Time-dependent or input-dependent state-space models** + **Hardware acceleration**
 
-    [GitHub](https://github.com/state-spaces/mamba)
-
-   A very nice analysis *in Chinese*: https://zhuanlan.zhihu.com/p/661237120.
+    A very nice analysis *in Chinese*: https://zhuanlan.zhihu.com/p/661237120.
 
 11. Gated recurrent neural networks discover attention(https://openreview.net/forum?id=rfSfDSFrRL)
 
@@ -166,15 +168,13 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 
     **Universality of SSM** + **Optimization verification over ICL**
 
-    **TODO**: I am interested in the reverse-engineering part, further check! 
-
 12. GateLoop: Fully Data-Controlled Linear Recurrence for Sequence Modeling(https://openreview.net/forum?id=02Ug9N8DCI)
 
     We develop GateLoop, a foundational sequence model that generalizes linear recurrent models such as S4, S5, LRU and RetNet, by employing **data-controlled state transitions**.
     Furthermore, we derive an $O(l^2)$ **surrogate-attention mode**, revealing remarkable implications for Transformer and recently proposed architectures.
     While many existing models solely rely on data-controlled cumulative sums for context aggregation, our findings suggest that incorporating data-controlled complex cumulative products may be a crucial step towards more powerful sequence models.
 
-    **Data-controlled state transitions sound similar to 9, TODO comparison** [GitHub](https://github.com/lucidrains/gateloop-transformer)
+    **Data-controlled state transitions sound similar to 9, TODO comparison** [Official GitHub](https://github.com/tobiaskatsch/GatedLinearRNN) [Unofficial GitHub](https://github.com/lucidrains/gateloop-transformer)
 
 13. Never Train from Scratch: Fair Comparison of Long-Sequence Models Requires Data-Driven Priors (https://openreview.net/forum?id=PdaPky8MUn)
 
@@ -183,7 +183,7 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
     Subsequently, we analyze the utility of previously-proposed **structured parameterizations for SSMs** and show they become mostly **redundant** in the presence of data-driven initialization obtained through pretraining.
     Our work shows that, when evaluating different architectures on supervised tasks, incorporation of data-driven priors via pretraining is essential for reliable performance estimation, and can be done efficiently.
 
-    *I don't think **fair** comparison requires data-driven priors but this paper's results are still interesting.* [GitHub](https://github.com/IdoAmos/not-from-scratch)
+    [GitHub](https://github.com/IdoAmos/not-from-scratch)
 
 14. Mastering Memory Tasks with World Models (https://openreview.net/forum?id=1vDArHJ68h)
 
@@ -196,6 +196,7 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 
 
 ## Arxiv
+
 1. RWKV (https://arxiv.org/abs/2305.13048): [GitHub](https://github.com/BlinkDL/RWKV-LM)
 
 2. RetNet (https://arxiv.org/abs/2307.08621) [GitHub](https://github.com/microsoft/torchscale/blob/main/README.md) 
@@ -204,14 +205,16 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 
 4. Structured state-space models are deep Wiener models (https://arxiv.org/abs/2312.06211)
 
+
 ## NeurIPS 2023
+
 1. State-space Models with Layer-wise Nonlinearity are Universal Approximators with Exponential Decaying Memory (https://arxiv.org/abs/2309.13414)
 
    The authors show that the layer-wise nonlinearity is enough to achieve the universality when the state-space models are multi-layer. 
 
    It is also shown that similar to traditional nonlinear recurrent neural networks, SSMs also suffer from the aymptotically exponential memory decay. 
 
-2. Sparse Modular Activation for Efficient Sequence Modeling (SMA) (https://arxiv.org/abs/2306.11197)
+2. Sparse Modular Activation for Efficient Sequence Modeling (SMA) (https://arxiv.org/abs/2306.11197) [GitHub](https://github.com/renll/SeqBoat)
 
     SSM + Attention, SOTA at LRA. 
 
@@ -222,48 +225,67 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
    Given a convolution-based Hyena model, the authors want to extract the recurrent weights for the convolution kernel so that the convolution model can be converted into a recurrent models.
    Method used are based on Hankel matrix SVD. 
 
-   Question: Why not just train directly? 
-
-5. Structured State Space Models for In-Context Reinforcement Learning (https://arxiv.org/abs/2303.03982)
+5. Structured State Space Models for In-Context Reinforcement Learning (https://arxiv.org/abs/2303.03982) [GitHub](https://github.com/luchris429/popjaxrl)
 
     We propose a modification to a variant of S4 that enables us to initialise and reset the hidden state in parallel, allowing us to tackle reinforcement learning tasks.
     We show that our modified architecture runs asymptotically faster than Transformers in sequence length and performs better than RNN's on a simple memory-based task.
 
-6. Convolutional State Space Models for Long-Range Spatiotemporal Modeling (https://arxiv.org/abs/2310.19694)
+6. Convolutional State Space Models for Long-Range Spatiotemporal Modeling (https://arxiv.org/abs/2310.19694) [GitHub](https://github.com/NVlabs/ConvSSM)
 
 7. Hierarchically Gated Recurrent Neural Network for Sequence Modeling (https://paperswithcode.com/paper/hierarchically-gated-recurrent-neural-network) [GitHub](https://github.com/OpenNLPLab/HGRN)
 
+
 ## ICML 2023
+
 1. Resurrecting Recurrent Neural Networks for Long Sequences (https://icml.cc/virtual/2023/oral/25438)
 
 2. Hyena Hierarchy: Towards Larger Convolutional Language Models (https://arxiv.org/abs/2302.10866) [GitHub](https://github.com/HazyResearch/safari)
 
+3. Neural Continuous-Discrete State Space Models for Irregularly-Sampled Time Series (https://icml.cc/virtual/2023/oral/25554) [GitHub](https://github.com/clear-nus/NCDSSM)
+
+
 ## Before 2023
-1. See github repo [State-spaces](https://github.com/HazyResearch/state-spaces) for [S4](https://arxiv.org/abs/2111.00396), including [HiPPO](https://arxiv.org/abs/2008.07669), [LSSL](https://arxiv.org/abs/2110.13985), [SaShiMi](https://arxiv.org/abs/2202.09729), [DSS](https://arxiv.org/abs/2203.14343), [HTTYH](https://arxiv.org/abs/2206.12037), [S4D](https://arxiv.org/abs/2206.11893), and [S4ND](https://arxiv.org/abs/2210.06583).
+
+1. See github repo [State-spaces](https://github.com/state-spaces/s4) for [S4](https://arxiv.org/abs/2111.00396), including [HiPPO](https://arxiv.org/abs/2008.07669), [LSSL](https://arxiv.org/abs/2110.13985), [SaShiMi](https://arxiv.org/abs/2202.09729), [DSS](https://arxiv.org/abs/2203.14343), [HTTYH](https://arxiv.org/abs/2206.12037), [S4D](https://arxiv.org/abs/2206.11893), and [S4ND](https://arxiv.org/abs/2210.06583).
+
+    [GSS](https://arxiv.org/abs/2206.13947)
 
 2. Simplified State Space Layers for Sequence Modeling (S5) (https://openreview.net/forum?id=Ai8Hw3AXqks) [GitHub](https://github.com/lindermanlab/S5)
 
-3. Bayesian state-space models [GitHub](https://github.com/lindermanlab/ssm). 
+3. [Parallel scan] Parallelizing Linear Recurrent Neural Nets Over Sequence Length (https://openreview.net/forum?id=HyUNwulC-)
+
+4. Bayesian state-space models [GitHub](https://github.com/lindermanlab/ssm). 
+    
     Another very good note is: http://personal.strath.ac.uk/gary.koop/GSE_Bayesian/Bayesian_State_Space_Methods.pdf
 
-4. Mega: Moving Average Equipped Gated Attention (Mega) [GitHub](https://github.com/facebookresearch/mega)
+5. Mega: Moving Average Equipped Gated Attention (Mega) [GitHub](https://github.com/facebookresearch/mega)
 
-5. [Annotated S4](https://srush.github.io/annotated-s4/) By [Sasha Rush](http://rush-nlp.com) and [Sidd Karamcheti](https://www.siddkaramcheti.com) [GitHub](https://github.com/srush/annotated-s4)
+6. [Annotated S4](https://srush.github.io/annotated-s4/) By [Sasha Rush](http://rush-nlp.com) and [Sidd Karamcheti](https://www.siddkaramcheti.com) [GitHub](https://github.com/srush/annotated-s4)
 
-6. [Annotated Mamba](https://github.com/srush/annotated-mamba)
 
 ## TODO
+
 Summarize the important unsolved questions in state-space models. (Personal viewpoint)
 
-1. Scale-up, how to train a larger SSM with better performance such as smaller perplexity in language modelling. Interesting topics include but are not limited to scaling law. 
-    Scale-up depth / width or other dimensions. 
-    How to scale up the hidden states and parameters at the same time? Mamba's hidden states are 1D while linear attention hidden states are 2D.
-    Intuitively the scaleup of parameters should be faster than the scaleup of hidden states. Because the recurrent model is approximating the $(x_k,h_k)->(y_k,h_{k+1})$ map.
-2. Speed-up, how to make the SSM layer faster. This topic can borrow a lot of idea from [Flash-Attention](https://github.com/Dao-AILab/flash-attention). This has been done in FlashFFTConv, Mamba and gated linear attention. 
-3. Cheaper, given a large model, how to perserve the model performance and run the inference with fewer FLOPs. (Personally I believe the training cost does not matter that much in the cheaper sense.) Quantization belongs to this part. 
-    1. Maybe we can consider some minimal realization of the state-space models: https://ocw.mit.edu/courses/6-241j-dynamic-systems-and-control-spring-2011/resources/mit6_241js11_lec21/ 
-4. Theoretical guarantees, rates for approximation/generalization/optimization, stability in approximation/optimization, initialization scheme (for example, task dependent initialization)...
+1. Scale-up, how to train a larger state-space model with better performance. 
+    Interesting topics include but are not limited to scaling law. 
+    Scale-up depth (l) / width (m) / sequence length (T) / hidden state size (S). 
+    How to scale up the hidden states and parameters at the same time? Mamba's hidden states are 1D ($S=l * 16m$) while linear attention hidden states are 2D ($S=l * m^2$).
+    Intuitively the scaleup of parameters should be faster than the scaleup of hidden states. 
+    Because the recurrent model is approximating the $(x_k,h_k)->(y_k,h_{k+1}) \in \mathbb{R}^{m + S}$ map.
+2. Speed-up, how to make the SSM layer faster. This topic can borrow a lot of idea from [Flash-Attention](https://github.com/Dao-AILab/flash-attention). This has been done in [FlashFFTConv]((https://openreview.net/forum?id=gPKTTAfYBp)), [Mamba]((https://arxiv.org/abs/2312.00752)) and [gated linear attention](https://arxiv.org/abs/2312.06635). 
+    Another viewpoint is from classical control theory, use system identification idea (Hankel matrix decomposition). [Laughing-hyena](https://arxiv.org/abs/2310.18780)
+3. Cheaper, given a large model, how to perserve the model performance and run the inference with fewer FLOPs. 
+    1. Quantization belongs to this part. However, using lower precision might cause training instability. 
+    2. Maybe we can consider a minimal realization of state-space model: https://ocw.mit.edu/courses/6-241j-dynamic-systems-and-control-spring-2011/resources/mit6_241js11_lec21/ 
+        Trim the hidden dimension from large dimension to some principal component. 
+4. Theoretical guarantees
+    1. Rates for approximation/generalization/optimization.
+    2. Stability in approximation/optimization: Does SSM resolve the difficulty in traditional nonlinear RNNs such as GRU and LSTM? 
+    3. Initialization scheme, for example, task-dependent initialization. 
+
 
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=radarFudan/Awesome-state-space-models&type=Date)](https://star-history.com/#radarFudan/Awesome-state-space-models)
+
