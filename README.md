@@ -72,13 +72,25 @@ Main idea: input-dependent gating.
 
 19. [Bio] nnMamba: 3D Biomedical Image Segmentation, Classification and Landmark Detection with State Space Model (https://arxiv.org/abs/2402.03526) [GitHub](https://github.com/lhaof/nnMamba)
 
-20. IS MAMBA CAPABLE OF IN-CONTEXT LEARNING? (https://arxiv.org/abs/2402.03170)
+20. VM-UNet: Vision Mamba UNet for Medical Image Segmentation (https://arxiv.org/abs/2402.02491) [GitHub](https://github.com/JCruan519/VM-UNet)
 
-21. Can Mamba Learn How to Learn? A Comparative Study on In-Context Learning Tasks (https://arxiv.org/abs/2402.04248)
+21. IS MAMBA CAPABLE OF IN-CONTEXT LEARNING? (https://arxiv.org/abs/2402.03170)
 
-22. [Graph] Graph Mamba: Towards Learning on Graphs with State Space Models (https://arxiv.org/abs/2402.08678) [GitHub](https://github.com/GraphMamba/GMN)
+22. Can Mamba Learn How to Learn? A Comparative Study on In-Context Learning Tasks (https://arxiv.org/abs/2402.04248)
 
-23. Spectral State Space Models (https://arxiv.org/abs/2312.06837v3) [GitHub](https://github.com/google-deepmind/spectral_ssm)
+23. Scalable Diffusion Models with State Space Backbone (https://arxiv.org/abs/2402.05608) [GitHub](https://github.com/feizc/DiS)
+
+24. Mamba-ND: Selective State Space Modeling for Multi-Dimensional Data (https://arxiv.org/abs/2402.05892) [GitHub](https://github.com/HITESHLPATEL/Mamba-Papers/tree/main)
+
+25. Semi-Mamba-UNet:
+Pixel-Level Contrastive Cross-Supervised Visual Mamba-based UNet for Semi-Supervised Medical Image Segmentation (https://arxiv.org/abs/2402.07245) [GitHub](https://github.com/ziyangwang007/Mamba-UNet)
+
+26. P-Mamba: Marrying Perona Malik Diffusion with Mamba for Efficient Pediatric Echocardiographic Left Ventricular Segmentation: (https://arxiv.org/abs/2402.08506)
+
+27. [Graph] Graph Mamba: Towards Learning on Graphs with State Space Models (https://arxiv.org/abs/2402.08678) [GitHub](https://github.com/GraphMamba/GMN)
+
+28. Spectral State Space Models (https://arxiv.org/abs/2312.06837v3) [GitHub](https://github.com/google-deepmind/spectral_ssm)
+
 
 
 ## ICLR 2024 submissions
