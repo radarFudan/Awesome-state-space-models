@@ -91,6 +91,10 @@ Pixel-Level Contrastive Cross-Supervised Visual Mamba-based UNet for Semi-Superv
 
 28. Spectral State Space Models (https://arxiv.org/abs/2312.06837v3) [GitHub](https://github.com/google-deepmind/spectral_ssm)
 
+29. Learning method for S4 with Diagonal State Space Layers using Balanced Truncation (https://arxiv.org/abs/2402.15993) 
+
+30. Griffin: Mixing Gated Linear Recurrences with Local Attention for Efficient Language Models (https://arxiv.org/abs/2402.19427)
+
 
 
 ## ICLR 2024 submissions
