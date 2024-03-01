@@ -93,7 +93,9 @@ Pixel-Level Contrastive Cross-Supervised Visual Mamba-based UNet for Semi-Superv
 
 29. Learning method for S4 with Diagonal State Space Layers using Balanced Truncation (https://arxiv.org/abs/2402.15993) 
 
-30. Griffin: Mixing Gated Linear Recurrences with Local Attention for Efficient Language Models (https://arxiv.org/abs/2402.19427)
+30. [Theory] Theoretical Foundations of Deep Selective State-Space Models (https://arxiv.org/abs/2402.19047)
+
+31. [Scale-up] Griffin: Mixing Gated Linear Recurrences with Local Attention for Efficient Language Models (https://arxiv.org/abs/2402.19427)
 
 
 
