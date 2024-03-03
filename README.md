@@ -97,6 +97,7 @@ Pixel-Level Contrastive Cross-Supervised Visual Mamba-based UNet for Semi-Superv
 
 31. [Scale-up] Griffin: Mixing Gated Linear Recurrences with Local Attention for Efficient Language Models (https://arxiv.org/abs/2402.19427)
 
+32. FD-Vision Mamba for Endoscopic Exposure Correction (https://arxiv.org/pdf/2402.06378.pdf)
 
 
 ## ICLR 2024 submissions
