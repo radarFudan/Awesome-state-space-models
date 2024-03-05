@@ -99,6 +99,14 @@ Pixel-Level Contrastive Cross-Supervised Visual Mamba-based UNet for Semi-Superv
 
 32. FD-Vision Mamba for Endoscopic Exposure Correction (https://arxiv.org/pdf/2402.06378.pdf)
 
+33. Point Could Mamba: Point Cloud Learning via State Space Model (https://arxiv.org/abs/2403.00762)
+
+34. DenseMamba: State Space Models with Dense Hidden Connection for Efficient Large Language Models (https://arxiv.org/abs/2403.00818) [GitHub](https://github.com/WailordHe/DenseSSM)
+
+35. The Hidden Attention of Mamba Models (https://arxiv.org/abs/2403.01590) [GitHub](https://github.com/AmeenAli/HiddenMambaAttn)
+
+36. MiM-ISTD: Mamba-in-Mamba for Efficient Infrared Small Target Detection (https://arxiv.org/abs/2403.02148)
+
 
 ## ICLR 2024 submissions
 
