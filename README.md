@@ -89,23 +89,25 @@ Pixel-Level Contrastive Cross-Supervised Visual Mamba-based UNet for Semi-Superv
 
 27. [Graph] Graph Mamba: Towards Learning on Graphs with State Space Models (https://arxiv.org/abs/2402.08678) [GitHub](https://github.com/GraphMamba/GMN)
 
-28. Spectral State Space Models (https://arxiv.org/abs/2312.06837v3) [GitHub](https://github.com/google-deepmind/spectral_ssm)
+28. [Theory] Spectral State Space Models (https://arxiv.org/abs/2312.06837v3) [GitHub](https://github.com/google-deepmind/spectral_ssm)
 
-29. Learning method for S4 with Diagonal State Space Layers using Balanced Truncation (https://arxiv.org/abs/2402.15993) 
+29. [Theory] Learning method for S4 with Diagonal State Space Layers using Balanced Truncation (https://arxiv.org/abs/2402.15993) 
 
 30. [Theory] Theoretical Foundations of Deep Selective State-Space Models (https://arxiv.org/abs/2402.19047)
 
 31. [Scale-up] Griffin: Mixing Gated Linear Recurrences with Local Attention for Efficient Language Models (https://arxiv.org/abs/2402.19427)
 
-32. FD-Vision Mamba for Endoscopic Exposure Correction (https://arxiv.org/pdf/2402.06378.pdf)
+32. [Vision] FD-Vision Mamba for Endoscopic Exposure Correction (https://arxiv.org/pdf/2402.06378.pdf)
 
-33. Point Could Mamba: Point Cloud Learning via State Space Model (https://arxiv.org/abs/2403.00762)
+33. [Vision] RES-VMAMBA: FINE-GRAINED FOOD CATEGORY VISUAL CLASSIFICATION USING SELECTIVE STATE SPACE MODELS WITH DEEP RESIDUAL LEARNING (https://arxiv.org/abs/2402.15761) [GitHub](https://github.com/ChiShengChen/ResVMamba)
 
-34. DenseMamba: State Space Models with Dense Hidden Connection for Efficient Large Language Models (https://arxiv.org/abs/2403.00818) [GitHub](https://github.com/WailordHe/DenseSSM)
+34. Point Could Mamba: Point Cloud Learning via State Space Model (https://arxiv.org/abs/2403.00762)
 
-35. The Hidden Attention of Mamba Models (https://arxiv.org/abs/2403.01590) [GitHub](https://github.com/AmeenAli/HiddenMambaAttn)
+35. DenseMamba: State Space Models with Dense Hidden Connection for Efficient Large Language Models (https://arxiv.org/abs/2403.00818) [GitHub](https://github.com/WailordHe/DenseSSM)
 
-36. MiM-ISTD: Mamba-in-Mamba for Efficient Infrared Small Target Detection (https://arxiv.org/abs/2403.02148)
+36. The Hidden Attention of Mamba Models (https://arxiv.org/abs/2403.01590) [GitHub](https://github.com/AmeenAli/HiddenMambaAttn)
+
+37. MiM-ISTD: Mamba-in-Mamba for Efficient Infrared Small Target Detection (https://arxiv.org/abs/2403.02148)
 
 
 ## ICLR 2024 submissions
