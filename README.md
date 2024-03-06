@@ -70,11 +70,11 @@ Main idea: input-dependent gating.
 
 18. Swin-UMamba: Mamba-based UNet with ImageNet-based pretraining (https://arxiv.org/abs/2402.03302) [GitHub](https://github.com/JiarunLiu/Swin-UMamba)
 
-19. [Bio] nnMamba: 3D Biomedical Image Segmentation, Classification and Landmark Detection with State Space Model (https://arxiv.org/abs/2402.03526) [GitHub](https://github.com/lhaof/nnMamba)
+19. VM-UNet: Vision Mamba UNet for Medical Image Segmentation (https://arxiv.org/abs/2402.02491) [GitHub](https://github.com/JCruan519/VM-UNet)
 
-20. VM-UNet: Vision Mamba UNet for Medical Image Segmentation (https://arxiv.org/abs/2402.02491) [GitHub](https://github.com/JCruan519/VM-UNet)
+20. IS MAMBA CAPABLE OF IN-CONTEXT LEARNING? (https://arxiv.org/abs/2402.03170)
 
-21. IS MAMBA CAPABLE OF IN-CONTEXT LEARNING? (https://arxiv.org/abs/2402.03170)
+21. [Bio] nnMamba: 3D Biomedical Image Segmentation, Classification and Landmark Detection with State Space Model (https://arxiv.org/abs/2402.03526) [GitHub](https://github.com/lhaof/nnMamba)
 
 22. Can Mamba Learn How to Learn? A Comparative Study on In-Context Learning Tasks (https://arxiv.org/abs/2402.04248)
 
@@ -82,32 +82,34 @@ Main idea: input-dependent gating.
 
 24. Mamba-ND: Selective State Space Modeling for Multi-Dimensional Data (https://arxiv.org/abs/2402.05892) [GitHub](https://github.com/HITESHLPATEL/Mamba-Papers/tree/main)
 
-25. Semi-Mamba-UNet:
-Pixel-Level Contrastive Cross-Supervised Visual Mamba-based UNet for Semi-Supervised Medical Image Segmentation (https://arxiv.org/abs/2402.07245) [GitHub](https://github.com/ziyangwang007/Mamba-UNet)
+25. [Vision] FD-Vision Mamba for Endoscopic Exposure Correction (https://arxiv.org/pdf/2402.06378.pdf)
 
-26. P-Mamba: Marrying Perona Malik Diffusion with Mamba for Efficient Pediatric Echocardiographic Left Ventricular Segmentation: (https://arxiv.org/abs/2402.08506)
+26. Semi-Mamba-UNet: Pixel-Level Contrastive Cross-Supervised Visual Mamba-based UNet for Semi-Supervised Medical Image Segmentation (https://arxiv.org/abs/2402.07245) [GitHub](https://github.com/ziyangwang007/Mamba-UNet)
 
-27. [Graph] Graph Mamba: Towards Learning on Graphs with State Space Models (https://arxiv.org/abs/2402.08678) [GitHub](https://github.com/GraphMamba/GMN)
+27. P-Mamba: Marrying Perona Malik Diffusion with Mamba for Efficient Pediatric Echocardiographic Left Ventricular Segmentation: (https://arxiv.org/abs/2402.08506)
 
-28. [Theory] Spectral State Space Models (https://arxiv.org/abs/2312.06837v3) [GitHub](https://github.com/google-deepmind/spectral_ssm)
+28. [Graph] Graph Mamba: Towards Learning on Graphs with State Space Models (https://arxiv.org/abs/2402.08678) [GitHub](https://github.com/GraphMamba/GMN)
 
-29. [Theory] Learning method for S4 with Diagonal State Space Layers using Balanced Truncation (https://arxiv.org/abs/2402.15993) 
+29. [Theory] Spectral State Space Models (https://arxiv.org/abs/2312.06837v3) [GitHub](https://github.com/google-deepmind/spectral_ssm)
 
-30. [Theory] Theoretical Foundations of Deep Selective State-Space Models (https://arxiv.org/abs/2402.19047)
+30. Hierarchical State Space Models for Continuous Sequence-to-Sequence Modeling (https://arxiv.org/abs/2402.10211)
 
-31. [Scale-up] Griffin: Mixing Gated Linear Recurrences with Local Attention for Efficient Language Models (https://arxiv.org/abs/2402.19427)
+31. [Vision] RES-VMAMBA: FINE-GRAINED FOOD CATEGORY VISUAL CLASSIFICATION USING SELECTIVE STATE SPACE MODELS WITH DEEP RESIDUAL LEARNING (https://arxiv.org/abs/2402.15761) [GitHub](https://github.com/ChiShengChen/ResVMamba)
 
-32. [Vision] FD-Vision Mamba for Endoscopic Exposure Correction (https://arxiv.org/pdf/2402.06378.pdf)
+32. [Theory] Learning method for S4 with Diagonal State Space Layers using Balanced Truncation (https://arxiv.org/abs/2402.15993) 
 
-33. [Vision] RES-VMAMBA: FINE-GRAINED FOOD CATEGORY VISUAL CLASSIFICATION USING SELECTIVE STATE SPACE MODELS WITH DEEP RESIDUAL LEARNING (https://arxiv.org/abs/2402.15761) [GitHub](https://github.com/ChiShengChen/ResVMamba)
+33. [Theory] Theoretical Foundations of Deep Selective State-Space Models (https://arxiv.org/abs/2402.19047)
 
-34. Point Could Mamba: Point Cloud Learning via State Space Model (https://arxiv.org/abs/2403.00762)
+34. [Scale-up] Griffin: Mixing Gated Linear Recurrences with Local Attention for Efficient Language Models (https://arxiv.org/abs/2402.19427)
 
-35. DenseMamba: State Space Models with Dense Hidden Connection for Efficient Large Language Models (https://arxiv.org/abs/2403.00818) [GitHub](https://github.com/WailordHe/DenseSSM)
+35. Point Could Mamba: Point Cloud Learning via State Space Model (https://arxiv.org/abs/2403.00762)
 
-36. The Hidden Attention of Mamba Models (https://arxiv.org/abs/2403.01590) [GitHub](https://github.com/AmeenAli/HiddenMambaAttn)
+36. DenseMamba: State Space Models with Dense Hidden Connection for Efficient Large Language Models (https://arxiv.org/abs/2403.00818) [GitHub](https://github.com/WailordHe/DenseSSM)
 
-37. MiM-ISTD: Mamba-in-Mamba for Efficient Infrared Small Target Detection (https://arxiv.org/abs/2403.02148)
+37. The Hidden Attention of Mamba Models (https://arxiv.org/abs/2403.01590) [GitHub](https://github.com/AmeenAli/HiddenMambaAttn)
+
+38. MiM-ISTD: Mamba-in-Mamba for Efficient Infrared Small Target Detection (https://arxiv.org/abs/2403.02148)
+
 
 
 ## ICLR 2024 submissions
