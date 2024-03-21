@@ -98,17 +98,19 @@ Main idea: input-dependent gating.
 
 32. [Theory] Learning method for S4 with Diagonal State Space Layers using Balanced Truncation (https://arxiv.org/abs/2402.15993) 
 
-33. [Theory] Theoretical Foundations of Deep Selective State-Space Models (https://arxiv.org/abs/2402.19047)
+33. [Financial data] MambaStock: Selective state space model for stock prediction (https://arxiv.org/abs/2402.18959) [GitHub](https://github.com/zshicode/MambaStock)
 
-34. [Scale-up] Griffin: Mixing Gated Linear Recurrences with Local Attention for Efficient Language Models (https://arxiv.org/abs/2402.19427)
+34. [Theory] Theoretical Foundations of Deep Selective State-Space Models (https://arxiv.org/abs/2402.19047)
 
-35. Point Could Mamba: Point Cloud Learning via State Space Model (https://arxiv.org/abs/2403.00762)
+35. [Scale-up] Griffin: Mixing Gated Linear Recurrences with Local Attention for Efficient Language Models (https://arxiv.org/abs/2402.19427)
 
-36. DenseMamba: State Space Models with Dense Hidden Connection for Efficient Large Language Models (https://arxiv.org/abs/2403.00818) [GitHub](https://github.com/WailordHe/DenseSSM)
+36. Point Could Mamba: Point Cloud Learning via State Space Model (https://arxiv.org/abs/2403.00762)
 
-37. The Hidden Attention of Mamba Models (https://arxiv.org/abs/2403.01590) [GitHub](https://github.com/AmeenAli/HiddenMambaAttn)
+37. DenseMamba: State Space Models with Dense Hidden Connection for Efficient Large Language Models (https://arxiv.org/abs/2403.00818) [GitHub](https://github.com/WailordHe/DenseSSM)
 
-38. MiM-ISTD: Mamba-in-Mamba for Efficient Infrared Small Target Detection (https://arxiv.org/abs/2403.02148)
+38. The Hidden Attention of Mamba Models (https://arxiv.org/abs/2403.01590) [GitHub](https://github.com/AmeenAli/HiddenMambaAttn)
+
+39. MiM-ISTD: Mamba-in-Mamba for Efficient Infrared Small Target Detection (https://arxiv.org/abs/2403.02148)
 
 
 
