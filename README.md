@@ -112,6 +112,14 @@ Main idea: input-dependent gating.
 
 39. MiM-ISTD: Mamba-in-Mamba for Efficient Infrared Small Target Detection (https://arxiv.org/abs/2403.02148)
 
+40. TimeMachine: A Time Series is Worth 4 Mambas for Long-term Forecasting (https://arxiv.org/abs/2403.09898) [GitHub](https://github.com/Atik-Ahamed/TimeMachine?tab=readme-ov-file)
+
+41. Is Mamba Effective for Time Series Forecasting? (https://arxiv.org/abs/2403.11144) 
+
+42. Mamba4Rec: Towards Efficient Sequential Recommendation with Selective State Space Models (https://arxiv.org/abs/2403.03900) [GitHub](https://github.com/chengkai-liu/Mamba4Rec)
+
+43. Multichannel Long-Term Streaming Neural Speech Enhancement for Static and Moving Speakers (https://arxiv.org/abs/2403.07675) [GitHub](https://github.com/Audio-WestlakeU/NBSS)
+
 
 
 ## ICLR 2024 submissions
