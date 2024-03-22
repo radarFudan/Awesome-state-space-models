@@ -120,6 +120,10 @@ Main idea: input-dependent gating.
 
 43. Multichannel Long-Term Streaming Neural Speech Enhancement for Static and Moving Speakers (https://arxiv.org/abs/2403.07675) [GitHub](https://github.com/Audio-WestlakeU/NBSS)
 
+44. On the low-shot transferability of [V]-Mamba (https://arxiv.org/abs/2403.10696)
+
+45. ZigMa: Zigzag Mamba Diffusion Model (https://arxiv.org/abs/2403.13802)
+
 
 
 ## ICLR 2024 submissions
