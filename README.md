@@ -124,6 +124,8 @@ Main idea: input-dependent gating.
 
 45. ZigMa: Zigzag Mamba Diffusion Model (https://arxiv.org/abs/2403.13802)
 
+46. Jamba: SSM-Transformer Model (https://www.ai21.com/blog/announcing-jamba)
+
 
 
 ## ICLR 2024 submissions
