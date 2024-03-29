@@ -80,7 +80,7 @@ Main idea: input-dependent gating.
 
 23. Scalable Diffusion Models with State Space Backbone (https://arxiv.org/abs/2402.05608) [GitHub](https://github.com/feizc/DiS)
 
-24. Mamba-ND: Selective State Space Modeling for Multi-Dimensional Data (https://arxiv.org/abs/2402.05892) [GitHub](https://github.com/HITESHLPATEL/Mamba-Papers/tree/main)
+24. Mamba-ND: Selective State Space Modeling for Multi-Dimensional Data (https://arxiv.org/abs/2402.05892) [GitHub](https://github.com/jacklishufan/Mamba-ND)
 
 25. [Vision] FD-Vision Mamba for Endoscopic Exposure Correction (https://arxiv.org/pdf/2402.06378.pdf)
 
