@@ -311,17 +311,19 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 
 1. See github repo [State-spaces](https://github.com/state-spaces/s4) for [S4](https://arxiv.org/abs/2111.00396), including [HiPPO](https://arxiv.org/abs/2008.07669), [LSSL](https://arxiv.org/abs/2110.13985), [SaShiMi](https://arxiv.org/abs/2202.09729), [DSS](https://arxiv.org/abs/2203.14343), [HTTYH](https://arxiv.org/abs/2206.12037), [S4D](https://arxiv.org/abs/2206.11893), and [S4ND](https://arxiv.org/abs/2210.06583), [GSS](https://arxiv.org/abs/2206.13947)
 
-2. Simplified State Space Layers for Sequence Modeling (S5) (https://openreview.net/forum?id=Ai8Hw3AXqks) [GitHub](https://github.com/lindermanlab/S5)
+2. [S5] Simplified State Space Layers for Sequence Modeling (ICLR 2023) (https://openreview.net/forum?id=Ai8Hw3AXqks) [GitHub](https://github.com/lindermanlab/S5)
 
-3. [Parallel scan] Parallelizing Linear Recurrent Neural Nets Over Sequence Length (https://openreview.net/forum?id=HyUNwulC-)
+3. [Liquid SSM] Liquid Structural State-Space Models (ICLR 2023) (https://openreview.net/forum?id=g4OTKRKfS7R) [GitHub](https://github.com/raminmh/liquid-s4)
 
-4. Bayesian state-space models [GitHub](https://github.com/lindermanlab/ssm). 
+4. [Parallel scan] Parallelizing Linear Recurrent Neural Nets Over Sequence Length (ICLR 2018) (https://openreview.net/forum?id=HyUNwulC-) [GitHub](https://github.com/eamartin/parallelizing_linear_rnns)
+
+5. Bayesian state-space models [GitHub](https://github.com/lindermanlab/ssm). 
     
     Another very good note is: http://personal.strath.ac.uk/gary.koop/GSE_Bayesian/Bayesian_State_Space_Methods.pdf
 
-5. Mega: Moving Average Equipped Gated Attention (Mega) [GitHub](https://github.com/facebookresearch/mega)
+6. Mega: Moving Average Equipped Gated Attention (Mega) [GitHub](https://github.com/facebookresearch/mega)
 
-6. [Annotated S4](https://srush.github.io/annotated-s4/) By [Sasha Rush](http://rush-nlp.com) and [Sidd Karamcheti](https://www.siddkaramcheti.com) [GitHub](https://github.com/srush/annotated-s4)
+7. [Annotated S4](https://srush.github.io/annotated-s4/) By [Sasha Rush](http://rush-nlp.com) and [Sidd Karamcheti](https://www.siddkaramcheti.com) [GitHub](https://github.com/srush/annotated-s4)
 
 
 ## Star History
