@@ -33,6 +33,8 @@ Main idea: input-dependent gating.
 
 ## On the replacement of transformer/attention by SSMs
 
+0. [Video] Long Movie Clip Classification with State-Space Video Models (https://arxiv.org/abs/2204.01692) [GitHub](https://github.com/md-mohaiminul/ViS4mer)
+
 1. [Language model] Pretraining Without Attention (https://arxiv.org/abs/2212.10544) [GitHub](https://github.com/jxiw/BiGS)
 
     Feature: Bidirectional Language Modeling with State-space Model
