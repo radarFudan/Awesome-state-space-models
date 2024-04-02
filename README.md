@@ -141,6 +141,8 @@ Main idea: input-dependent gating.
 
 49. [3D reconstruction] Gamba: Marry Gaussian Splatting with Mamba for single view 3D reconstruction (https://arxiv.org/abs/2403.18795)
 
+50. MambaMixer: Efficient Selective State Space Models with Dual Token and Channel Selection (https://arxiv.org/abs/2403.19888)
+
 
 ## ICLR 2024 submissions
 
