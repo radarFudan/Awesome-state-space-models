@@ -143,6 +143,8 @@ Main idea: input-dependent gating.
 
 50. MambaMixer: Efficient Selective State Space Models with Dual Token and Channel Selection (https://arxiv.org/abs/2403.19888)
 
+51. Sigma: Siamese Mamba Network for Multi-Modal Semantic Segmentation (https://arxiv.org/abs/2404.04256) [GitHub](https://github.com/zifuwan/Sigma)
+
 
 ## ICLR 2024 submissions
 
