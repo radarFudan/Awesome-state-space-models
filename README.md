@@ -145,6 +145,8 @@ Main idea: input-dependent gating.
 
 51. Sigma: Siamese Mamba Network for Multi-Modal Semantic Segmentation (https://arxiv.org/abs/2404.04256) [GitHub](https://github.com/zifuwan/Sigma)
 
+52. RecurrentGemma: Moving Past Transformers for Efficient Open Language Models (https://storage.googleapis.com/deepmind-media/gemma/recurrentgemma-report.pdf) [GitHub](https://github.com/google-deepmind/recurrentgemma?tab=readme-ov-file)
+
 
 ## ICLR 2024 submissions
 
