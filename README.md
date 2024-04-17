@@ -143,9 +143,11 @@ Main idea: input-dependent gating.
 
 50. MambaMixer: Efficient Selective State Space Models with Dual Token and Channel Selection (https://arxiv.org/abs/2403.19888)
 
-51. Sigma: Siamese Mamba Network for Multi-Modal Semantic Segmentation (https://arxiv.org/abs/2404.04256) [GitHub](https://github.com/zifuwan/Sigma)
+51. [Semantic Segmentation] Sigma: Siamese Mamba Network for Multi-Modal Semantic Segmentation (https://arxiv.org/abs/2404.04256) [GitHub](https://github.com/zifuwan/Sigma)
 
-52. RecurrentGemma: Moving Past Transformers for Efficient Open Language Models (https://storage.googleapis.com/deepmind-media/gemma/recurrentgemma-report.pdf) [GitHub](https://github.com/google-deepmind/recurrentgemma?tab=readme-ov-file)
+52. [Scale-up] RecurrentGemma: Moving Past Transformers for Efficient Open Language Models (https://storage.googleapis.com/deepmind-media/gemma/recurrentgemma-report.pdf) [GitHub](https://github.com/google-deepmind/recurrentgemma?tab=readme-ov-file)
+
+53. [Survey] State Space Model for New-Generation Network Alternative to Transformers: A Survey (https://arxiv.org/abs/2404.09516) [GitHub](https://github.com/Event-AHU/Mamba_State_Space_Model_Paper_List)
 
 
 ## ICLR 2024 submissions
