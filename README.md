@@ -149,7 +149,9 @@ Main idea: input-dependent gating.
 
 53. [Survey] State Space Model for New-Generation Network Alternative to Transformers: A Survey (https://arxiv.org/abs/2404.09516) [GitHub](https://github.com/Event-AHU/Mamba_State_Space_Model_Paper_List)
 
-54. State-Space Systems as Dynamic Generative Models (https://arxiv.org/abs/2404.08717)
+54. [Theory] State-Space Systems as Dynamic Generative Models (https://arxiv.org/abs/2404.08717)
+
+    This paper studies the conditions for stochastic echo state property, which is a generalisation of deterministic case. 
 
 ## ICLR 2024 submissions
 
