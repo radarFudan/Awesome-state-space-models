@@ -3,9 +3,7 @@
 Collection of papers/repos on state-space models. 
 
 
-## (Potential) SOTA
-
-Main idea: input-dependent gating. 
+## Input-dependent gating. 
 
 1. Mamba (https://arxiv.org/abs/2312.00752) [Official GitHub](https://github.com/state-spaces/mamba)
 
@@ -147,11 +145,14 @@ Main idea: input-dependent gating.
 
 52. [Scale-up] RecurrentGemma: Moving Past Transformers for Efficient Open Language Models (https://storage.googleapis.com/deepmind-media/gemma/recurrentgemma-report.pdf) [GitHub](https://github.com/google-deepmind/recurrentgemma?tab=readme-ov-file)
 
-53. [Survey] State Space Model for New-Generation Network Alternative to Transformers: A Survey (https://arxiv.org/abs/2404.09516) [GitHub](https://github.com/Event-AHU/Mamba_State_Space_Model_Paper_List)
+53. HGRN2: Gated Linear RNNs with State Expansion (https://arxiv.org/abs/2404.07904) [GitHub](https://github.com/OpenNLPLab/HGRN2)
 
 54. [Theory] State-Space Systems as Dynamic Generative Models (https://arxiv.org/abs/2404.08717)
 
     This paper studies the conditions for stochastic echo state property, which is a generalisation of deterministic case. 
+
+55. [Survey] State Space Model for New-Generation Network Alternative to Transformers: A Survey (https://arxiv.org/abs/2404.09516) [GitHub](https://github.com/Event-AHU/Mamba_State_Space_Model_Paper_List)
+
 
 ## ICLR 2024 submissions
 

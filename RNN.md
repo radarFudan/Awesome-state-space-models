@@ -1,45 +1,37 @@
 1. Inverse Approximation Theory for Nonlinear Recurrent Neural Networks (https://openreview.net/forum?id=yC2waD70Vj)
 
-    In particular, we show that nonlinear sequence relationships that can be stably approximated by nonlinear RNNs must have an exponential decaying memory structure - a notion that can be made precise. This extends the previously identified curse of memory in linear RNNs into the general nonlinear setting, and quantifies the essential limitations of the RNN architecture for learning sequential relationships with long-term memory. 
+    We prove an inverse approximation theorem for the approximation of nonlinear sequence-to-sequence relationships using recurrent neural networks (RNNs). This is a so-called Bernstein-type result in approximation theory, which deduces properties of a target function under the assumption that it can be effectively approximated by a hypothesis space. In particular, we show that nonlinear sequence relationships that can be stably approximated by nonlinear RNNs must have an exponential decaying memory structure - a notion that can be made precise. This extends the previously identified curse of memory in linear RNNs into the general nonlinear setting, and quantifies the essential limitations of the RNN architecture for learning sequential relationships with long-term memory. Based on the analysis, we propose a principled reparameterization method to overcome the limitations. Our theoretical results are confirmed by numerical experiments.
     
 
 
 2. Sufficient conditions for offline reactivation in recurrent neural networks(https://openreview.net/forum?id=RVrINT6MT7)
 
-    In this study, we develop a mathematical framework that outlines sufficient conditions for the emergence of neural reactivation in circuits that encode features of smoothly varying stimuli. 
-    We demonstrate **mathematically** that noisy recurrent networks optimized to track environmental state variables using change-based sensory information naturally develop denoising dynamics, which, in the absence of input, cause the network to revisit state configurations observed during periods of online activity. 
-    We validate our findings using numerical experiments on two canonical neuroscience tasks: spatial position estimation based on self-motion cues, and head direction estimation based on angular velocity cues. 
-
-    
-
-3. Composing Recurrent Spiking Neural Networks using Locally-Recurrent Motifs and Risk-Mitigating Architectural Optimization (https://openreview.net/forum?id=uxYye6i2Xi)
+    During periods of quiescence, such as sleep, neural activity in many brain circuits resembles that observed during periods of task engagement. However, the precise conditions under which task-optimized networks can autonomously reactivate the same network states responsible for online behavior is poorly understood. In this study, we develop a mathematical framework that outlines sufficient conditions for the emergence of neural reactivation in circuits that encode features of smoothly varying stimuli. We demonstrate mathematically that noisy recurrent networks optimized to track environmental state variables using change-based sensory information naturally develop denoising dynamics, which, in the absence of input, cause the network to revisit state configurations observed during periods of online activity. We validate our findings using numerical experiments on two canonical neuroscience tasks: spatial position estimation based on self-motion cues, and head direction estimation based on angular velocity cues. Overall, our work provides theoretical support for modeling offline reactivation as an emergent consequence of task optimization in noisy neural circuits.
 
 
 
-4. Leveraging Low-Rank and Sparse Recurrent Connectivity for Robust Closed-Loop Control (https://openreview.net/forum?id=EriR6Ec69a)
+3. Leveraging Low-Rank and Sparse Recurrent Connectivity for Robust Closed-Loop Control (https://openreview.net/forum?id=EriR6Ec69a)
+
+Developing autonomous agents that can interact with changing environments is an open challenge in machine learning. Robustness is particularly important in these settings as agents are often fit offline on expert demonstrations but deployed online where they must generalize to the closed feedback loop within the environment. In this work, we explore the application of recurrent neural networks to tasks of this nature and understand how a parameterization of their recurrent connectivity influences robustness in closed-loop settings. Specifically, we represent the recurrent connectivity as a function of rank and sparsity and show both theoretically and empirically that modulating these two variables has desirable effects on network dynamics. The proposed low-rank, sparse connectivity induces an interpretable prior on the network that proves to be most amenable for a class of models known as closed-form continuous-time neural networks (CfCs). We find that CfCs with fewer parameters can outperform their full-rank, fully-connected counterparts in the online setting under distribution shift. This yields memory-efficient and robust agents while opening a new perspective on how we can modulate network dynamics through connectivity.
 
 
 
-5. Exploring the Promise and Limits of Real-Time Recurrent Learning (https://openreview.net/forum?id=V2cBKtdC3a)
+4. Exploring the Promise and Limits of Real-Time Recurrent Learning (https://openreview.net/forum?id=V2cBKtdC3a)
+
+Real-time recurrent learning (RTRL) for sequence-processing recurrent neural networks (RNNs) offers certain conceptual advantages over backpropagation through time (BPTT). RTRL requires neither caching past activations nor truncating context, and enables online learning. However, RTRL's time and space complexity make it impractical. To overcome this problem, most recent work on RTRL focuses on approximation theories, while experiments are often limited to diagnostic settings. Here we explore the practical promise of RTRL in more realistic settings. We study actor-critic methods that combine RTRL and policy gradients, and test them in several subsets of DMLab-30, ProcGen, and Atari-2600 environments. On DMLab memory tasks, our system trained on fewer than 1.2B environmental frames is competitive with or outperforms well-known IMPALA and R2D2 baselines trained on 10B frames. To scale to such challenging tasks, we focus on certain well-known neural architectures with element-wise recurrence, allowing for tractable RTRL without approximation. Importantly, we also discuss rarely addressed limitations of RTRL in real-world applications, such as its complexity in the multi-layer case.
 
 
 
-6. Conformal Normalization in Recurrent Neural Network of Grid Cells (https://openreview.net/forum?id=wvvj8EPydm)
+5. Emergent mechanisms for long timescales depend on training curriculum and affect performance in memory tasks (https://openreview.net/forum?id=xwKt6bUkXj)
 
+    Recurrent neural networks (RNNs) in the brain and \emph{in silico} excel at solving tasks with intricate temporal dependencies. Long timescales required for solving such tasks can arise from properties of individual neurons (single-neuron timescale, , e.g., membrane time constant in biological neurons) or recurrent interactions among them (network-mediated timescale, ). However, the contribution of each mechanism for optimally solving memory-dependent tasks remains poorly understood. Here, we train RNNs to solve -parity and -delayed match-to-sample tasks with increasing memory requirements controlled by , by simultaneously optimizing recurrent weights and s. We find that RNNs develop longer timescales with increasing , but depending on the learning objective, they use different mechanisms. Two distinct curricula define learning objectives: sequential learning of a single- (single-head) or simultaneous learning of multiple s (multi-head). Single-head networks increase their with and can solve large- tasks, but suffer from catastrophic forgetting. However, multi-head networks, which are explicitly required to hold multiple concurrent memories, keep constant and develop longer timescales through recurrent connectivity. We show that the multi-head curriculum increases training speed and stability to perturbations, and allows generalization to tasks beyond the training set. This curriculum also significantly improves training GRUs and LSTMs for large- tasks. Our results suggest that adapting timescales to task requirements via recurrent interactions allows learning more complex objectives and improves the RNN's performance.
 
+6. Sparse Spiking Neural Network: Exploiting Heterogeneity in Timescales for Pruning Recurrent SNN (https://openreview.net/forum?id=0jsfesDZDq)
 
-7. Learning Sequence Attractors in Recurrent Networks with Hidden Neurons (https://openreview.net/forum?id=biNhA3jbHc)
+    Recurrent Spiking Neural Networks (RSNNs) have emerged as a computationally efficient and brain-inspired machine learning model. The design of sparse RSNNs with fewer neurons and synapses helps reduce the computational complexity of RSNNs. Traditionally, sparse SNNs are obtained by first training a dense and complex SNN for a target task and, next, eliminating neurons with low activity (activity-based pruning) while maintaining task performance. In contrast, this paper presents a task-agnostic methodology for designing sparse RSNNs by pruning an untrained (arbitrarily initialized) large model. We introduce a novel Lyapunov Noise Pruning (LNP) algorithm that uses graph sparsification methods and utilizes Lyapunov exponents to design a stable sparse RSNN from an untrained RSNN. We show that the LNP can leverage diversity in neuronal timescales to design a sparse Heterogeneous RSNN (HRSNN). Further, we show that the same sparse HRSNN model can be trained for different tasks, such as image classification and time-series prediction. The experimental results show that, in spite of being task-agnostic, LNP increases computational efficiency (fewer neurons and synapses) and prediction performance of RSNNs compared to traditional activity-based pruning of trained dense models.
 
+7. Parallelizing non-linear sequential models over the sequence length (https://openreview.net/forum?id=E34AlVLN0v)
 
-
-8. Emergent mechanisms for long timescales depend on training curriculum and affect performance in memory tasks (https://openreview.net/forum?id=xwKt6bUkXj)
-
-
-
-9. Sparse Spiking Neural Network: Exploiting Heterogeneity in Timescales for Pruning Recurrent SNN (https://openreview.net/forum?id=0jsfesDZDq)
-
-
-
-10. Parallelizing non-linear sequential models over the sequence length (https://openreview.net/forum?id=E34AlVLN0v)
+    Sequential models, such as Recurrent Neural Networks and Neural Ordinary Differential Equations, have long suffered from slow training due to their inherent sequential nature. For many years this bottleneck has persisted, as many thought sequential models could not be parallelized. We challenge this long-held belief with our parallel algorithm that accelerates GPU evaluation of sequential models by up to 3 orders of magnitude faster without compromising output accuracy. The algorithm does not need any special structure in the sequential models' architecture, making it applicable to a wide range of architectures. Using our method, training sequential models can be more than 10 times faster than the common sequential method without any meaningful difference in the training results. Leveraging this accelerated training, we discovered the efficacy of the Gated Recurrent Unit in a long time series classification problem with 17k time samples. By overcoming the training bottleneck, our work serves as the first step to unlock the potential of non-linear sequential models for long sequence problems.
 
 
