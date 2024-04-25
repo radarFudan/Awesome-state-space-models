@@ -153,6 +153,7 @@ Collection of papers/repos on state-space models.
 
 55. [Survey] State Space Model for New-Generation Network Alternative to Transformers: A Survey (https://arxiv.org/abs/2404.09516) [GitHub](https://github.com/Event-AHU/Mamba_State_Space_Model_Paper_List)
 
+56. [DNA] Caduceus: Bi-Directional Equivariant Long-Range DNA Sequence Modeling (https://arxiv.org/pdf/2403.03234) [GitHub](https://caduceus-dna.github.io)
 
 ## ICLR 2024 submissions
 
