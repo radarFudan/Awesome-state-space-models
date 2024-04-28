@@ -155,6 +155,8 @@ Collection of papers/repos on state-space models.
 
 56. [DNA] Caduceus: Bi-Directional Equivariant Long-Range DNA Sequence Modeling (https://arxiv.org/pdf/2403.03234) [GitHub](https://caduceus-dna.github.io)
 
+57. [Vision] ViM-UNet: Vision Mamba for Biomedical Segmentation (https://arxiv.org/abs/2404.07705) [GitHub](https://github.com/constantinpape/torch-em/blob/main/vimunet.md)
+
 ## ICLR 2024 submissions
 
 I try to use the most important 2-3 sentences in the abstract to summarize the paper. (https://openreview.net/group?id=ICLR.cc/2024/Conference)
