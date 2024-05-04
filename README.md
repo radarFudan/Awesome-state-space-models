@@ -23,7 +23,7 @@ Collection of papers/repos on state-space models.
     7. [Mamba the hard way](https://srush.github.io/annotated-mamba/hard.html) [Annotated Mamba](https://github.com/srush/annotated-mamba) 
     8. [Mamba the easy way](https://jackcook.com/2024/02/23/mamba.html)
 
-2. Gated Linear Attention (GLA) (https://arxiv.org/abs/2312.06635) [Official GitHub](https://github.com/berlino/gated_linear_attention)
+2. [ICML2024] Gated Linear Attention (GLA) (https://arxiv.org/abs/2312.06635) [Official GitHub](https://github.com/berlino/gated_linear_attention)
 
     The following repo aims at providing a collection of efficient Triton-based implementations for state-of-the-art linear attention models.
     [Flash-linear-attention](https://github.com/sustcsonglin/flash-linear-attention)
@@ -158,6 +158,13 @@ Collection of papers/repos on state-space models.
 57. [Vision] ViM-UNet: Vision Mamba for Biomedical Segmentation (https://arxiv.org/abs/2404.07705) [GitHub](https://github.com/constantinpape/torch-em/blob/main/vimunet.md)
 
 58. Integrating Mamba and Transformer for Long-Short Range Time Series Forecasting (https://arxiv.org/abs/2404.14757) [GitHub](https://github.com/XiongxiaoXu/Mambaformer-in-Time-Series)
+
+
+## ICML 2024
+
+1. StableSSM: Alleviating the Curse of Memory in State-space Models through Stable Reparameterization (https://arxiv.org/abs/2311.14495v2)
+
+2. Gated Linear Attention (GLA) (https://arxiv.org/abs/2312.06635)
 
 
 ## ICLR 2024 submissions
