@@ -348,6 +348,7 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 
 7. [Annotated S4](https://srush.github.io/annotated-s4/) By [Sasha Rush](http://rush-nlp.com) and [Sidd Karamcheti](https://www.siddkaramcheti.com) [GitHub](https://github.com/srush/annotated-s4)
 
+8. The State Space of Complex Systems (thesis by Frank Heilmann) https://d-nb.info/1212365704/34
 
 ## Star History
 
