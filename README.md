@@ -11,7 +11,7 @@ Collection of papers/repos on state-space models.
     $$h_{k+1} = (1-g_k) h_{k} + g_k x_k.$$
 
     The activation is SiLU / Swish. The continuous form is 
-    $$\frac{dh_t}{dt} = -g_t (x_t - h_t).$$
+    $$\frac{dh_t}{dt} = g_t (x_t - h_t).$$
 
     Various (unofficial) implementations: 
     1. [Mamba-minimal-in-JAX](https://github.com/radarFudan/mamba-minimal-jax)
@@ -161,13 +161,16 @@ Collection of papers/repos on state-space models.
 
 59. xLSTM: Extended Long Short-Term Memory (https://arxiv.org/abs/2405.04517)
 
-## ICML 2024
+
+## ICML 2024 (not exhaustive)
 
 1. StableSSM: Alleviating the Curse of Memory in State-space Models through Stable Reparameterization (https://arxiv.org/abs/2311.14495v2)
 
 2. Gated Linear Attention Transformers with Hardware-Efficient Training (https://arxiv.org/abs/2312.06635)
 
 3. Transformers are SSMs: Generalized Models and Efficient Algorithms with Structured State Space Duality
+    
+    By Tri Dao and Albert Gu. 
 
 4. From generalization analysis to optimization designs for state space models (https://arxiv.org/abs/2405.02670)
 
@@ -175,7 +178,7 @@ Collection of papers/repos on state-space models.
 
 6. State-Free Inference of State-Space Models: The *Transfer Function* Approach
 
-7. PAC-Bayesian Error Bound, via R ́enyi Divergence, for a Class of Linear Time-Invariant State-Space Models
+7. PAC-Bayesian Error Bound, via Renyi Divergence, for a Class of Linear Time-Invariant State-Space Models
 
 
 ## ICLR 2024 submissions
