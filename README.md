@@ -159,12 +159,23 @@ Collection of papers/repos on state-space models.
 
 58. Integrating Mamba and Transformer for Long-Short Range Time Series Forecasting (https://arxiv.org/abs/2404.14757) [GitHub](https://github.com/XiongxiaoXu/Mambaformer-in-Time-Series)
 
+59. xLSTM: Extended Long Short-Term Memory (https://arxiv.org/abs/2405.04517)
 
 ## ICML 2024
 
 1. StableSSM: Alleviating the Curse of Memory in State-space Models through Stable Reparameterization (https://arxiv.org/abs/2311.14495v2)
 
-2. Gated Linear Attention (GLA) (https://arxiv.org/abs/2312.06635)
+2. Gated Linear Attention Transformers with Hardware-Efficient Training (https://arxiv.org/abs/2312.06635)
+
+3. Transformers are SSMs: Generalized Models and Efficient Algorithms with Structured State Space Duality
+
+4. From generalization analysis to optimization designs for state space models (https://arxiv.org/abs/2405.02670)
+
+5. The Illusion of State in State-Space Models (https://arxiv.org/abs/2404.08819v1)
+
+6. State-Free Inference of State-Space Models: The *Transfer Function* Approach
+
+7. PAC-Bayesian Error Bound, via R ́enyi Divergence, for a Class of Linear Time-Invariant State-Space Models
 
 
 ## ICLR 2024 submissions
