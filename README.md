@@ -3,6 +3,29 @@
 Collection of papers/repos on state-space models. 
 
 
+## ICML 2024 (not exhaustive)
+
+1. StableSSM: Alleviating the Curse of Memory in State-space Models through Stable Reparameterization (https://arxiv.org/abs/2311.14495v2)
+
+2. Gated Linear Attention Transformers with Hardware-Efficient Training (https://arxiv.org/abs/2312.06635)
+
+3. Transformers are SSMs: Generalized Models and Efficient Algorithms with Structured State Space Duality
+    
+    By Tri Dao and Albert Gu. 
+
+4. From generalization analysis to optimization designs for state space models (https://arxiv.org/abs/2405.02670)
+
+5. The Illusion of State in State-Space Models (https://arxiv.org/abs/2404.08819v1)
+
+6. State-Free Inference of State-Space Models: The *Transfer Function* Approach
+
+7. PAC-Bayesian Error Bound, via Renyi Divergence, for a Class of Linear Time-Invariant State-Space Models
+
+8. Hierarchical State Space Models for Continuous Sequence-to-Sequence Modeling (https://arxiv.org/abs/2402.10211) [GitHub](https://github.com/raunaqbhirangi/hiss/tree/main)
+
+9. Repeat After Me: Transformers are Better than State Space Models at Copying (https://arxiv.org/pdf/2402.01032)
+
+
 ## Input-dependent gating. 
 
 1. Mamba (https://arxiv.org/abs/2312.00752) [Official GitHub](https://github.com/state-spaces/mamba)
@@ -31,71 +54,69 @@ Collection of papers/repos on state-space models.
 
 ## On the replacement of transformer/attention by SSMs
 
-0. [Video] Long Movie Clip Classification with State-Space Video Models (https://arxiv.org/abs/2204.01692) [GitHub](https://github.com/md-mohaiminul/ViS4mer)
+1. [Video] Long Movie Clip Classification with State-Space Video Models (https://arxiv.org/abs/2204.01692) [GitHub](https://github.com/md-mohaiminul/ViS4mer)
 
-1. [Language model] Pretraining Without Attention (https://arxiv.org/abs/2212.10544) [GitHub](https://github.com/jxiw/BiGS)
+2. [Language model] Pretraining Without Attention (https://arxiv.org/abs/2212.10544) [GitHub](https://github.com/jxiw/BiGS)
 
     Feature: Bidirectional Language Modeling with State-space Model
 
-2. [Reinforcement Learning] Structured State Space Models for In-Context Reinforcement Learning (https://arxiv.org/abs/2303.03982) [GitHub](https://github.com/luchris429/popjaxrl)
+3. [Reinforcement Learning] Structured State Space Models for In-Context Reinforcement Learning (https://arxiv.org/abs/2303.03982) [GitHub](https://github.com/luchris429/popjaxrl)
    
-3. [Diffusion Model] Diffusion Models Without Attention (https://arxiv.org/abs/2311.18257) (NeurIPS 2023 Workshop on Diffusion Models)
+4. [Diffusion Model] Diffusion Models Without Attention (https://arxiv.org/abs/2311.18257) (NeurIPS 2023 Workshop on Diffusion Models)
 
-4. [Graph] Recurrent Distance-Encoding Neural Networks for Graph Representation Learning (https://arxiv.org/abs/2312.01538) [GitHub](https://github.com/skeletondyh/GRED)
+5. [Graph] Recurrent Distance-Encoding Neural Networks for Graph Representation Learning (https://arxiv.org/abs/2312.01538) [GitHub](https://github.com/skeletondyh/GRED)
 
-5. [Mixture of Experts] MoE-Mamba: Efficient Selective State Space Models with Mixture of Experts (https://arxiv.org/abs/2401.04081) [GitHub](https://github.com/llm-random/llm-random)
+6. [Mixture of Experts] MoE-Mamba: Efficient Selective State Space Models with Mixture of Experts (https://arxiv.org/abs/2401.04081) [GitHub](https://github.com/llm-random/llm-random)
 
-6. [Bio] U-Mamba, a versatile network designed specifically for biomedical image segmentation. (https://arxiv.org/abs/2401.04722) [GitHub](https://github.com/bowang-lab/U-Mamba)
+7. [Bio] U-Mamba, a versatile network designed specifically for biomedical image segmentation. (https://arxiv.org/abs/2401.04722) [GitHub](https://github.com/bowang-lab/U-Mamba)
     
-7. [Vision] VMamba: Visual State Space Model. (https://arxiv.org/abs/2401.10166) [GitHub](https://github.com/MzeroMiko/VMamba)
+8. [Vision] VMamba: Visual State Space Model. (https://arxiv.org/abs/2401.10166) [GitHub](https://github.com/MzeroMiko/VMamba)
 
-8. [Tabular data] MambaTab: A Simple Yet Effective Approach for Handling Tabular Data (https://arxiv.org/abs/2401.08867)
+9. [Tabular data] MambaTab: A Simple Yet Effective Approach for Handling Tabular Data (https://arxiv.org/abs/2401.08867)
 
-9. [RWKV-TS] RWKV-TS: Beyond Traditional Recurrent Neural Network for Time Series Tasks (https://arxiv.org/abs/2401.09093) [GitHub](https://github.com/howard-hou/rwkv-ts)
+10. [RWKV-TS] RWKV-TS: Beyond Traditional Recurrent Neural Network for Time Series Tasks (https://arxiv.org/abs/2401.09093) [GitHub](https://github.com/howard-hou/rwkv-ts)
 
-10. [Vision] Vision Mamba (Vim) is 2.8× faster than DeiT and saves 86.8% GPU memory when performing batch inference to extract features on images with a resolution of 1248×1248. (https://arxiv.org/abs/2401.09417) [GitHub](https://github.com/hustvl/Vim)
+11. [Vision] Vision Mamba (Vim) is 2.8× faster than DeiT and saves 86.8% GPU memory when performing batch inference to extract features on images with a resolution of 1248×1248. (https://arxiv.org/abs/2401.09417) [GitHub](https://github.com/hustvl/Vim)
 
-11. [Vision] SegMamba: Long-range Sequential Modeling Mamba For 3D Medical Image Segmentation. (https://arxiv.org/abs/2401.13560) [GitHub](https://github.com/ge-xing/SegMamba)
+12. [Vision] SegMamba: Long-range Sequential Modeling Mamba For 3D Medical Image Segmentation. (https://arxiv.org/abs/2401.13560) [GitHub](https://github.com/ge-xing/SegMamba)
 
-12. [Token-free language models] MambaByte: Token-free Selective State Space Model.（https://arxiv.org/abs/2401.13660）[GitHub](https://github.com/kyegomez/MambaByte)
+13. [Token-free language models] MambaByte: Token-free Selective State Space Model.（https://arxiv.org/abs/2401.13660）[GitHub](https://github.com/kyegomez/MambaByte)
 
     **Token-free** language models learn directly from raw bytes and remove the bias of subword tokenization.    
 
-13. [Vision] MambaMorph: a Mamba-based Backbone with Contrastive Feature Learning for Deformable MR-CT Registration. (https://arxiv.org/abs/2401.13934) [GitHub](https://github.com/Guo-Stone/MambaMorph)
+14. [Vision] MambaMorph: a Mamba-based Backbone with Contrastive Feature Learning for Deformable MR-CT Registration. (https://arxiv.org/abs/2401.13934) [GitHub](https://github.com/Guo-Stone/MambaMorph)
 
-14. [Video] Vivim: a Video Vision Mamba for Medical Video Object Segmentation (https://arxiv.org/pdf/2401.14168.pdf) [GitHub](https://github.com/scott-yjyang/Vivim)
+15. [Video] Vivim: a Video Vision Mamba for Medical Video Object Segmentation (https://arxiv.org/pdf/2401.14168.pdf) [GitHub](https://github.com/scott-yjyang/Vivim)
 
-15. [Document Summarization] LOCOST: State-Space Models for Long Document Abstractive Summarization (https://arxiv.org/abs/2401.17919) [GitHub](https://github.com/flbbb/locost-summarization)
+16. [Document Summarization] LOCOST: State-Space Models for Long Document Abstractive Summarization (https://arxiv.org/abs/2401.17919) [GitHub](https://github.com/flbbb/locost-summarization)
 
-16. [Graph] Graph-Mamba: Towards Long-Range Graph Sequence Modeling with Selective State Spaces (https://arxiv.org/abs/2402.00789) [GitHub](https://github.com/bowang-lab/Graph-Mamba)
+17. [Graph] Graph-Mamba: Towards Long-Range Graph Sequence Modeling with Selective State Spaces (https://arxiv.org/abs/2402.00789) [GitHub](https://github.com/bowang-lab/Graph-Mamba)
 
-17. [Mixture of Experts] BlackMamba: Mixture of Experts for State-Space Models (https://arxiv.org/abs/2402.01771) [GitHub](https://github.com/Zyphra/BlackMamba)
+18. [Mixture of Experts] BlackMamba: Mixture of Experts for State-Space Models (https://arxiv.org/abs/2402.01771) [GitHub](https://github.com/Zyphra/BlackMamba)
 
-18. [Vision] Swin-UMamba: Mamba-based UNet with ImageNet-based pretraining (https://arxiv.org/abs/2402.03302) [GitHub](https://github.com/JiarunLiu/Swin-UMamba)
+19. [Vision] Swin-UMamba: Mamba-based UNet with ImageNet-based pretraining (https://arxiv.org/abs/2402.03302) [GitHub](https://github.com/JiarunLiu/Swin-UMamba)
 
-19. [Bio] VM-UNet: Vision Mamba UNet for Medical Image Segmentation (https://arxiv.org/abs/2402.02491) [GitHub](https://github.com/JCruan519/VM-UNet)
+20. [Bio] VM-UNet: Vision Mamba UNet for Medical Image Segmentation (https://arxiv.org/abs/2402.02491) [GitHub](https://github.com/JCruan519/VM-UNet)
 
-20. [IN-CONTEXT LEARNING] IS MAMBA CAPABLE OF IN-CONTEXT LEARNING? (https://arxiv.org/abs/2402.03170)
+21. [IN-CONTEXT LEARNING] IS MAMBA CAPABLE OF IN-CONTEXT LEARNING? (https://arxiv.org/abs/2402.03170)
 
-21. [Bio] nnMamba: 3D Biomedical Image Segmentation, Classification and Landmark Detection with State Space Model (https://arxiv.org/abs/2402.03526) [GitHub](https://github.com/lhaof/nnMamba)
+22. [Bio] nnMamba: 3D Biomedical Image Segmentation, Classification and Landmark Detection with State Space Model (https://arxiv.org/abs/2402.03526) [GitHub](https://github.com/lhaof/nnMamba)
 
-22. [IN-CONTEXT LEARNING] Can Mamba Learn How to Learn? A Comparative Study on In-Context Learning Tasks (https://arxiv.org/abs/2402.04248)
+23. [IN-CONTEXT LEARNING] Can Mamba Learn How to Learn? A Comparative Study on In-Context Learning Tasks (https://arxiv.org/abs/2402.04248)
 
-23. [Diffusion Model] Scalable Diffusion Models with State Space Backbone (https://arxiv.org/abs/2402.05608) [GitHub](https://github.com/feizc/DiS)
+24. [Diffusion Model] Scalable Diffusion Models with State Space Backbone (https://arxiv.org/abs/2402.05608) [GitHub](https://github.com/feizc/DiS)
 
-24. [Vision] Mamba-ND: Selective State Space Modeling for Multi-Dimensional Data (https://arxiv.org/abs/2402.05892) [GitHub](https://github.com/jacklishufan/Mamba-ND)
+25. [Vision] Mamba-ND: Selective State Space Modeling for Multi-Dimensional Data (https://arxiv.org/abs/2402.05892) [GitHub](https://github.com/jacklishufan/Mamba-ND)
 
-25. [Vision] FD-Vision Mamba for Endoscopic Exposure Correction (https://arxiv.org/pdf/2402.06378.pdf)
+26. [Vision] FD-Vision Mamba for Endoscopic Exposure Correction (https://arxiv.org/pdf/2402.06378.pdf)
 
-26. [Vision] Semi-Mamba-UNet: Pixel-Level Contrastive Cross-Supervised Visual Mamba-based UNet for Semi-Supervised Medical Image Segmentation (https://arxiv.org/abs/2402.07245) [GitHub](https://github.com/ziyangwang007/Mamba-UNet)
+27. [Vision] Semi-Mamba-UNet: Pixel-Level Contrastive Cross-Supervised Visual Mamba-based UNet for Semi-Supervised Medical Image Segmentation (https://arxiv.org/abs/2402.07245) [GitHub](https://github.com/ziyangwang007/Mamba-UNet)
 
-27. [Segmentation] P-Mamba: Marrying Perona Malik Diffusion with Mamba for Efficient Pediatric Echocardiographic Left Ventricular Segmentation: (https://arxiv.org/abs/2402.08506)
+28. [Segmentation] P-Mamba: Marrying Perona Malik Diffusion with Mamba for Efficient Pediatric Echocardiographic Left Ventricular Segmentation: (https://arxiv.org/abs/2402.08506)
 
-28. [Graph] Graph Mamba: Towards Learning on Graphs with State Space Models (https://arxiv.org/abs/2402.08678) [GitHub](https://github.com/GraphMamba/GMN)
+29. [Graph] Graph Mamba: Towards Learning on Graphs with State Space Models (https://arxiv.org/abs/2402.08678) [GitHub](https://github.com/GraphMamba/GMN)
 
-29. [Theory] Spectral State Space Models (https://arxiv.org/abs/2312.06837v3) [GitHub](https://github.com/google-deepmind/spectral_ssm)
-
-30. Hierarchical State Space Models for Continuous Sequence-to-Sequence Modeling (https://arxiv.org/abs/2402.10211) [GitHub](https://github.com/raunaqbhirangi/hiss/tree/main)
+30. [Theory] Spectral State Space Models (https://arxiv.org/abs/2312.06837v3) [GitHub](https://github.com/google-deepmind/spectral_ssm)
 
 31. [Point Cloud Analysis] PointMamba: A Simple State Space Model for Point Cloud Analysis (https://arxiv.org/abs/2402.10739) [GitHub](https://github.com/LMD0311/PointMamba)
 
@@ -162,23 +183,6 @@ Collection of papers/repos on state-space models.
 59. xLSTM: Extended Long Short-Term Memory (https://arxiv.org/abs/2405.04517)
 
 
-## ICML 2024 (not exhaustive)
-
-1. StableSSM: Alleviating the Curse of Memory in State-space Models through Stable Reparameterization (https://arxiv.org/abs/2311.14495v2)
-
-2. Gated Linear Attention Transformers with Hardware-Efficient Training (https://arxiv.org/abs/2312.06635)
-
-3. Transformers are SSMs: Generalized Models and Efficient Algorithms with Structured State Space Duality
-    
-    By Tri Dao and Albert Gu. 
-
-4. From generalization analysis to optimization designs for state space models (https://arxiv.org/abs/2405.02670)
-
-5. The Illusion of State in State-Space Models (https://arxiv.org/abs/2404.08819v1)
-
-6. State-Free Inference of State-Space Models: The *Transfer Function* Approach
-
-7. PAC-Bayesian Error Bound, via Renyi Divergence, for a Class of Linear Time-Invariant State-Space Models
 
 
 ## ICLR 2024 submissions
