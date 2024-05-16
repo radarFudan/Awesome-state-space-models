@@ -17,7 +17,7 @@ Collection of papers/repos on state-space models.
 
 5. The Illusion of State in State-Space Models (https://arxiv.org/abs/2404.08819v1)
 
-6. State-Free Inference of State-Space Models: The *Transfer Function* Approach
+6. State-Free Inference of State-Space Models: The *Transfer Function* Approach (https://arxiv.org/pdf/2405.06147) [GitHub](https://github.com/ruke1ire/RTF)
 
 7. PAC-Bayesian Error Bound, via Renyi Divergence, for a Class of Linear Time-Invariant State-Space Models
 
