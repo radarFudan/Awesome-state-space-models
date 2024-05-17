@@ -182,6 +182,8 @@ Collection of papers/repos on state-space models.
 
 59. xLSTM: Extended Long Short-Term Memory (https://arxiv.org/abs/2405.04517)
 
+60. MambaOut: Do We Really Need Mamba for Vision? (https://arxiv.org/abs/2405.07992) [GitHub](https://github.com/yuweihao/MambaOut)
+
 
 
 
