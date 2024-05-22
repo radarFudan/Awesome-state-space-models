@@ -184,6 +184,7 @@ Collection of papers/repos on state-space models.
 
 60. MambaOut: Do We Really Need Mamba for Vision? (https://arxiv.org/abs/2405.07992) [GitHub](https://github.com/yuweihao/MambaOut)
 
+61. [Transformer_to_Recurrent] Linearizing Large Language Models (https://arxiv.org/abs/2405.06640) [GitHub](https://github.com/TRI-ML/linear_open_lm)
 
 
 
