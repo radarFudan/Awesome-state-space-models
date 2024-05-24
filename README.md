@@ -186,6 +186,13 @@ Collection of papers/repos on state-space models.
 
 61. [Transformer_to_Recurrent] Linearizing Large Language Models (https://arxiv.org/abs/2405.06640) [GitHub](https://github.com/TRI-ML/linear_open_lm)
 
+62. Not All Language Model Features Are Linear (https://arxiv.org/abs/2405.14860)
+
+63. Attention as an RNN (https://arxiv.org/abs/2405.13956)
+
+64. I2I-Mamba: Multi-modal medical image synthesis via selective state space modeling (https://arxiv.org/abs/2405.14022) [GitHub](https://github.com/icon-lab/I2I-Mamba)
+
+
 
 
 ## ICLR 2024 submissions
