@@ -192,7 +192,7 @@ Collection of papers/repos on state-space models.
 
 64. I2I-Mamba: Multi-modal medical image synthesis via selective state space modeling (https://arxiv.org/abs/2405.14022) [GitHub](https://github.com/icon-lab/I2I-Mamba)
 
-
+65. There is HOPE to Avoid HiPPOs for Long-memory State Space Models (https://arxiv.org/abs/2405.13975)
 
 
 ## ICLR 2024 submissions
