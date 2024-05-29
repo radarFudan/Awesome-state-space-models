@@ -194,6 +194,7 @@ Collection of papers/repos on state-space models.
 
 65. There is HOPE to Avoid HiPPOs for Long-memory State Space Models (https://arxiv.org/abs/2405.13975)
 
+66. Understanding the differences in Foundation Models: Attention, State Space Models, and Recurrent Neural Networks (https://arxiv.org/abs/2405.15731) [GitHub](https://github.com/IntelligentControlSystems/dsf-mqar)
 
 ## ICLR 2024 submissions
 
