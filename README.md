@@ -15,7 +15,7 @@ Collection of papers/repos on state-space models.
 
 4. From generalization analysis to optimization designs for state space models (https://arxiv.org/abs/2405.02670)
 
-5. The Illusion of State in State-Space Models (https://arxiv.org/abs/2404.08819v1)
+5. The Illusion of State in State-Space Models (https://arxiv.org/abs/2404.08819)
 
 6. State-Free Inference of State-Space Models: The *Transfer Function* Approach (https://arxiv.org/pdf/2405.06147) [GitHub](https://github.com/ruke1ire/RTF)
 
@@ -195,6 +195,10 @@ Collection of papers/repos on state-space models.
 65. There is HOPE to Avoid HiPPOs for Long-memory State Space Models (https://arxiv.org/abs/2405.13975)
 
 66. Understanding the differences in Foundation Models: Attention, State Space Models, and Recurrent Neural Networks (https://arxiv.org/abs/2405.15731) [GitHub](https://github.com/IntelligentControlSystems/dsf-mqar)
+
+67. DiG: Scalable and Efficient Diffusion Models with Gated Linear Attention (https://arxiv.org/abs/2405.18428)
+
+68. ViG: Linear-complexity Visual Sequence Learning with Gated Linear Attention (https://arxiv.org/abs/2405.18425)
 
 ## ICLR 2024 submissions
 
