@@ -200,6 +200,9 @@ Collection of papers/repos on state-space models.
 
 68. ViG: Linear-complexity Visual Sequence Learning with Gated Linear Attention (https://arxiv.org/abs/2405.18425)
 
+69. The Expressive Capacity of State Space Models: A Formal Language Perspective (https://arxiv.org/abs/2405.17394)
+
+
 ## ICLR 2024 submissions
 
 I try to use the most important 2-3 sentences in the abstract to summarize the paper. (https://openreview.net/group?id=ICLR.cc/2024/Conference)
