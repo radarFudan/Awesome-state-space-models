@@ -202,6 +202,7 @@ Collection of papers/repos on state-space models.
 
 69. The Expressive Capacity of State Space Models: A Formal Language Perspective (https://arxiv.org/abs/2405.17394)
 
+70. State Space Models are Comparable to Transformers in Estimating Functions with Dynamic Smoothness (https://arxiv.org/abs/2405.19036)
 
 ## ICLR 2024 submissions
 
