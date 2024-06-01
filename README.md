@@ -5,7 +5,7 @@ Collection of papers/repos on state-space models.
 
 ## ICML 2024 (not exhaustive)
 
-1. StableSSM: Alleviating the Curse of Memory in State-space Models through Stable Reparameterization (https://arxiv.org/abs/2311.14495v2)
+1. StableSSM: Alleviating the Curse of Memory in State-space Models through Stable Reparameterization (https://arxiv.org/abs/2311.14495)
 
 2. Gated Linear Attention Transformers with Hardware-Efficient Training (https://arxiv.org/abs/2312.06635)
 
