@@ -196,13 +196,17 @@ Collection of papers/repos on state-space models.
 
 66. Understanding the differences in Foundation Models: Attention, State Space Models, and Recurrent Neural Networks (https://arxiv.org/abs/2405.15731) [GitHub](https://github.com/IntelligentControlSystems/dsf-mqar)
 
-67. DiG: Scalable and Efficient Diffusion Models with Gated Linear Attention (https://arxiv.org/abs/2405.18428)
+67. The Expressive Capacity of State Space Models: A Formal Language Perspective (https://arxiv.org/abs/2405.17394)
 
-68. ViG: Linear-complexity Visual Sequence Learning with Gated Linear Attention (https://arxiv.org/abs/2405.18425)
+68. Efficient Time Series Processing for Transformers and State-Space Models through Token Merging (https://arxiv.org/abs/2405.17951)
 
-69. The Expressive Capacity of State Space Models: A Formal Language Perspective (https://arxiv.org/abs/2405.17394)
+69. DiG: Scalable and Efficient Diffusion Models with Gated Linear Attention (https://arxiv.org/abs/2405.18428)
 
-70. State Space Models are Comparable to Transformers in Estimating Functions with Dynamic Smoothness (https://arxiv.org/abs/2405.19036)
+70. ViG: Linear-complexity Visual Sequence Learning with Gated Linear Attention (https://arxiv.org/abs/2405.18425)
+
+71. State Space Models are Comparable to Transformers in Estimating Functions with Dynamic Smoothness (https://arxiv.org/abs/2405.19036)
+
+
 
 ## ICLR 2024 submissions
 
