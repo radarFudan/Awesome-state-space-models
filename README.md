@@ -9,7 +9,7 @@ Collection of papers/repos on state-space models.
 
 2. Gated Linear Attention Transformers with Hardware-Efficient Training (https://arxiv.org/abs/2312.06635)
 
-3. Transformers are SSMs: Generalized Models and Efficient Algorithms with Structured State Space Duality
+3. Transformers are SSMs: Generalized Models and Efficient Algorithms with Structured State Space Duality (https://arxiv.org/abs/2405.21060)
     
     By Tri Dao and Albert Gu. 
 
