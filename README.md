@@ -215,6 +215,7 @@ Collection of papers/repos on state-space models.
 
 71. State Space Models are Comparable to Transformers in Estimating Functions with Dynamic Smoothness (https://arxiv.org/abs/2405.19036)
 
+72. Recurrent neural networks: vanishing and exploding gradients are not the end of the story (https://arxiv.org/abs/2405.21064)
 
 
 ## ICLR 2024 submissions
