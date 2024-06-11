@@ -217,6 +217,8 @@ Collection of papers/repos on state-space models.
 
 72. Recurrent neural networks: vanishing and exploding gradients are not the end of the story (https://arxiv.org/abs/2405.21064)
 
+73. Parallelizing Linear Transformers with the Delta Rule over Sequence Length (https://arxiv.org/abs/2406.06484)
+
 
 ## ICLR 2024 submissions
 
