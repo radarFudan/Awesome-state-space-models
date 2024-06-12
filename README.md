@@ -35,6 +35,8 @@ Collection of papers/repos on state-space models.
 
 13. Simple linear attention language models balance the recall-throughput tradeoff (https://arxiv.org/abs/2402.18668) [GitHub](https://github.com/HazyResearch/based)
 
+14. Universality of Linear Recurrences Followed by Non-linear Projections: Finite-Width Guarantees and Benefits of Complex Eigenvalues (https://arxiv.org/abs/2307.11888)
+
 ## Input-dependent gating. 
 
 1. Mamba (https://arxiv.org/abs/2312.00752) [Official GitHub](https://github.com/state-spaces/mamba)
