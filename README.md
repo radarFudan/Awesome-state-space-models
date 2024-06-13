@@ -221,6 +221,10 @@ Collection of papers/repos on state-space models.
 
 73. Parallelizing Linear Transformers with the Delta Rule over Sequence Length (https://arxiv.org/abs/2406.06484)
 
+74. An Empirical Study of Mamba-based Language Models (https://arxiv.org/abs/2406.07887)
+
+75. Samba: Simple Hybrid State Space Models for Efficient Unlimited Context Language Modeling (https://arxiv.org/abs/2406.07522)
+
 
 ## ICLR 2024 submissions
 
