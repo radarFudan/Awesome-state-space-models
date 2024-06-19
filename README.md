@@ -10,8 +10,6 @@ Collection of papers/repos on state-space models.
 2. Gated Linear Attention Transformers with Hardware-Efficient Training (https://arxiv.org/abs/2312.06635)
 
 3. Transformers are SSMs: Generalized Models and Efficient Algorithms with Structured State Space Duality (https://arxiv.org/abs/2405.21060)
-    
-    By Tri Dao and Albert Gu. 
 
 4. From generalization analysis to optimization designs for state space models (https://arxiv.org/abs/2405.02670)
 
@@ -19,23 +17,22 @@ Collection of papers/repos on state-space models.
 
 6. State-Free Inference of State-Space Models: The *Transfer Function* Approach (https://arxiv.org/pdf/2405.06147) [GitHub](https://github.com/ruke1ire/RTF)
 
-7. PAC-Bayesian Error Bound, via Renyi Divergence, for a Class of Linear Time-Invariant State-Space Models
+7. PAC-Bayesian Error Bound, via Renyi Divergence, for a Class of Linear Time-Invariant State-Space Models (https://openreview.net/pdf?id=a1Olc2QhPv)
 
-8. Hierarchical State Space Models for Continuous Sequence-to-Sequence Modeling (https://arxiv.org/abs/2402.10211) [GitHub](https://github.com/raunaqbhirangi/hiss/tree/main)
+8. Hierarchical State Space Models for Continuous Sequence-to-Sequence Modeling (https://arxiv.org/abs/2402.10211) [GitHub](https://github.com/raunaqbhirangi/hiss)
 
-9. Repeat After Me: Transformers are Better than State Space Models at Copying (https://arxiv.org/pdf/2402.01032)
+9. Repeat After Me: Transformers are Better than State Space Models at Copying (https://arxiv.org/pdf/2402.01032) [GitHub](https://github.com/sjelassi/transformers_ssm_copy)
 
 10. SLAB: Efficient Transformers with Simplified Linear Attention and Progressive Re-parameterized Batch Normalization (https://www.arxiv.org/abs/2405.11582)
 
-11. Short-Long Convolutions Help Hardware-Efficient Linear Attention to Focus on Long Sequences
+11. Short-Long Convolutions Help Hardware-Efficient Linear Attention to Focus on Long Sequences (https://arxiv.org/abs/2406.08128)
 
-12. When Linear Attention Meets Autoregressive Decoding: Towards More Effective and Efficient Linearized Large Language Models
-
-    Abstract: Autoregressive Large Language Models (LLMs) have achieved impressive performance in language tasks but face significant bottlenecks: (1) quadratic complexity bottleneck in the attention module with increasing token numbers, and (2) efficiency bottleneck due to the sequential processing nature of autoregressive LLMs during generation. Linear attention and speculative decoding emerge as solutions for these challenges, yet their applicability and combinatory potential for autoregressive LLMs remain uncertain. To this end, we embark on the first comprehensive empirical investigation into the efficacy of existing linear attention methods for autoregressive LLMs and their integration with speculative decoding. We introduce an augmentation technique for linear attention and ensure the compatibility between linear attention and speculative decoding for efficient LLM training and serving. Extensive experiments and ablation studies on seven existing linear attention works and five encoder/decoder-based LLMs consistently validate the effectiveness of our augmented linearized LLMs, e.g., achieving up to a 6.67 perplexity reduction on LLaMA and 2x speedups during generation as compared to prior linear attention methods.
+12. When Linear Attention Meets Autoregressive Decoding: Towards More Effective and Efficient Linearized Large Language Models (https://arxiv.org/abs/2406.07368)
 
 13. Simple linear attention language models balance the recall-throughput tradeoff (https://arxiv.org/abs/2402.18668) [GitHub](https://github.com/HazyResearch/based)
 
 14. Universality of Linear Recurrences Followed by Non-linear Projections: Finite-Width Guarantees and Benefits of Complex Eigenvalues (https://arxiv.org/abs/2307.11888)
+
 
 ## Input-dependent gating. 
 
