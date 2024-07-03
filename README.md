@@ -158,7 +158,7 @@ Collection of papers/repos on state-space models.
 
 45. [Vision] On the low-shot transferability of [V]-Mamba (https://arxiv.org/abs/2403.10696)
 
-46. [Diffusion Model] ZigMa: Zigzag Mamba Diffusion Model (https://arxiv.org/abs/2403.13802) [To-be-updated-GitHub](https://github.com/CompVis/zigma)
+46. [Diffusion Model] ZigMa: Zigzag Mamba Diffusion Model (ECCV 2024) (https://arxiv.org/abs/2403.13802) [To-be-updated-GitHub](https://github.com/CompVis/zigma)
 
 47. [Scale-up] Jamba: SSM-Transformer Model (https://www.ai21.com/blog/announcing-jamba)
 
