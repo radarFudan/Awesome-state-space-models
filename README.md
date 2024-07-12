@@ -222,7 +222,7 @@ Collection of papers/repos on state-space models.
 
 75. Samba: Simple Hybrid State Space Models for Efficient Unlimited Context Language Modeling (https://arxiv.org/abs/2406.07522)
 
-76. Learning to (Learn at Test Time): RNNs with Expressive Hidden States (https://arxiv.org/abs/2407.04620)
+76. Learning to (Learn at Test Time): RNNs with Expressive Hidden States (https://arxiv.org/abs/2407.04620) [GitHub](https://github.com/test-time-training/ttt-lm-jax)
 
 
 ## ICLR 2024 submissions
