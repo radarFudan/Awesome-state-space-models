@@ -224,6 +224,8 @@ Collection of papers/repos on state-space models.
 
 76. Learning to (Learn at Test Time): RNNs with Expressive Hidden States (https://arxiv.org/abs/2407.04620) [GitHub](https://github.com/test-time-training/ttt-lm-jax)
 
+77. Towards a theory of learning dynamics in deep state space models (https://arxiv.org/pdf/2407.07279)
+
 
 ## ICLR 2024 submissions
 
