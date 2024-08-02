@@ -226,6 +226,8 @@ Collection of papers/repos on state-space models.
 
 77. Towards a theory of learning dynamics in deep state space models (https://arxiv.org/pdf/2407.07279)
 
+78. Towards Scalable and Stable Parallelization of Nonlinear RNNs (https://arxiv.org/abs/2407.19115)
+
 
 ## ICLR 2024 submissions
 
