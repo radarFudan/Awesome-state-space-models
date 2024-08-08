@@ -228,6 +228,8 @@ Collection of papers/repos on state-space models.
 
 78. Towards Scalable and Stable Parallelization of Nonlinear RNNs (https://arxiv.org/abs/2407.19115)
 
+79. PackMamba: Efficient Processing of Variable-Length Sequences in Mamba training (https://arxiv.org/abs/2408.03865)
+
 
 ## ICLR 2024 submissions
 
