@@ -230,6 +230,10 @@ Collection of papers/repos on state-space models.
 
 79. PackMamba: Efficient Processing of Variable-Length Sequences in Mamba training (https://arxiv.org/abs/2408.03865)
 
+80. Long Range Switching Time Series Prediction via State Space Model (https://arxiv.org/pdf/2407.19201)
+
+81. B’MOJO: Hybrid State Space Realizations of Foundation Models with Eidetic and Fading Memory (https://arxiv.org/pdf/2407.06324)
+
 
 ## ICLR 2024 submissions
 
