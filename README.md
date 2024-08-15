@@ -234,6 +234,8 @@ Collection of papers/repos on state-space models.
 
 81. B’MOJO: Hybrid State Space Realizations of Foundation Models with Eidetic and Fading Memory (https://arxiv.org/pdf/2407.06324)
 
+82. FalconMamba (https://huggingface.co/blog/falconmamba)
+
 
 ## ICLR 2024 submissions
 
