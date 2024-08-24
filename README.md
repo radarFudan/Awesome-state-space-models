@@ -236,6 +236,8 @@ Collection of papers/repos on state-space models.
 
 82. FalconMamba (https://huggingface.co/blog/falconmamba)
 
+83. Jamba 1.5 (https://arxiv.org/html/2408.12570v1) https://huggingface.co/ai21labs
+
 
 ## ICLR 2024 submissions
 
