@@ -238,6 +238,8 @@ Collection of papers/repos on state-space models.
 
 83. Jamba 1.5 (https://arxiv.org/html/2408.12570v1) https://huggingface.co/ai21labs
 
+84. Shuffle Mamba: State Space Models with Random Shuffle for Multi-Modal Image Fusion (https://arxiv.org/abs/2409.01728)
+
 
 ## ICLR 2024 submissions
 
