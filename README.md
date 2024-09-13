@@ -240,6 +240,8 @@ Collection of papers/repos on state-space models.
 
 84. Shuffle Mamba: State Space Models with Random Shuffle for Multi-Modal Image Fusion (https://arxiv.org/abs/2409.01728)
 
+85. GSA: Gated Slot Attention for Efficient Linear-Time Sequence Modeling (http://arxiv.org/abs/2409.07146)
+
 
 ## ICLR 2024 submissions
 
