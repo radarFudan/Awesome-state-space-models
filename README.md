@@ -244,6 +244,8 @@ Collection of papers/repos on state-space models.
 
 86. A Diagonal Structured State Space Model on Loihi 2 for Efficient Streaming Sequence Processing (https://arxiv.org/abs/2409.15022)
 
+87. Uncertainty Representations in State-Space Layers for Deep Reinforcement Learning under Partial Observability (https://arxiv.org/abs/2409.16824)
+
 
 ## ICLR 2024 submissions
 
