@@ -242,6 +242,8 @@ Collection of papers/repos on state-space models.
 
 85. GSA: Gated Slot Attention for Efficient Linear-Time Sequence Modeling (http://arxiv.org/abs/2409.07146)
 
+86. A Diagonal Structured State Space Model on Loihi 2 for Efficient Streaming Sequence Processing (https://arxiv.org/abs/2409.15022)
+
 
 ## ICLR 2024 submissions
 
