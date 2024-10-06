@@ -8,7 +8,7 @@ Collection of papers/repos on state-space models.
 
 ## CVPR 2024
 
-1. State Space Models for Event Cameras (https://arxiv.org/abs/2402.15584) [GitHub](https://github.com/uzh-rpg/ssms_event_cameras)
+1. (Spotlight) State Space Models for Event Cameras (https://arxiv.org/abs/2402.15584) [GitHub](https://github.com/uzh-rpg/ssms_event_cameras)
 
 ## ICML 2024
 
@@ -252,6 +252,8 @@ Collection of papers/repos on state-space models.
 86. A Diagonal Structured State Space Model on Loihi 2 for Efficient Streaming Sequence Processing (https://arxiv.org/abs/2409.15022)
 
 87. Uncertainty Representations in State-Space Layers for Deep Reinforcement Learning under Partial Observability (https://arxiv.org/abs/2409.16824)
+
+88. [WACV 2025] SUM: Saliency Unification through Mamba for Visual Attention Modeling (https://www.arxiv.org/abs/2406.17815) [GitHub](https://github.com/Arhosseini77/SUM)
 
 
 ## ICLR 2024 submissions
