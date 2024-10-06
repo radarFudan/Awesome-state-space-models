@@ -2,6 +2,13 @@
 
 Collection of papers/repos on state-space models. 
 
+## ICLR 2025
+
+1. 
+
+## CVPR 2024
+
+1. State Space Models for Event Cameras (https://arxiv.org/abs/2402.15584) [GitHub](https://github.com/uzh-rpg/ssms_event_cameras)
 
 ## ICML 2024
 
