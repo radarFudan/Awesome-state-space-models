@@ -2,9 +2,21 @@
 
 Collection of papers/repos on state-space models. 
 
-## ICLR 2025
+## ICLR 2025 submissions
 
-1. 
+1. Stuffed Mamba: State Collapse and State Capacity of RNN-Based Long-Context Modeling (https://openreview.net/forum?id=cu2CT2VAvs)
+
+2. Quantifying Memory Utilization with Effective State-Size (https://openreview.net/forum?id=DHVjLvSps6)
+
+3. (Memory-related) Forgetting Transformer: Softmax Attention with a Forget Gate (https://openreview.net/forum?id=q2Lnyegkr8)
+
+4. S7: Selective and Simplified State Space Layers for Sequence Modeling (https://openreview.net/forum?id=4wtcXV0kbi)
+
+5. Gated Delta Networks: Improving Mamba2 with Delta Rule (https://openreview.net/forum?id=r8H7xhYPwz)
+
+6. Unlocking State-Tracking in Linear RNNs Through Negative Eigenvalues (https://openreview.net/forum?id=UvTo3tVBk2)
+
+7. 
 
 ## CVPR 2024
 
