@@ -1,3 +1,10 @@
+## ICLR 2025
+
+1. In-context learning and Occam's razor (https://openreview.net/forum?id=2PKLRmU7ne）
+
+
+## ICLR 2024
+
 For sequence modelling, the phenomenon of in-context learning is interesting in the sense that foundation models can be applied to help the downstream tasks. 
 
 1. The mechanistic basis of data dependence and abrupt learning in an in-context classification task (https://openreview.net/forum?id=aN4Jf6Cx69)
