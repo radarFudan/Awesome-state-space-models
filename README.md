@@ -16,7 +16,17 @@ Collection of papers/repos on state-space models.
 
 6. Unlocking State-Tracking in Linear RNNs Through Negative Eigenvalues (https://openreview.net/forum?id=UvTo3tVBk2)
 
-7. 
+7. Tuning Frequency Bias of State Space Models (https://openreview.net/forum?id=wkHcXDv7cv)
+
+8. Gradient-free training of recurrent neural networks (https://openreview.net/forum?id=vcJiPLeC48)
+
+9. Sparse Mamba: Reinforcing Controllability In Structural State Space Models (https://openreview.net/forum?id=vOfDGYGVyj)
+
+10. Understanding Bottlenecks of State Space Models through the Lens of Recency and Over-smoothing (https://openreview.net/forum?id=pymXpl4qvi)
+
+11. Parameter-Efficient Fine-Tuning of State Space Models (https://openreview.net/forum?id=27n0kvWgqT)
+
+12. 
 
 ## CVPR 2024
 
