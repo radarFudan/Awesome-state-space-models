@@ -26,7 +26,19 @@ Collection of papers/repos on state-space models.
 
 11. Parameter-Efficient Fine-Tuning of State Space Models (https://openreview.net/forum?id=27n0kvWgqT)
 
-12. 
+12. State-space models can learn in-context by gradient descent (https://openreview.net/forum?id=52XG8eexal)
+
+13. On the interplay between learning and memory in deep state space models (https://openreview.net/forum?id=hgjpO0H0id)
+
+14. A New Look at Low-Rank Recurrent Neural Networks (https://openreview.net/forum?id=fWXYD0ZCdd)
+
+15. HOPE for a Robust Parameterization of Long-memory State Space Models (https://openreview.net/forum?id=RZwtbg3qYD)
+
+16. Were RNNs All We Needed? (https://openreview.net/forum?id=GrmFFxGnOR)
+
+17. Oscillatory State-Space Models (https://openreview.net/forum?id=GRMfXcAAFh)
+
+18. Mimetic Initialization Helps State Space Models Learn to Recall (https://openreview.net/forum?id=iVy7aRMb0K)
 
 ## CVPR 2024
 
