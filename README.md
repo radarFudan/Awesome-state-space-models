@@ -8,7 +8,7 @@ Collection of papers/repos on state-space models.
 
 2. HOPE for a Robust Parameterization of Long-memory State Space Models (https://openreview.net/forum?id=RZwtbg3qYD) [Arxiv](https://arxiv.org/abs/2405.13975)
 
-3. Tuning Frequency Bias of State Space Models (https://openreview.net/forum?id=wkHcXDv7cv)
+3. Tuning Frequency Bias of State Space Models (https://openreview.net/forum?id=wkHcXDv7cv) [Arxiv](https://arxiv.org/abs/2410.02035)
 
 4. Demystifying the Token Dynamics of Deep Selective State Space Models (https://openreview.net/forum?id=qtTIP5Gjc5) [Arxiv](https://arxiv.org/abs/2410.03292)
 
