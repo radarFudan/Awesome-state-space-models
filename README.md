@@ -32,11 +32,11 @@ Collection of papers/repos on state-space models.
 
 14. A New Look at Low-Rank Recurrent Neural Networks (https://openreview.net/forum?id=fWXYD0ZCdd)
 
-15. HOPE for a Robust Parameterization of Long-memory State Space Models (https://openreview.net/forum?id=RZwtbg3qYD)
+15. HOPE for a Robust Parameterization of Long-memory State Space Models (https://openreview.net/forum?id=RZwtbg3qYD) [Arxiv](https://arxiv.org/abs/2405.13975)
 
-16. Were RNNs All We Needed? (https://openreview.net/forum?id=GrmFFxGnOR)
+16. Were RNNs All We Needed? (https://openreview.net/forum?id=GrmFFxGnOR) [Arxiv](https://arxiv.org/abs/2410.01201)
 
-17. Oscillatory State-Space Models (https://openreview.net/forum?id=GRMfXcAAFh)
+17. Oscillatory State-Space Models (https://openreview.net/forum?id=GRMfXcAAFh) [Arxiv](https://arxiv.org/abs/2410.03943)
 
 18. Mimetic Initialization Helps State Space Models Learn to Recall (https://openreview.net/forum?id=iVy7aRMb0K)
 
