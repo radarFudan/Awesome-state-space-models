@@ -10,7 +10,7 @@ Collection of papers/repos on state-space models.
 
 3. (Memory-related) Forgetting Transformer: Softmax Attention with a Forget Gate (https://openreview.net/forum?id=q2Lnyegkr8)
 
-4. S7: Selective and Simplified State Space Layers for Sequence Modeling (https://openreview.net/forum?id=4wtcXV0kbi)
+4. S7: Selective and Simplified State Space Layers for Sequence Modeling (https://openreview.net/forum?id=4wtcXV0kbi) [Arxiv](https://arxiv.org/abs/2410.03464)
 
 5. Gated Delta Networks: Improving Mamba2 with Delta Rule (https://openreview.net/forum?id=r8H7xhYPwz)
 
