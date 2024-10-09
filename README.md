@@ -289,6 +289,8 @@ Collection of papers/repos on state-space models.
 
 88. [WACV 2025] SUM: Saliency Unification through Mamba for Visual Attention Modeling (https://www.arxiv.org/abs/2406.17815) [GitHub](https://github.com/Arhosseini77/SUM)
 
+89. Mathematical Formalism for Memory Compression in Selective State Space Models (https://arxiv.org/pdf/2410.03158)
+
 
 ## ICLR 2024 submissions
 
