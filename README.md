@@ -4,23 +4,23 @@ Collection of papers/repos on state-space models.
 
 ## ICLR 2025 submissions
 
-1. Stuffed Mamba: State Collapse and State Capacity of RNN-Based Long-Context Modeling (https://openreview.net/forum?id=cu2CT2VAvs)
+1. Autocorrelation Matters: Understanding the Role of Initialization Schemes for State Space Models (https://openreview.net/forum?id=sZJNkorXMk)
 
-2. Quantifying Memory Utilization with Effective State-Size (https://openreview.net/forum?id=DHVjLvSps6)
+2. HOPE for a Robust Parameterization of Long-memory State Space Models (https://openreview.net/forum?id=RZwtbg3qYD) [Arxiv](https://arxiv.org/abs/2405.13975)
 
-3. (Memory-related) Forgetting Transformer: Softmax Attention with a Forget Gate (https://openreview.net/forum?id=q2Lnyegkr8)
+3. Tuning Frequency Bias of State Space Models (https://openreview.net/forum?id=wkHcXDv7cv)
 
-4. S7: Selective and Simplified State Space Layers for Sequence Modeling (https://openreview.net/forum?id=4wtcXV0kbi) [Arxiv](https://arxiv.org/abs/2410.03464)
+4. Demystifying the Token Dynamics of Deep Selective State Space Models (https://openreview.net/forum?id=qtTIP5Gjc5) [Arxiv](https://arxiv.org/abs/2410.03292)
 
 5. Gated Delta Networks: Improving Mamba2 with Delta Rule (https://openreview.net/forum?id=r8H7xhYPwz)
 
-6. Unlocking State-Tracking in Linear RNNs Through Negative Eigenvalues (https://openreview.net/forum?id=UvTo3tVBk2)
+6. Quantifying Memory Utilization with Effective State-Size (https://openreview.net/forum?id=DHVjLvSps6)
 
-7. Tuning Frequency Bias of State Space Models (https://openreview.net/forum?id=wkHcXDv7cv)
+7. Forgetting Transformer: Softmax Attention with a Forget Gate (https://openreview.net/forum?id=q2Lnyegkr8)
 
-8. Gradient-free training of recurrent neural networks (https://openreview.net/forum?id=vcJiPLeC48)
+8. S7: Selective and Simplified State Space Layers for Sequence Modeling (https://openreview.net/forum?id=4wtcXV0kbi) [Arxiv](https://arxiv.org/abs/2410.03464)
 
-9. Sparse Mamba: Reinforcing Controllability In Structural State Space Models (https://openreview.net/forum?id=vOfDGYGVyj)
+9. Unlocking State-Tracking in Linear RNNs Through Negative Eigenvalues (https://openreview.net/forum?id=UvTo3tVBk2)
 
 10. Understanding Bottlenecks of State Space Models through the Lens of Recency and Over-smoothing (https://openreview.net/forum?id=pymXpl4qvi)
 
@@ -32,16 +32,19 @@ Collection of papers/repos on state-space models.
 
 14. A New Look at Low-Rank Recurrent Neural Networks (https://openreview.net/forum?id=fWXYD0ZCdd)
 
-15. HOPE for a Robust Parameterization of Long-memory State Space Models (https://openreview.net/forum?id=RZwtbg3qYD) [Arxiv](https://arxiv.org/abs/2405.13975)
+15. Were RNNs All We Needed? (https://openreview.net/forum?id=GrmFFxGnOR) [Arxiv](https://arxiv.org/abs/2410.01201)
 
-16. Were RNNs All We Needed? (https://openreview.net/forum?id=GrmFFxGnOR) [Arxiv](https://arxiv.org/abs/2410.01201)
+16. Oscillatory State-Space Models (https://openreview.net/forum?id=GRMfXcAAFh) [Arxiv](https://arxiv.org/abs/2410.03943)
 
-17. Oscillatory State-Space Models (https://openreview.net/forum?id=GRMfXcAAFh) [Arxiv](https://arxiv.org/abs/2410.03943)
+17. Mimetic Initialization Helps State Space Models Learn to Recall (https://openreview.net/forum?id=iVy7aRMb0K)
 
-18. Mimetic Initialization Helps State Space Models Learn to Recall (https://openreview.net/forum?id=iVy7aRMb0K)
+18. Gradient-free training of recurrent neural networks (https://openreview.net/forum?id=vcJiPLeC48)
 
-19. Demystifying the Token Dynamics of Deep Selective State Space Models (https://openreview.net/forum?id=qtTIP5Gjc5) [Arxiv](https://arxiv.org/abs/2410.03292)
+19. Sparse Mamba: Reinforcing Controllability In Structural State Space Models (https://openreview.net/forum?id=vOfDGYGVyj) [Arxiv](https://arxiv.org/abs/2409.00563)
 
+20. Stuffed Mamba: State Collapse and State Capacity of RNN-Based Long-Context Modeling (https://openreview.net/forum?id=cu2CT2VAvs)
+
+    
 ## CVPR 2024
 
 1. (Spotlight) State Space Models for Event Cameras (https://arxiv.org/abs/2402.15584) [GitHub](https://github.com/uzh-rpg/ssms_event_cameras)
