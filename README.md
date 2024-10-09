@@ -40,6 +40,8 @@ Collection of papers/repos on state-space models.
 
 18. Mimetic Initialization Helps State Space Models Learn to Recall (https://openreview.net/forum?id=iVy7aRMb0K)
 
+19. Demystifying the Token Dynamics of Deep Selective State Space Models (https://openreview.net/forum?id=qtTIP5Gjc5) [Arxiv](https://arxiv.org/abs/2410.03292)
+
 ## CVPR 2024
 
 1. (Spotlight) State Space Models for Event Cameras (https://arxiv.org/abs/2402.15584) [GitHub](https://github.com/uzh-rpg/ssms_event_cameras)
