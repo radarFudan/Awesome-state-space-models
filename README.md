@@ -42,7 +42,7 @@ Collection of papers/repos on state-space models.
 
 19. Sparse Mamba: Reinforcing Controllability In Structural State Space Models (https://openreview.net/forum?id=vOfDGYGVyj) [Arxiv](https://arxiv.org/abs/2409.00563)
 
-20. Stuffed Mamba: State Collapse and State Capacity of RNN-Based Long-Context Modeling (https://openreview.net/forum?id=cu2CT2VAvs)
+20. Stuffed Mamba: State Collapse and State Capacity of RNN-Based Long-Context Modeling (https://openreview.net/forum?id=cu2CT2VAvs) [Arxiv](https://arxiv.org/abs/2410.07145)
 
     
 ## CVPR 2024
