@@ -44,6 +44,8 @@ Collection of papers/repos on state-space models.
 
 20. Stuffed Mamba: State Collapse and State Capacity of RNN-Based Long-Context Modeling (https://openreview.net/forum?id=cu2CT2VAvs) [Arxiv](https://arxiv.org/abs/2410.07145)
 
+21. FlashRNN: I/O-Aware Optimization of Traditional RNNs on modern hardware (https://openreview.net/forum?id=l0ZzTvPfTw)
+
     
 ## CVPR 2024
 
