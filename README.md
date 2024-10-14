@@ -46,6 +46,8 @@ Collection of papers/repos on state-space models.
 
 21. FlashRNN: I/O-Aware Optimization of Traditional RNNs on modern hardware (https://openreview.net/forum?id=l0ZzTvPfTw)
 
+22. LoLCATs: On Low-Rank Linearizing of Large Language Models (https://openreview.net/forum?id=8VtGeyJyx9)
+
     
 ## CVPR 2024
 
