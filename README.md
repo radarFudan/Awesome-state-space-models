@@ -36,7 +36,7 @@ Collection of papers/repos on state-space models.
 
 16. Oscillatory State-Space Models (https://openreview.net/forum?id=GRMfXcAAFh) [Arxiv](https://arxiv.org/abs/2410.03943)
 
-17. Mimetic Initialization Helps State Space Models Learn to Recall (https://openreview.net/forum?id=iVy7aRMb0K)
+17. Mimetic Initialization Helps State Space Models Learn to Recall (https://openreview.net/forum?id=iVy7aRMb0K) [Arxiv](https://arxiv.org/abs/2410.11135)
 
 18. Gradient-free training of recurrent neural networks (https://openreview.net/forum?id=vcJiPLeC48)
 
