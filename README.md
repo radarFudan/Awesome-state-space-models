@@ -50,6 +50,8 @@ Collection of papers/repos on state-space models.
 
 23. LONGHORN: STATE SPACE MODELS ARE AMORTIZED ONLINE LEARNERS (https://openreview.net/forum?id=8jOqCcLzeO) [Arxiv](https://arxiv.org/pdf/2407.14207)
 
+24. MAMBA STATE-SPACE MODELS ARE LYAPUNOV-STABLE LEARNERS (https://openreview.net/forum?id=i9RTCC6whL)
+
     
 ## CVPR 2024
 
