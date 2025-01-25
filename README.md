@@ -52,6 +52,8 @@ Collection of papers/repos on state-space models.
 
 24. MAMBA STATE-SPACE MODELS ARE LYAPUNOV-STABLE LEARNERS (https://openreview.net/forum?id=i9RTCC6whL)
 
+25. Rodimus*: Breaking the Accuracy-Efficiency Trade-Off with Efficient Attentions (https://openreview.net/forum?id=IIVYiJ1ggK)
+
     
 ## CVPR 2024
 
