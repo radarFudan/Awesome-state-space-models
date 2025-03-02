@@ -2,7 +2,7 @@
 
 Collection of papers/repos on state-space models. 
 
-## ICLR 2025 submissions
+## ICLR 2025
 
 1. Autocorrelation Matters: Understanding the Role of Initialization Schemes for State Space Models (https://openreview.net/forum?id=sZJNkorXMk) [Arxiv](https://arxiv.org/abs/2411.19455)
 
@@ -14,48 +14,23 @@ Collection of papers/repos on state-space models.
 
 5. Gated Delta Networks: Improving Mamba2 with Delta Rule (https://openreview.net/forum?id=r8H7xhYPwz) [Arxiv](https://arxiv.org/abs/2412.06464)
 
-6. Quantifying Memory Utilization with Effective State-Size (https://openreview.net/forum?id=DHVjLvSps6)
+6. Forgetting Transformer: Softmax Attention with a Forget Gate (https://openreview.net/forum?id=q2Lnyegkr8)
 
-7. Forgetting Transformer: Softmax Attention with a Forget Gate (https://openreview.net/forum?id=q2Lnyegkr8)
+7. Unlocking State-Tracking in Linear RNNs Through Negative Eigenvalues (https://openreview.net/forum?id=UvTo3tVBk2) [Arxiv](https://arxiv.org/abs/2411.12537)
 
-8. S7: Selective and Simplified State Space Layers for Sequence Modeling (https://openreview.net/forum?id=4wtcXV0kbi) [Arxiv](https://arxiv.org/abs/2410.03464)
+8. Understanding Bottlenecks of State Space Models through the Lens of Recency and Over-smoothing (https://openreview.net/forum?id=pymXpl4qvi)
 
-9. Unlocking State-Tracking in Linear RNNs Through Negative Eigenvalues (https://openreview.net/forum?id=UvTo3tVBk2) [Arxiv](https://arxiv.org/abs/2411.12537)
+9. Oscillatory State-Space Models (https://openreview.net/forum?id=GRMfXcAAFh) [Arxiv](https://arxiv.org/abs/2410.03943)
 
-10. Understanding Bottlenecks of State Space Models through the Lens of Recency and Over-smoothing (https://openreview.net/forum?id=pymXpl4qvi)
+10. FlashRNN: I/O-Aware Optimization of Traditional RNNs on modern hardware (https://openreview.net/forum?id=l0ZzTvPfTw)
 
-11. Parameter-Efficient Fine-Tuning of State Space Models (https://openreview.net/forum?id=27n0kvWgqT)
+11. LoLCATs: On Low-Rank Linearizing of Large Language Models (https://openreview.net/forum?id=8VtGeyJyx9)
 
-12. State-space models can learn in-context by gradient descent (https://openreview.net/forum?id=52XG8eexal)
+12. LONGHORN: STATE SPACE MODELS ARE AMORTIZED ONLINE LEARNERS (https://openreview.net/forum?id=8jOqCcLzeO) [Arxiv](https://arxiv.org/pdf/2407.14207)
 
-13. On the interplay between learning and memory in deep state space models (https://openreview.net/forum?id=hgjpO0H0id)
+13. Rodimus*: Breaking the Accuracy-Efficiency Trade-Off with Efficient Attentions (https://openreview.net/forum?id=IIVYiJ1ggK)
 
-14. A New Look at Low-Rank Recurrent Neural Networks (https://openreview.net/forum?id=fWXYD0ZCdd)
-
-15. Were RNNs All We Needed? (https://openreview.net/forum?id=GrmFFxGnOR) [Arxiv](https://arxiv.org/abs/2410.01201)
-
-16. Oscillatory State-Space Models (https://openreview.net/forum?id=GRMfXcAAFh) [Arxiv](https://arxiv.org/abs/2410.03943)
-
-17. Mimetic Initialization Helps State Space Models Learn to Recall (https://openreview.net/forum?id=iVy7aRMb0K) [Arxiv](https://arxiv.org/abs/2410.11135)
-
-18. Gradient-free training of recurrent neural networks (https://openreview.net/forum?id=vcJiPLeC48)
-
-19. Sparse Mamba: Reinforcing Controllability In Structural State Space Models (https://openreview.net/forum?id=vOfDGYGVyj) [Arxiv](https://arxiv.org/abs/2409.00563)
-
-20. Stuffed Mamba: State Collapse and State Capacity of RNN-Based Long-Context Modeling (https://openreview.net/forum?id=cu2CT2VAvs) [Arxiv](https://arxiv.org/abs/2410.07145)
-
-21. FlashRNN: I/O-Aware Optimization of Traditional RNNs on modern hardware (https://openreview.net/forum?id=l0ZzTvPfTw)
-
-22. LoLCATs: On Low-Rank Linearizing of Large Language Models (https://openreview.net/forum?id=8VtGeyJyx9)
-
-23. LONGHORN: STATE SPACE MODELS ARE AMORTIZED ONLINE LEARNERS (https://openreview.net/forum?id=8jOqCcLzeO) [Arxiv](https://arxiv.org/pdf/2407.14207)
-
-24. MAMBA STATE-SPACE MODELS ARE LYAPUNOV-STABLE LEARNERS (https://openreview.net/forum?id=i9RTCC6whL)
-
-25. Rodimus*: Breaking the Accuracy-Efficiency Trade-Off with Efficient Attentions (https://openreview.net/forum?id=IIVYiJ1ggK)
-
-26. FACTS: A Factored State-Space Framework for World Modelling (https://openreview.net/forum?id=dmCGjPFVhF) [GitHub](https://github.com/NanboLi/FACTS)
-
+14. FACTS: A Factored State-Space Framework for World Modelling (https://openreview.net/forum?id=dmCGjPFVhF) [GitHub](https://github.com/NanboLi/FACTS)
     
 ## CVPR 2024
 
