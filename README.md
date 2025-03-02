@@ -54,6 +54,8 @@ Collection of papers/repos on state-space models.
 
 25. Rodimus*: Breaking the Accuracy-Efficiency Trade-Off with Efficient Attentions (https://openreview.net/forum?id=IIVYiJ1ggK)
 
+26. FACTS: A Factored State-Space Framework for World Modelling (https://openreview.net/forum?id=dmCGjPFVhF) [GitHub](https://github.com/NanboLi/FACTS)
+
     
 ## CVPR 2024
 
