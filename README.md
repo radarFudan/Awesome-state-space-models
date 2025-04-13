@@ -2,6 +2,16 @@
 
 Collection of papers/repos on state-space models. 
 
+## 2025 Arxiv
+
+1. Hymba: A Hybrid-head Architecture for Small Language Models [Arxiv](https://arxiv.org/abs/2411.13676)
+
+2. Implicit Language Models are RNNs: Balancing Parallelization and Expressivity [Arxiv](https://arxiv.org/abs/2502.07827)
+
+3. Generalization Error Analysis for Selective State-Space Models Through the Lens of Attention [Arxiv](https://arxiv.org/abs/2502.01473)
+
+4. 
+
 ## ICLR 2025
 
 1. Autocorrelation Matters: Understanding the Role of Initialization Schemes for State Space Models (https://openreview.net/forum?id=sZJNkorXMk) [Arxiv](https://arxiv.org/abs/2411.19455)
