@@ -4,13 +4,21 @@ Collection of papers/repos on state-space models.
 
 ## 2025 Arxiv
 
-1. Hymba: A Hybrid-head Architecture for Small Language Models [Arxiv](https://arxiv.org/abs/2411.13676)
+1. Hymba: A Hybrid-head Architecture for Small Language Models [Arxiv](https://arxiv.org/abs/2411.13676) 
 
 2. Implicit Language Models are RNNs: Balancing Parallelization and Expressivity [Arxiv](https://arxiv.org/abs/2502.07827)
 
 3. Generalization Error Analysis for Selective State-Space Models Through the Lens of Attention [Arxiv](https://arxiv.org/abs/2502.01473)
 
-4. Hymba: A Hybrid-head Architecture for Small Language Models [Arxiv](https://arxiv.org/abs/2411.13676)
+4. Nemotron-H: A Family of Accurate, Efficient Hybrid Mamba-Transformer Models [Arxiv](https://arxiv.org/abs/2504.03624)
+
+5. DeltaProduct: Improving State-Tracking in Linear RNNs via Householder Products [Arxiv](https://arxiv.org/abs/2502.10297)
+
+6. Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach [Arxiv](https://arxiv.org/abs/2502.05171)
+
+7. Forgetting Transformer: Softmax Attention with a Forget Gate [Arxiv](https://arxiv.org/abs/2503.02130)
+
+8. Titans: Learning to Memorize at Test Time [Arxiv](https://arxiv.org/abs/2501.00663)
 
 ## ICLR 2025
 
