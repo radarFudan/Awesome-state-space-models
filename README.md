@@ -10,7 +10,7 @@ Collection of papers/repos on state-space models.
 
 3. Generalization Error Analysis for Selective State-Space Models Through the Lens of Attention [Arxiv](https://arxiv.org/abs/2502.01473)
 
-4. 
+4. Hymba: A Hybrid-head Architecture for Small Language Models [Arxiv](https://arxiv.org/abs/2411.13676)
 
 ## ICLR 2025
 
