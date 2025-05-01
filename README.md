@@ -26,6 +26,10 @@ Collection of papers/repos on state-space models.
 
 11. Understanding the Skill Gap in Recurrent Language Models: The Role of the Gather-and-Aggregate Mechanism [Arxiv](https://arxiv.org/abs/2504.18574)
 
+12. GoldFinch: High Performance RWKV/Transformer Hybrid with Linear Pre-Fill and Extreme KV-Cache Compression [Arxiv](https://arxiv.org/html/2407.12077v1)
+
+13. RWKV-X: A Linear Complexity Hybrid Language Model [Arxiv](https://papers.cool/arxiv/2504.21463)
+
 ## ICLR 2025
 
 1. Autocorrelation Matters: Understanding the Role of Initialization Schemes for State Space Models (https://openreview.net/forum?id=sZJNkorXMk) [Arxiv](https://arxiv.org/abs/2411.19455)
