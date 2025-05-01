@@ -24,6 +24,8 @@ Collection of papers/repos on state-space models.
 
 10. Zamba: A Compact 7B SSM Hybrid Model [Arxiv](https://arxiv.org/abs/2405.16712)
 
+11. Understanding the Skill Gap in Recurrent Language Models: The Role of the Gather-and-Aggregate Mechanism [Arxiv](https://arxiv.org/abs/2504.18574)
+
 ## ICLR 2025
 
 1. Autocorrelation Matters: Understanding the Role of Initialization Schemes for State Space Models (https://openreview.net/forum?id=sZJNkorXMk) [Arxiv](https://arxiv.org/abs/2411.19455)
