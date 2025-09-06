@@ -1,6 +1,6 @@
 # Awesome-state-space-models
 
-Collection of papers/repos on state-space models. 
+Collection of papers/repos on state-space models, hybrid models. 
 
 ## 2025 Arxiv
 
@@ -29,6 +29,12 @@ Collection of papers/repos on state-space models.
 12. GoldFinch: High Performance RWKV/Transformer Hybrid with Linear Pre-Fill and Extreme KV-Cache Compression [Arxiv](https://arxiv.org/html/2407.12077v1)
 
 13. RWKV-X: A Linear Complexity Hybrid Language Model [Arxiv](https://papers.cool/arxiv/2504.21463)
+
+14. Falcon-H1: A Family of Hybrid-Head Language Models Redefining Efficiency and Performance [Arxiv](https://arxiv.org/abs/2507.22448) [GitHub](https://github.com/tiiuae/falcon-h1)
+
+## ICML 2025
+
+TODO
 
 ## ICLR 2025
 
@@ -296,6 +302,8 @@ Collection of papers/repos on state-space models.
 81. B’MOJO: Hybrid State Space Realizations of Foundation Models with Eidetic and Fading Memory (https://arxiv.org/pdf/2407.06324)
 
 82. FalconMamba (https://huggingface.co/blog/falconmamba)
+
+    The first strong attention-free 7B model
 
 83. Jamba 1.5 (https://arxiv.org/html/2408.12570v1) https://huggingface.co/ai21labs
 
