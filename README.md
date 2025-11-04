@@ -32,6 +32,8 @@ Collection of papers/repos on state-space models, hybrid models.
 
 14. Falcon-H1: A Family of Hybrid-Head Language Models Redefining Efficiency and Performance [Arxiv](https://arxiv.org/abs/2507.22448) [GitHub](https://github.com/tiiuae/falcon-h1)
 
+15. Kimi Linear: An Expressive, Efficient Attention Architecture [Arxiv](https://arxiv.org/abs/2510.26692) [GitHub](https://github.com/MoonshotAI/Kimi-Linear)
+
 ## ICML 2025
 
 TODO
