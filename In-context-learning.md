@@ -1,6 +1,6 @@
 ## ICLR 2025
 
-1. In-context learning and Occam's razor (https://openreview.net/forum?id=2PKLRmU7ne）
+1. In-context learning and Occam's razor (https://openreview.net/forum?id=2PKLRmU7ne)
 
 
 ## ICLR 2024
