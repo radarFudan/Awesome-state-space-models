@@ -61,6 +61,31 @@ Collection of papers/repos on state-space models, hybrid models.
     Treats long context as continual learning rather than architecture design: a plain sliding-window Transformer keeps learning on the given context at test time via next-token prediction, with its initialization meta-learned at training time.
     At 3B/164B tokens it scales with context length the way full attention does — which Mamba-2 and Gated DeltaNet do not — while keeping RNN-style constant inference latency, 2.7x faster than full attention at 128K.
 
+18. [NeurIPS 2025 Spotlight] Fixed-Point RNNs: Interpolating from Diagonal to Dense [Arxiv](https://arxiv.org/abs/2503.10799)
+
+    Parameterizes a large class of *dense* linear RNNs as fixed points of parallelizable *diagonal* ones, so the diagonal/dense tradeoff becomes a dial rather than a hard architectural choice.
+    A clean answer to why current SSMs lose state-tracking expressivity: SOTA on the $A_5$ and $S_5$ state-tracking benchmarks at a fixed parameter count, while holding performance on copying.
+
+19. Design Principles for Sequence Models via Coefficient Dynamics [Arxiv](https://arxiv.org/abs/2510.09389)
+
+    Casts every sequence model's output as a linear combination of past values whose *coefficients* are themselves the impulse response of an autonomous linear system — a framing that covers softmax attention, SSMs and gated linear RNNs in one object, and is genuinely distinct from the usual linear-attention-equivalence route.
+    Rather than proposing another benchmark entry, it derives design principles: expressivity/implementation tradeoffs, geometric constraints on input selectivity, and stability conditions for training. Recommended as the conceptual entry point to this section.
+
+20. Understanding and Improving Length Generalization in Recurrent Models [Arxiv](https://arxiv.org/abs/2507.02782)
+
+    Proposes and tests the *unexplored states hypothesis*: recurrent models fail to length-generalize because training only ever exposes them to a narrow subset of attainable states.
+    The payoff is unusually practical — ~500 post-training steps (about 0.1% of the pre-training budget), initializing the state with noise or with another sequence's final state, takes models from 2k to 128k context.
+
+21. Dynamic Chunking for End-to-End Hierarchical Sequence Modeling (H-Net) [Arxiv](https://arxiv.org/abs/2507.07955)
+
+    Learns content- and context-dependent segmentation jointly with the model, replacing the tokenizer-LM-detokenizer pipeline with a single end-to-end hierarchical network.
+    At matched compute and data, byte-level H-Net beats a strong BPE Transformer, and the gap widens exactly where tokenization heuristics are weakest — Chinese, code, and DNA (nearly 4x data efficiency).
+
+22. Revisiting associative recall in modern recurrent models [Arxiv](https://arxiv.org/abs/2508.19029)
+
+    A careful negative-result-and-diagnosis paper: learning rate turns out to be critical for recurrent models in a way it is not for Transformers, which means several previously reported AR comparisons may be measuring optimization rather than architecture.
+    Also shows recurrent and attention models benefit oppositely from width vs. depth, and that 1-layer Transformers form induction-head-like dynamics despite failing the task.
+
 ## ICML 2025
 
 TODO
