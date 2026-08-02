@@ -2,6 +2,23 @@
 
 Collection of papers/repos on state-space models, hybrid models. 
 
+## 2026 Arxiv
+
+1. [ICLR 2026] Mamba-3: Improved Sequence Modeling using State Space Principles [Arxiv](https://arxiv.org/abs/2603.15569)
+
+    Replaces Mamba-2's first-order exponential-Euler discretization with a second-order exponential-trapezoidal rule, adds complex-valued state updates to recover state tracking, and introduces a MIMO formulation that raises arithmetic intensity at decode.
+    Matches Mamba-2 perplexity at **half the state size**; at 1.5B it improves average downstream accuracy by 0.6 points over Gated DeltaNet, and by 1.8 points for the MIMO variant.
+
+2. M$^2$RNN: Non-Linear RNNs with Matrix-Valued States for Scalable Language Modeling [Arxiv](https://arxiv.org/abs/2603.14360)
+
+    Revisits **non-linear** RNNs with matrix-valued hidden states, arguing their language-modeling quality is bottlenecked by state size and that expanding the state is what lets the recurrence use tensor cores efficiently.
+    Achieves perfect state-tracking generalization beyond training length, and dropping even a *single* M$^2$RNN layer into a Gated DeltaNet hybrid gains up to 8 points on LongBench.
+
+3. Flash PD-SSM: Memory-Optimized Structured Sparse State-Space Models [Arxiv](https://arxiv.org/abs/2605.19150)
+
+    Attacks the expressivity/efficiency tradeoff dictated by the transition matrix: it keeps a trainable set of structured sparse matrices and discretely selects one per time-step, reaching unstructured-matrix FSA expressivity at structured-SSM cost.
+    Sets a new SoTA among SSMs on multivariate time series beyond 17k steps, and works as a drop-in replacement in hybrid LLMs with higher throughput and lower memory.
+
 ## 2025 Arxiv
 
 1. Hymba: A Hybrid-head Architecture for Small Language Models [Arxiv](https://arxiv.org/abs/2411.13676) 
@@ -33,6 +50,16 @@ Collection of papers/repos on state-space models, hybrid models.
 14. Falcon-H1: A Family of Hybrid-Head Language Models Redefining Efficiency and Performance [Arxiv](https://arxiv.org/abs/2507.22448) [GitHub](https://github.com/tiiuae/falcon-h1)
 
 15. Kimi Linear: An Expressive, Efficient Attention Architecture [Arxiv](https://arxiv.org/abs/2510.26692) [GitHub](https://github.com/MoonshotAI/Kimi-Linear)
+
+16. [NeurIPS 2025] Nested Learning: The Illusion of Deep Learning Architectures [Arxiv](https://arxiv.org/abs/2512.24695)
+
+    Reframes a model as a set of nested, multi-level optimization problems, each with its own context flow, arguing that the architecture and the optimizer are the same kind of object rather than two separate design choices.
+    The proof-of-concept model **Hope** targets continual learning and catastrophic forgetting; this is the direct follow-up to Titans (#8) from the same group.
+
+17. End-to-End Test-Time Training for Long Context [Arxiv](https://arxiv.org/abs/2512.23675) [GitHub](https://github.com/test-time-training/e2e)
+
+    Treats long context as continual learning rather than architecture design: a plain sliding-window Transformer keeps learning on the given context at test time via next-token prediction, with its initialization meta-learned at training time.
+    At 3B/164B tokens it scales with context length the way full attention does — which Mamba-2 and Gated DeltaNet do not — while keeping RNN-style constant inference latency, 2.7x faster than full attention at 128K.
 
 ## ICML 2025
 
