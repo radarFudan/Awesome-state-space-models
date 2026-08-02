@@ -111,6 +111,55 @@ Collection of papers/repos on state-space models, hybrid models.
 
 22. Zamba: A Compact 7B SSM Hybrid Model [Arxiv](https://arxiv.org/abs/2405.16712)
 
+## Oral / Spotlight / Highlight
+
+Peer-reviewed architecture work on language and vision tasks. The rating in brackets is the one the
+authors report on arXiv; papers here are also listed under their venue section where one exists.
+
+### Language / sequence modelling
+
+1. [NeurIPS 2025 Spotlight] Structured Sparse Transition Matrices to Enable State Tracking in State-Space Models (PD-SSM) [Arxiv](https://arxiv.org/abs/2509.22284) [GitHub](https://github.com/IBM/expressive-sparse-state-space-model)
+
+    Parametrizes the transition matrix as a column one-hot $P$ times a complex diagonal $D$, so parallel scan stays linear in state size while the model gains genuine FSA state tracking.
+    One layer of dimension $N$ emulates any $N$-state automaton — a strict improvement on previous structured-SSM guarantees — and it tracks an FSA whose transitions are variable-length English sentences. Flash PD-SSM above is the follow-up.
+
+2. [ICLR 2026 Oral] From Markov to Laplace: How Mamba In-Context Learns Markov Chains [Arxiv](https://arxiv.org/abs/2502.10178)
+
+    Shows a *single-layer* Mamba learns the in-context Laplacian smoothing estimator, which is both Bayes and minimax optimal, and characterizes the representation capacity that makes this possible.
+    Identifies the convolution as the component doing the work; the authors describe it as the first formal link between Mamba and an optimal statistical estimator.
+
+3. [ICML 2025 Spotlight] Training Dynamics of In-Context Learning in Linear Attention [Arxiv](https://arxiv.org/abs/2501.16265)
+
+    Solves the gradient-descent dynamics of multi-head linear self-attention trained on in-context linear regression, for both the merged-$KQ$ parametrization common in theory and the separate-$K$/$Q$ one used in practice.
+    The parametrization decides the shape of learning: merged gives two fixed points and one abrupt loss drop, separate gives exponentially many and saddle-to-saddle dynamics that amount to principal component regression with components added over training.
+
+4. [ICLR 2023 Spotlight] Hungry Hungry Hippos: Towards Language Modeling with State Space Models (H3) [Arxiv](https://arxiv.org/abs/2212.14052) [GitHub](https://github.com/HazyResearch/H3)
+
+    Diagnoses the SSM-vs-attention gap in language as two missing abilities — recalling earlier tokens and comparing tokens across the sequence — and designs the H3 layer for exactly those.
+    Also introduces FlashConv (fused block FFT plus state passing), giving 2x on Long Range Arena; the 125M hybrid keeping just two attention layers already beats a Transformer on OpenWebText.
+
+### Vision
+
+5. [CVPR 2026 Oral] ViT$^3$: Unlocking Test-Time Training in Vision [Arxiv](https://arxiv.org/abs/2512.01643) [GitHub](https://github.com/LeapLabTHU/ViTTT)
+
+    A systematic empirical study of test-time-training designs for visual sequence modeling, distilled into six design principles for the inner module and its inner training loop.
+    The resulting pure-TTT, linear-complexity ViT$^3$ matches or beats Mamba and linear-attention vision models across classification, generation, detection and segmentation.
+
+6. [ICCV 2025 Highlight] Rectifying Magnitude Neglect in Linear Attention (MALA) [Arxiv](https://arxiv.org/abs/2507.00698) [GitHub](https://github.com/qhfan/MALA)
+
+    Locates one concrete reason linear attention trails softmax: it discards the *magnitude* of the query entirely, so the score distribution cannot adapt as the query scales.
+    Folding magnitude back in yields a score distribution close to softmax's, and the fix carries across classification, detection, segmentation, NLP, speech recognition and image generation.
+
+7. [CVPR 2025 Highlight] Mamba as a Bridge: Where Vision Foundation Models Meet Vision Language Models (MFuser) [Arxiv](https://arxiv.org/abs/2504.03193) [GitHub](https://github.com/devinxzhang/MFuser)
+
+    Uses Mamba to fuse a VFM's fine-grained features with a VLM's text alignment for domain-generalized segmentation, which attention makes awkward because joint patch tokens blow up the sequence.
+    Linear in sequence length, and reaches 68.20 mIoU synthetic-to-real / 71.87 real-to-real.
+
+8. [WACV 2025 Oral] PTQ4VM: Post-Training Quantization for Visual Mamba [Arxiv](https://arxiv.org/abs/2412.20386) [GitHub](https://github.com/YoungHyun197/ptq4vm)
+
+    Shows Visual Mamba's fixed token access order creates quantization problems attention does not have — token-wise variance, channel-wise outliers, and a long activation tail.
+    Per-token static quantization plus jointly learned smoothing scale and step size converts a pretrained backbone in under 15 minutes for up to 1.83x speedup at negligible accuracy loss.
+
 ## ICML 2025
 
 TODO
@@ -550,7 +599,7 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 
 6. Convolutional State Space Models for Long-Range Spatiotemporal Modeling (https://arxiv.org/abs/2310.19694) [GitHub](https://github.com/NVlabs/ConvSSM)
 
-7. Hierarchically Gated Recurrent Neural Network for Sequence Modeling (https://paperswithcode.com/paper/hierarchically-gated-recurrent-neural-network) [GitHub](https://github.com/OpenNLPLab/HGRN)
+7. (Spotlight) Hierarchically Gated Recurrent Neural Network for Sequence Modeling (https://arxiv.org/abs/2311.04823) [GitHub](https://github.com/OpenNLPLab/HGRN)
 
 
 ## ICML 2023
