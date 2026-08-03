@@ -180,7 +180,7 @@ TODO
 
 7. Unlocking State-Tracking in Linear RNNs Through Negative Eigenvalues (https://openreview.net/forum?id=UvTo3tVBk2) [Arxiv](https://arxiv.org/abs/2411.12537)
 
-8. Understanding Bottlenecks of State Space Models through the Lens of Recency and Over-smoothing (https://openreview.net/forum?id=pymXpl4qvi)
+8. Understanding Bottlenecks of State Space Models through the Lens of Recency and Over-smoothing (https://openreview.net/forum?id=pymXpl4qvi) [Arxiv](https://arxiv.org/abs/2501.00658) [GitHub](https://github.com/VITA-Group/SSM-Bottleneck)
 
 9. Oscillatory State-Space Models (https://openreview.net/forum?id=GRMfXcAAFh) [Arxiv](https://arxiv.org/abs/2410.03943)
 
