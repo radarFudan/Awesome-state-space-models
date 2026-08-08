@@ -116,10 +116,10 @@ Collection of papers/repos on state-space models, hybrid models.
 
 23. Zamba: A Compact 7B SSM Hybrid Model [Arxiv](https://arxiv.org/abs/2405.16712)
 
-## Oral / Spotlight / Highlight
+## Selected Oral / Spotlight / Highlight papers
 
 Peer-reviewed architecture work on language and vision tasks. The rating in brackets is the one the
-authors report on arXiv; papers here are also listed under their venue section where one exists.
+authors report on arXiv. This is a curated, non-exhaustive selection.
 
 ### Language / sequence modelling
 
@@ -330,7 +330,7 @@ TODO
 
 32. [Vision] RES-VMAMBA: FINE-GRAINED FOOD CATEGORY VISUAL CLASSIFICATION USING SELECTIVE STATE SPACE MODELS WITH DEEP RESIDUAL LEARNING (https://arxiv.org/abs/2402.15761) [GitHub](https://github.com/ChiShengChen/ResVMamba)
 
-33. [Theory] Model Compression Method for S4 with Diagonal State Space Layers using Balanced Truncation (https://arxiv.org/abs/2402.15993) 
+33. [Theory] Model Compression Method for S4 with Diagonal State Space Layers using Balanced Truncation (https://arxiv.org/abs/2402.15993)
 
 34. [Financial data] MambaStock: Selective state space model for stock prediction (https://arxiv.org/abs/2402.18959) [GitHub](https://github.com/zshicode/MambaStock)
 
