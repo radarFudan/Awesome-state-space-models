@@ -22,7 +22,7 @@ Collection of papers/repos on state-space models, hybrid models.
 4. Parallax: Parameterized Local Linear Attention for Language Modeling [Arxiv](https://arxiv.org/abs/2605.29157)
 
     Upgrades softmax attention's local *constant* estimate to a local *linear* one from the test-time regression view, dropping LLA's numerical solver in favour of a learned projector that probes the KV covariance.
-    The hardware-aware kernel raises arithmetic intensity above FlashAttention 2/3 at decode, and pretraining at 0.6B/1.7B is a Pareto improvement under both parameter- and compute-matched controls. Notable for identifying architecture-optimizer codesign — Muon specifically unlocks its capacity.
+    The hardware-aware algorithm raises arithmetic intensity over FlashAttention, pushing attention into a more compute-bound regime; the prototype decode kernel matches or outperforms FlashAttention 2/3 across batch sizes and context lengths, and pretraining at 0.6B/1.7B is a Pareto improvement under both parameter- and compute-matched controls. Notable for identifying architecture-optimizer codesign — Muon specifically unlocks its capacity.
 
 5. Flash PD-SSM: Memory-Optimized Structured Sparse State-Space Models [Arxiv](https://arxiv.org/abs/2605.19150)
 
@@ -155,7 +155,7 @@ authors report on arXiv; papers here are also listed under their venue section w
     Locates one concrete reason linear attention trails softmax: it discards the *magnitude* of the query entirely, so the score distribution cannot adapt as the query scales.
     Folding magnitude back in yields a score distribution close to softmax's, and the fix carries across classification, detection, segmentation, NLP, speech recognition and image generation.
 
-7. [CVPR 2025 Highlight] Mamba as a Bridge: Where Vision Foundation Models Meet Vision Language Models (MFuser) [Arxiv](https://arxiv.org/abs/2504.03193) [GitHub](https://github.com/devinxzhang/MFuser)
+7. [CVPR 2025 Highlight] Mamba as a Bridge: Where Vision Foundation Models Meet Vision Language Models for Domain-Generalized Semantic Segmentation (MFuser) [Arxiv](https://arxiv.org/abs/2504.03193) [GitHub](https://github.com/devinxzhang/MFuser)
 
     Uses Mamba to fuse a VFM's fine-grained features with a VLM's text alignment for domain-generalized segmentation, which attention makes awkward because joint patch tokens blow up the sequence.
     Linear in sequence length, and reaches 68.20 mIoU synthetic-to-real / 71.87 real-to-real.
@@ -358,7 +358,7 @@ TODO
 
 45. [Vision] On the low-shot transferability of [V]-Mamba (https://arxiv.org/abs/2403.10696)
 
-46. [Diffusion Model] ZigMa: A DiT-style Zigzag Mamba Diffusion Model (https://arxiv.org/abs/2403.13802) [GitHub](https://github.com/CompVis/zigma)
+46. [Diffusion Model] ZigMa: A DiT-style Zigzag Mamba Diffusion Model (ECCV 2024) (https://arxiv.org/abs/2403.13802) [GitHub](https://github.com/CompVis/zigma)
 
 47. [Scale-up] Jamba: SSM-Transformer Model (https://www.ai21.com/blog/announcing-jamba)
 
