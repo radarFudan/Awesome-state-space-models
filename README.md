@@ -80,7 +80,7 @@ Collection of papers/repos on state-space models, hybrid models.
     Learns content- and context-dependent segmentation jointly with the model, replacing the tokenizer-LM-detokenizer pipeline with a single end-to-end hierarchical network.
     At matched compute and data, byte-level H-Net beats a strong BPE Transformer, and the gap widens exactly where tokenization heuristics are weakest — Chinese, code, and DNA (nearly 4x data efficiency).
 
-9. Understanding and Improving Length Generalization in Recurrent Models [Arxiv](https://arxiv.org/abs/2507.02782)
+9. [ICML 2025] Understanding and Improving Length Generalization in Recurrent Models [Arxiv](https://arxiv.org/abs/2507.02782) [PMLR](https://proceedings.mlr.press/v267/buitrago25a.html)
 
     Proposes and tests the *unexplored states hypothesis*: recurrent models fail to length-generalize because training only ever exposes them to a narrow subset of attainable states.
     The payoff is unusually practical — ~500 post-training steps (about 0.1% of the pre-training budget), initializing the state with noise or with another sequence's final state, takes models from 2k to 128k context.
