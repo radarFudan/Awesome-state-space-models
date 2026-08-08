@@ -58,58 +58,63 @@ Collection of papers/repos on state-space models, hybrid models.
 
 3. Kimi Linear: An Expressive, Efficient Attention Architecture [Arxiv](https://arxiv.org/abs/2510.26692) [GitHub](https://github.com/MoonshotAI/Kimi-Linear)
 
-4. Design Principles for Sequence Models via Coefficient Dynamics [Arxiv](https://arxiv.org/abs/2510.09389)
+4. To Infinity and Beyond: Tool-Use Unlocks Length Generalization in State Space Models [Arxiv](https://arxiv.org/abs/2510.14826)
+
+    Proves a clean negative result first: because the state is fixed-size, an SSM cannot accurately solve any *truly long-form* generation problem (formally defined) — which is exactly the regime their efficiency argument is built on.
+    The fix is not architectural but interactive: with the right tool access and problem-dependent training data, SSMs can learn any tractable problem and generalize to arbitrary length, demonstrated on arithmetic, reasoning and coding tasks.
+
+5. Design Principles for Sequence Models via Coefficient Dynamics [Arxiv](https://arxiv.org/abs/2510.09389)
 
     Casts every sequence model's output as a linear combination of past values whose *coefficients* are themselves the impulse response of an autonomous linear system — a framing that covers softmax attention, SSMs and gated linear RNNs in one object, and is genuinely distinct from the usual linear-attention-equivalence route.
     Derives design principles rather than another benchmark entry: expressivity/implementation tradeoffs, geometric constraints on input selectivity, and stability conditions for training.
 
-5. Revisiting associative recall in modern recurrent models [Arxiv](https://arxiv.org/abs/2508.19029)
+6. Revisiting associative recall in modern recurrent models [Arxiv](https://arxiv.org/abs/2508.19029)
 
     A careful negative-result-and-diagnosis paper: learning rate turns out to be critical for recurrent models in a way it is not for Transformers, which means several previously reported AR comparisons may be measuring optimization rather than architecture.
     Also shows recurrent and attention models benefit oppositely from width vs. depth, and that 1-layer Transformers form induction-head-like dynamics despite failing the task.
 
-6. Falcon-H1: A Family of Hybrid-Head Language Models Redefining Efficiency and Performance [Arxiv](https://arxiv.org/abs/2507.22448) [GitHub](https://github.com/tiiuae/falcon-h1)
+7. Falcon-H1: A Family of Hybrid-Head Language Models Redefining Efficiency and Performance [Arxiv](https://arxiv.org/abs/2507.22448) [GitHub](https://github.com/tiiuae/falcon-h1)
 
-7. Dynamic Chunking for End-to-End Hierarchical Sequence Modeling (H-Net) [Arxiv](https://arxiv.org/abs/2507.07955)
+8. Dynamic Chunking for End-to-End Hierarchical Sequence Modeling (H-Net) [Arxiv](https://arxiv.org/abs/2507.07955)
 
     Learns content- and context-dependent segmentation jointly with the model, replacing the tokenizer-LM-detokenizer pipeline with a single end-to-end hierarchical network.
     At matched compute and data, byte-level H-Net beats a strong BPE Transformer, and the gap widens exactly where tokenization heuristics are weakest — Chinese, code, and DNA (nearly 4x data efficiency).
 
-8. Understanding and Improving Length Generalization in Recurrent Models [Arxiv](https://arxiv.org/abs/2507.02782)
+9. Understanding and Improving Length Generalization in Recurrent Models [Arxiv](https://arxiv.org/abs/2507.02782)
 
     Proposes and tests the *unexplored states hypothesis*: recurrent models fail to length-generalize because training only ever exposes them to a narrow subset of attainable states.
     The payoff is unusually practical — ~500 post-training steps (about 0.1% of the pre-training budget), initializing the state with noise or with another sequence's final state, takes models from 2k to 128k context.
 
-9. RWKV-X: A Linear Complexity Hybrid Language Model [Arxiv](https://arxiv.org/abs/2504.21463)
+10. RWKV-X: A Linear Complexity Hybrid Language Model [Arxiv](https://arxiv.org/abs/2504.21463)
 
-10. Understanding the Skill Gap in Recurrent Language Models: The Role of the Gather-and-Aggregate Mechanism [Arxiv](https://arxiv.org/abs/2504.18574)
+11. Understanding the Skill Gap in Recurrent Language Models: The Role of the Gather-and-Aggregate Mechanism [Arxiv](https://arxiv.org/abs/2504.18574)
 
-11. M1: Towards Scalable Test-Time Compute with Mamba Reasoning Models [Arxiv](https://arxiv.org/abs/2504.10449)
+12. M1: Towards Scalable Test-Time Compute with Mamba Reasoning Models [Arxiv](https://arxiv.org/abs/2504.10449)
 
-12. Nemotron-H: A Family of Accurate and Efficient Hybrid Mamba-Transformer Models [Arxiv](https://arxiv.org/abs/2504.03624)
+13. Nemotron-H: A Family of Accurate and Efficient Hybrid Mamba-Transformer Models [Arxiv](https://arxiv.org/abs/2504.03624)
 
-13. [NeurIPS 2025 Spotlight] Fixed-Point RNNs: Interpolating from Diagonal to Dense [Arxiv](https://arxiv.org/abs/2503.10799)
+14. [NeurIPS 2025 Spotlight] Fixed-Point RNNs: Interpolating from Diagonal to Dense [Arxiv](https://arxiv.org/abs/2503.10799)
 
     Parameterizes a large class of *dense* linear RNNs as fixed points of parallelizable *diagonal* ones, so the diagonal/dense tradeoff becomes a dial rather than a hard architectural choice.
     A clean answer to why current SSMs lose state-tracking expressivity: SOTA on the $A_5$ and $S_5$ state-tracking benchmarks at a fixed parameter count, while holding performance on copying.
 
-14. [ICLR 2025] Forgetting Transformer: Softmax Attention with a Forget Gate [Arxiv](https://arxiv.org/abs/2503.02130)
+15. [ICLR 2025] Forgetting Transformer: Softmax Attention with a Forget Gate [Arxiv](https://arxiv.org/abs/2503.02130)
 
-15. [NeurIPS 2025] DeltaProduct: Improving State-Tracking in Linear RNNs via Householder Products [Arxiv](https://arxiv.org/abs/2502.10297)
+16. [NeurIPS 2025] DeltaProduct: Improving State-Tracking in Linear RNNs via Householder Products [Arxiv](https://arxiv.org/abs/2502.10297)
 
-16. [ICML 2025 Spotlight] Implicit Language Models are RNNs: Balancing Parallelization and Expressivity [Arxiv](https://arxiv.org/abs/2502.07827)
+17. [ICML 2025 Spotlight] Implicit Language Models are RNNs: Balancing Parallelization and Expressivity [Arxiv](https://arxiv.org/abs/2502.07827)
 
-17. Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach [Arxiv](https://arxiv.org/abs/2502.05171)
+18. Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach [Arxiv](https://arxiv.org/abs/2502.05171)
 
-18. [NeurIPS 2025] Generalization Error Analysis for Selective State-Space Models Through the Lens of Attention [Arxiv](https://arxiv.org/abs/2502.01473)
+19. [NeurIPS 2025] Generalization Error Analysis for Selective State-Space Models Through the Lens of Attention [Arxiv](https://arxiv.org/abs/2502.01473)
 
-19. [NeurIPS 2025] Titans: Learning to Memorize at Test Time [Arxiv](https://arxiv.org/abs/2501.00663)
+20. [NeurIPS 2025] Titans: Learning to Memorize at Test Time [Arxiv](https://arxiv.org/abs/2501.00663)
 
-20. [ICLR 2025 Spotlight] Hymba: A Hybrid-head Architecture for Small Language Models [Arxiv](https://arxiv.org/abs/2411.13676)
+21. [ICLR 2025 Spotlight] Hymba: A Hybrid-head Architecture for Small Language Models [Arxiv](https://arxiv.org/abs/2411.13676)
 
-21. GoldFinch: High Performance RWKV/Transformer Hybrid with Linear Pre-Fill and Extreme KV-Cache Compression [Arxiv](https://arxiv.org/abs/2407.12077)
+22. GoldFinch: High Performance RWKV/Transformer Hybrid with Linear Pre-Fill and Extreme KV-Cache Compression [Arxiv](https://arxiv.org/abs/2407.12077)
 
-22. Zamba: A Compact 7B SSM Hybrid Model [Arxiv](https://arxiv.org/abs/2405.16712)
+23. Zamba: A Compact 7B SSM Hybrid Model [Arxiv](https://arxiv.org/abs/2405.16712)
 
 ## Oral / Spotlight / Highlight
 
