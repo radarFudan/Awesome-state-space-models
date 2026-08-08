@@ -257,7 +257,7 @@ TODO
 2. [ICML2024] Gated Linear Attention (GLA) (https://arxiv.org/abs/2312.06635) [Official GitHub](https://github.com/berlino/gated_linear_attention)
 
     The following repo aims at providing a collection of efficient Triton-based implementations for state-of-the-art linear attention models.
-    [Flash-linear-attention](https://github.com/sustcsonglin/flash-linear-attention)
+    [Flash-linear-attention](https://github.com/fla-org/flash-linear-attention)
 
 
 ## On the replacement of transformer/attention by SSMs
@@ -386,7 +386,7 @@ TODO
 
 57. [Vision] ViM-UNet: Vision Mamba for Biomedical Segmentation (https://arxiv.org/abs/2404.07705) [GitHub](https://github.com/constantinpape/torch-em/blob/main/vimunet.md)
 
-58. SST: Multi-Scale Hybrid Mamba-Transformer Experts for Time Series Forecasting (https://arxiv.org/abs/2404.14757) [GitHub](https://github.com/XiongxiaoXu/Mambaformer-in-Time-Series)
+58. SST: Multi-Scale Hybrid Mamba-Transformer Experts for Time Series Forecasting (https://arxiv.org/abs/2404.14757) [GitHub](https://github.com/XiongxiaoXu/SST)
 
 59. xLSTM: Extended Long Short-Term Memory (https://arxiv.org/abs/2405.04517)
 
@@ -628,7 +628,7 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 
 5. Bayesian state-space models [GitHub](https://github.com/lindermanlab/ssm). 
     
-    Another very good note is: http://personal.strath.ac.uk/gary.koop/GSE_Bayesian/Bayesian_State_Space_Methods.pdf
+    Another very good note is: [Bayesian State Space Methods](https://web.archive.org/web/20240423090852/http://personal.strath.ac.uk/gary.koop/GSE_Bayesian/Bayesian_State_Space_Methods.pdf) by Gary Koop (archived; the Strathclyde original is gone).
 
 6. Mega: Moving Average Equipped Gated Attention (Mega) [GitHub](https://github.com/facebookresearch/mega)
 
