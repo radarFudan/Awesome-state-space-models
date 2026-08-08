@@ -29,7 +29,7 @@ Collection of papers/repos on state-space models, hybrid models.
     Attacks the expressivity/efficiency tradeoff dictated by the transition matrix: it keeps a trainable set of structured sparse matrices and discretely selects one per time-step, reaching unstructured-matrix FSA expressivity at structured-SSM cost.
     Sets a new SoTA among SSMs on multivariate time series beyond 17k steps, and works as a drop-in replacement in hybrid LLMs with higher throughput and lower memory.
 
-6. [ICLR 2026] Mamba-3: Improved Sequence Modeling using State Space Principles [Arxiv](https://arxiv.org/abs/2603.15569)
+6. [ICLR 2026 Oral] Mamba-3: Improved Sequence Modeling using State Space Principles [Arxiv](https://arxiv.org/abs/2603.15569)
 
     Replaces Mamba-2's first-order exponential-Euler discretization with a second-order exponential-trapezoidal rule, adds complex-valued state updates to recover state tracking, and introduces a MIMO formulation that raises arithmetic intensity at decode.
     Matches Mamba-2 perplexity at **half the state size**; at 1.5B it improves average downstream accuracy by 0.6 points over Gated DeltaNet, and by 1.8 points for the MIMO variant.
@@ -58,7 +58,7 @@ Collection of papers/repos on state-space models, hybrid models.
 
 3. Kimi Linear: An Expressive, Efficient Attention Architecture [Arxiv](https://arxiv.org/abs/2510.26692) [GitHub](https://github.com/MoonshotAI/Kimi-Linear)
 
-4. To Infinity and Beyond: Tool-Use Unlocks Length Generalization in State Space Models [Arxiv](https://arxiv.org/abs/2510.14826)
+4. [ICLR 2026 Oral] To Infinity and Beyond: Tool-Use Unlocks Length Generalization in State Space Models [Arxiv](https://arxiv.org/abs/2510.14826)
 
     Proves a clean negative result first: because the state is fixed-size, an SSM cannot accurately solve any *truly long-form* generation problem (formally defined) — which is exactly the regime their efficiency argument is built on.
     The fix is not architectural but interactive: with the right tool access and problem-dependent training data, SSMs can learn any tractable problem and generalize to arbitrary length, demonstrated on arithmetic, reasoning and coding tasks.
@@ -75,7 +75,7 @@ Collection of papers/repos on state-space models, hybrid models.
 
 7. Falcon-H1: A Family of Hybrid-Head Language Models Redefining Efficiency and Performance [Arxiv](https://arxiv.org/abs/2507.22448) [GitHub](https://github.com/tiiuae/falcon-h1)
 
-8. Dynamic Chunking for End-to-End Hierarchical Sequence Modeling (H-Net) [Arxiv](https://arxiv.org/abs/2507.07955)
+8. [ICLR 2026] Dynamic Chunking for End-to-End Hierarchical Sequence Modeling (H-Net) [Arxiv](https://arxiv.org/abs/2507.07955)
 
     Learns content- and context-dependent segmentation jointly with the model, replacing the tokenizer-LM-detokenizer pipeline with a single end-to-end hierarchical network.
     At matched compute and data, byte-level H-Net beats a strong BPE Transformer, and the gap widens exactly where tokenization heuristics are weakest — Chinese, code, and DNA (nearly 4x data efficiency).
