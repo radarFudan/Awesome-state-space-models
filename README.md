@@ -193,7 +193,7 @@ TODO
 
 11. LoLCATs: On Low-Rank Linearizing of Large Language Models (https://openreview.net/forum?id=8VtGeyJyx9)
 
-12. LONGHORN: STATE SPACE MODELS ARE AMORTIZED ONLINE LEARNERS (https://openreview.net/forum?id=8jOqCcLzeO) [Arxiv](https://arxiv.org/pdf/2407.14207)
+12. LONGHORN: STATE SPACE MODELS ARE AMORTIZED ONLINE LEARNERS (https://openreview.net/forum?id=8jOqCcLzeO) [Arxiv](https://arxiv.org/abs/2407.14207)
 
 13. Rodimus*: Breaking the Accuracy-Efficiency Trade-Off with Efficient Attentions (https://openreview.net/forum?id=IIVYiJ1ggK)
 
@@ -215,13 +215,13 @@ TODO
 
 5. The Illusion of State in State-Space Models (https://arxiv.org/abs/2404.08819)
 
-6. State-Free Inference of State-Space Models: The *Transfer Function* Approach (https://arxiv.org/pdf/2405.06147) [GitHub](https://github.com/ruke1ire/RTF)
+6. State-Free Inference of State-Space Models: The *Transfer Function* Approach (https://arxiv.org/abs/2405.06147) [GitHub](https://github.com/ruke1ire/RTF)
 
 7. PAC-Bayesian Error Bound, via Renyi Divergence, for a Class of Linear Time-Invariant State-Space Models (https://openreview.net/pdf?id=a1Olc2QhPv)
 
 8. Hierarchical State Space Models for Continuous Sequence-to-Sequence Modeling (https://arxiv.org/abs/2402.10211) [GitHub](https://github.com/raunaqbhirangi/hiss)
 
-9. Repeat After Me: Transformers are Better than State Space Models at Copying (https://arxiv.org/pdf/2402.01032) [GitHub](https://github.com/sjelassi/transformers_ssm_copy)
+9. Repeat After Me: Transformers are Better than State Space Models at Copying (https://arxiv.org/abs/2402.01032) [GitHub](https://github.com/sjelassi/transformers_ssm_copy)
 
 10. SLAB: Efficient Transformers with Simplified Linear Attention and Progressive Re-parameterized Batch Normalization (https://www.arxiv.org/abs/2405.11582)
 
@@ -294,7 +294,7 @@ TODO
 
 14. [Vision] MambaMorph: a Mamba-based Framework for Medical MR-CT Deformable Registration. (https://arxiv.org/abs/2401.13934) [GitHub](https://github.com/Guo-Stone/MambaMorph)
 
-15. [Video] Vivim: a Video Vision Mamba for Medical Video Object Segmentation (https://arxiv.org/pdf/2401.14168.pdf) [GitHub](https://github.com/scott-yjyang/Vivim)
+15. [Video] Vivim: a Video Vision Mamba for Medical Video Object Segmentation (https://arxiv.org/abs/2401.14168) [GitHub](https://github.com/scott-yjyang/Vivim)
 
 16. [Document Summarization] LOCOST: State-Space Models for Long Document Abstractive Summarization (https://arxiv.org/abs/2401.17919) [GitHub](https://github.com/flbbb/locost-summarization)
 
@@ -316,7 +316,7 @@ TODO
 
 25. [Vision] Mamba-ND: Selective State Space Modeling for Multi-Dimensional Data (https://arxiv.org/abs/2402.05892) [GitHub](https://github.com/jacklishufan/Mamba-ND)
 
-26. [Vision] FD-Vision Mamba for Endoscopic Exposure Correction (https://arxiv.org/pdf/2402.06378.pdf)
+26. [Vision] FD-Vision Mamba for Endoscopic Exposure Correction (https://arxiv.org/abs/2402.06378)
 
 27. [Vision] Semi-Mamba-UNet: Pixel-Level Contrastive and Pixel-Level Cross-Supervised Visual Mamba-based UNet for Semi-Supervised Medical Image Segmentation (https://arxiv.org/abs/2402.07245) [GitHub](https://github.com/ziyangwang007/Mamba-UNet)
 
@@ -382,7 +382,7 @@ TODO
 
 55. [Survey] State Space Model for New-Generation Network Alternative to Transformers: A Survey (https://arxiv.org/abs/2404.09516) [GitHub](https://github.com/Event-AHU/Mamba_State_Space_Model_Paper_List)
 
-56. [DNA] Caduceus: Bi-Directional Equivariant Long-Range DNA Sequence Modeling (https://arxiv.org/pdf/2403.03234) [GitHub](https://caduceus-dna.github.io)
+56. [DNA] Caduceus: Bi-Directional Equivariant Long-Range DNA Sequence Modeling (https://arxiv.org/abs/2403.03234) [GitHub](https://caduceus-dna.github.io)
 
 57. [Vision] ViM-UNet: Vision Mamba for Biomedical Segmentation (https://arxiv.org/abs/2404.07705) [GitHub](https://github.com/constantinpape/torch-em/blob/main/vimunet.md)
 
@@ -424,15 +424,15 @@ TODO
 
 76. Learning to (Learn at Test Time): RNNs with Expressive Hidden States (https://arxiv.org/abs/2407.04620) [GitHub](https://github.com/test-time-training/ttt-lm-jax)
 
-77. Towards a theory of learning dynamics in deep state space models (https://arxiv.org/pdf/2407.07279)
+77. Towards a theory of learning dynamics in deep state space models (https://arxiv.org/abs/2407.07279)
 
 78. Towards Scalable and Stable Parallelization of Nonlinear RNNs (https://arxiv.org/abs/2407.19115)
 
 79. PackMamba: Efficient Processing of Variable-Length Sequences in Mamba training (https://arxiv.org/abs/2408.03865)
 
-80. Long Range Switching Time Series Prediction via State Space Model (https://arxiv.org/pdf/2407.19201)
+80. Long Range Switching Time Series Prediction via State Space Model (https://arxiv.org/abs/2407.19201)
 
-81. B’MOJO: Hybrid State Space Realizations of Foundation Models with Eidetic and Fading Memory (https://arxiv.org/pdf/2407.06324)
+81. B’MOJO: Hybrid State Space Realizations of Foundation Models with Eidetic and Fading Memory (https://arxiv.org/abs/2407.06324)
 
 82. FalconMamba (https://huggingface.co/blog/falconmamba)
 
@@ -450,30 +450,30 @@ TODO
 
 88. [WACV 2025] SUM: Saliency Unification through Mamba for Visual Attention Modeling (https://www.arxiv.org/abs/2406.17815) [GitHub](https://github.com/Arhosseini77/SUM)
 
-89. Mathematical Formalism for Memory Compression in Selective State Space Models (https://arxiv.org/pdf/2410.03158)
+89. Mathematical Formalism for Memory Compression in Selective State Space Models (https://arxiv.org/abs/2410.03158)
 
 
 ## ICLR 2024 submissions
 
 I try to use the most important 2-3 sentences in the abstract to summarize the paper. (https://openreview.net/group?id=ICLR.cc/2024/Conference)
 
-1. FlashFFTConv(https://openreview.net/forum?id=gPKTTAfYBp)
+1. FlashFFTConv (https://openreview.net/forum?id=gPKTTAfYBp)
 
     FlashFFTConv speeds up exact FFT convolutions by up to 8.7 over PyTorch and achieves up to 4.4 speedup end-to-end. [GitHub](https://github.com/HazyResearch/flash-fft-conv). 
 
-2. Variational **quantization** for state space models(https://openreview.net/forum?id=EAkjVCtRO2)
+2. Variational **quantization** for state space models (https://openreview.net/forum?id=EAkjVCtRO2)
 
     In this work, we propose a new forecasting model that combines discrete state space hidden Markov models with recent neural network architectures and training procedures inspired by vector quantized variational autoencoders.
     We introduce a variational discrete posterior distribution of the latent states given the observations and a two-stage training procedure to alternatively train the parameters of the latent states and of the emission distributions.
 
-3. Efficient Long Sequence Modeling via State Space Augmented Transformer(https://openreview.net/forum?id=xuxYaBMd9F)
+3. Efficient Long Sequence Modeling via State Space Augmented Transformer (https://openreview.net/forum?id=xuxYaBMd9F)
 
     We propose SPADE, short for State Space Augmented Transformer. 
     Specifically, we augment a SSM into the bottom layer of SPADE, and we employ efficient local attention methods for the other layers.
 
     **SSM + Transformer** [GitHub](https://github.com/microsoft/EfficientLongSequenceModeling)
 
-4. StableSSM: Alleviating the Curse of Memory in State-space Models through Stable **Reparameterization**(https://openreview.net/forum?id=BwG8hwohU4)
+4. StableSSM: Alleviating the Curse of Memory in State-space Models through Stable **Reparameterization** (https://openreview.net/forum?id=BwG8hwohU4)
 
     Our analysis identifies this ``curse of memory'' as a result of the recurrent weights converging to a stability boundary, suggesting that a reparameterization technique can be effective. 
     To this end, we introduce a class of reparameterization techniques for SSMs that effectively lift its memory limitations. 
@@ -481,7 +481,7 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 
     **Stability, more on parameterisation** 
 
-5. Robustifying State-space Models for Long Sequences via Approximate Diagonalization(https://openreview.net/forum?id=DjeQ39QoLQ)
+5. Robustifying State-space Models for Long Sequences via Approximate Diagonalization (https://openreview.net/forum?id=DjeQ39QoLQ)
 
     We introduce a generic, backward-stable ''perturb-then-diagonalize'' (PTD) methodology, which is based on the pseudospectral theory of non-normal operators, and which may be interpreted as the approximate diagonalization of the non-normal matrices defining SSMs. 
     Based on this, we introduce the S4-PTD and S5-PTD models. 
@@ -489,13 +489,13 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 
     **Robustness, more on initialization**
 
-6. From **generalization** analysis to **optimization** designs for state space models(https://openreview.net/forum?id=EGjvMcKrrl)
+6. From **generalization** analysis to **optimization** designs for state space models (https://openreview.net/forum?id=EGjvMcKrrl)
 
     In this paper, we theoretically study the generalization of SSMs and propose improvements to training algorithms based on the generalization results. 
     Specifically, we give a data-dependent generalization bound for SSMs, showing an interplay between the SSM parameters and the temporal dependencies of the training sequences. 
     Leveraging the generalization bound, we (1) set up a **scaling rule for model initialization** based on the proposed generalization measure, which significantly improves the robustness of SSMs to different temporal patterns in the sequence data; (2) introduce a new **regularization method for training SSMs to enhance the generalization performance**. Numerical results are conducted to validate our results.
 
-7. A 2-Dimensional State Space Layer for Spatial Inductive Bias(https://openreview.net/forum?id=BGkqypmGvm)
+7. A 2-Dimensional State Space Layer for Spatial Inductive Bias (https://openreview.net/forum?id=BGkqypmGvm)
 
     We leverage an expressive variation of the multidimensional State Space Model (SSM). 
     Our approach introduces efficient parameterization, accelerated computation, and a suitable normalization scheme. 
@@ -504,13 +504,13 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 
     **Vision task**
 
-8. Hieros: Hierarchical Imagination on Structured State Space Sequence World Models(https://openreview.net/forum?id=5j6wtOO6Fk)
+8. Hieros: Hierarchical Imagination on Structured State Space Sequence World Models (https://openreview.net/forum?id=5j6wtOO6Fk)
 
     We propose HIEROS, a hierarchical policy that learns time abstracted world representations and imagines trajectories at multiple time scales in latent space. HIEROS uses an S5 layer-based world model, which predicts next world states in parallel during training and iteratively during environment interaction. Due to the special properties of S5 layers, our method can train in parallel and predict next world states iteratively during imagination. This allows for more efficient training than RNN-based world models and more efficient imagination than Transformer-based world models.
 
     **Reinforcement Learning** (Use SSM instead of Transformer)
 
-9. S4++: Elevating Long Sequence Modeling with State Memory Reply(https://openreview.net/forum?id=bdnw4qjfH9)
+9. S4++: Elevating Long Sequence Modeling with State Memory Reply (https://openreview.net/forum?id=bdnw4qjfH9)
 
     1. Non-Stable-States (NSS): Significant state variance discrepancies arise among discrete sampling steps, occasionally resulting in divergence.
     2. Dependency Bias: The unidirectional state space dependency in SSM impedes the effective modeling of intricate dependencies. In this paper, we conduct theoretical analysis of SSM from the even-triggered control (ETC) theory perspective and first propose the presence of NSS Phenomenon.
@@ -520,7 +520,7 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 
     **Stability**
 
-10. Mamba: Linear-Time Sequence Modeling with Selective State Spaces(https://openreview.net/forum?id=AL1fq05o7H)
+10. Mamba: Linear-Time Sequence Modeling with Selective State Spaces (https://openreview.net/forum?id=AL1fq05o7H)
 
     Many subquadratic-time architectures such as linear attention, gated convolution and recurrent models, and structured state space models (SSMs) have been developed to address Transformers' computational inefficiency on long sequences, but they have not performed as well as attention on important modalities such as language. We identify that a key weakness of such models is their inability to perform content-based reasoning, and make several improvements. First, simply letting the **SSM parameters be functions of the input** addresses their weakness with discrete modalities, allowing the model to selectively propagate or forget information along the sequence length dimension depending on the current token. Second, even though this change prevents the use of efficient convolutions, we design a **hardware-aware parallel algorithm in recurrent mode**. We integrate these selective SSMs into a simplified end-to-end neural network architecture without attention or even MLP blocks (Mamba).
 
@@ -528,7 +528,7 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 
     A very nice analysis *in Chinese*: https://zhuanlan.zhihu.com/p/661237120.
 
-11. Gated recurrent neural networks discover attention(https://openreview.net/forum?id=rfSfDSFrRL)
+11. Gated recurrent neural networks discover attention (https://openreview.net/forum?id=rfSfDSFrRL)
 
     These modern RNNs feature a prominent design pattern: linear recurrent layers interconnected by feedforward paths with multiplicative gating. 
     Here, we show how RNNs equipped with these two design elements can exactly implement (linear) self-attention, the main building block of Transformers. 
@@ -540,7 +540,7 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 
     **Universality of SSM** + **Optimization verification over ICL**
 
-12. GateLoop: Fully Data-Controlled Linear Recurrence for Sequence Modeling(https://openreview.net/forum?id=02Ug9N8DCI)
+12. GateLoop: Fully Data-Controlled Linear Recurrence for Sequence Modeling (https://openreview.net/forum?id=02Ug9N8DCI)
 
     We develop GateLoop, a foundational sequence model that generalizes linear recurrent models such as S4, S5, LRU and RetNet, by employing **data-controlled state transitions**.
     Furthermore, we derive an $O(l^2)$ **surrogate-attention mode**, revealing remarkable implications for Transformer and recently proposed architectures.
