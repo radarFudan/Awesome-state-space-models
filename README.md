@@ -638,5 +638,5 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=radarFudan/Awesome-state-space-models&type=Date)](https://star-history.com/#radarFudan/Awesome-state-space-models)
+[![Star History Chart](https://star-history.dera.page/svg?repos=radarFudan/Awesome-state-space-models&type=Date)](https://star-history.dera.page/#radarFudan/Awesome-state-space-models)
 
