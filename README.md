@@ -1,8 +1,10 @@
 # Awesome-state-space-models
 
-Collection of papers/repos on state-space models, hybrid models. 
+A curated collection of papers and repositories on state-space models, recurrent sequence models, and related hybrid architectures.
 
-## 2026 Arxiv
+Browse: [2026 papers](#2026-papers) · [2025 papers and related work](#2025-papers-and-related-work) · [Selected highlights](#selected-highlights) · [ICML 2025](#icml-2025) · [Input-dependent gating](#input-dependent-gating)
+
+## 2026 papers
 
 1. Raven: High-Recall Sequence Modeling with Sparse Memory Routing [Arxiv](https://arxiv.org/abs/2607.25357)
 
@@ -44,7 +46,7 @@ Collection of papers/repos on state-space models, hybrid models.
     Closes the awkward gap in the state-tracking literature: permutation composition is a seq-to-seq task, incompatible with next-token prediction, so this recasts it as code via REPL traces that interleave state reveals through prints.
     Linear RNNs that can state-track excel here while Transformers still fail — but when actions are only partially observable (a probabilistic FSA with deterministic reveals), linear RNNs can be *worse* than non-linear ones.
 
-## 2025 Arxiv
+## 2025 papers and related work
 
 1. [NeurIPS 2025] Nested Learning: The Illusion of Deep Learning Architectures [Arxiv](https://arxiv.org/abs/2512.24695)
 
@@ -116,7 +118,7 @@ Collection of papers/repos on state-space models, hybrid models.
 
 23. Zamba: A Compact 7B SSM Hybrid Model [Arxiv](https://arxiv.org/abs/2405.16712)
 
-## Selected Oral / Spotlight / Highlight papers
+## Selected highlights
 
 Peer-reviewed architecture work on language and vision tasks. The rating in brackets is the one the
 authors report on arXiv. This is a curated, non-exhaustive selection.
@@ -167,7 +169,13 @@ authors report on arXiv. This is a curated, non-exhaustive selection.
 
 ## ICML 2025
 
-TODO
+Selected sequence-model papers from ICML 2025. Some also appear in the year and highlights sections above.
+
+1. Understanding and Improving Length Generalization in Recurrent Models [PMLR](https://proceedings.mlr.press/v267/buitrago25a.html)
+
+2. Implicit Language Models are RNNs: Balancing Parallelization and Expressivity [PMLR](https://proceedings.mlr.press/v267/schone25a.html)
+
+3. Training Dynamics of In-Context Learning in Linear Attention [PMLR](https://proceedings.mlr.press/v267/zhang25br.html)
 
 ## ICLR 2025
 
@@ -234,7 +242,7 @@ TODO
 14. Universality of Linear Recurrences Followed by Non-linear Projections: Finite-Width Guarantees and Benefits of Complex Eigenvalues (https://arxiv.org/abs/2307.11888)
 
 
-## Input-dependent gating. 
+## Input-dependent gating
 
 1. Mamba (https://arxiv.org/abs/2312.00752) [Official GitHub](https://github.com/state-spaces/mamba)
 
@@ -639,4 +647,3 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=radarFudan/Awesome-state-space-models&type=Date)](https://star-history.com/#radarFudan/Awesome-state-space-models)
-
