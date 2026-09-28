@@ -2,7 +2,12 @@
 
 A curated collection of papers and repositories on state-space models, recurrent sequence models, and related hybrid architectures.
 
-Browse: [2026 papers](#2026-papers) · [2025 papers and related work](#2025-papers-and-related-work) · [Selected highlights](#selected-highlights) · [ICML 2025](#icml-2025) · [Input-dependent gating](#input-dependent-gating)
+## Browse
+
+- **Recent papers:** [2026](#2026-papers) · [2025](#2025-papers-and-related-work)
+- **Curated reading:** [Selected highlights](#selected-highlights)
+- **By venue:** [ICML 2025](#icml-2025) · [ICLR 2025](#iclr-2025)
+- **By topic:** [Input-dependent gating](#input-dependent-gating) · [SSMs as alternatives to attention](#on-the-replacement-of-transformerattention-by-ssms)
 
 ## 2026 papers
 
