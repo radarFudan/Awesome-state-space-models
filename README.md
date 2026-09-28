@@ -1,50 +1,67 @@
 # Awesome-state-space-models
 
-Collection of papers/repos on state-space models, hybrid models. 
+A curated collection of papers and repositories on state-space models, recurrent sequence models, and related hybrid architectures.
 
-## 2026 Arxiv
+Browse: [2026 papers](#2026-papers) · [2025 papers and related work](#2025-papers-and-related-work) · [Selected highlights](#selected-highlights) · [ICML 2025](#icml-2025) · [Input-dependent gating](#input-dependent-gating)
 
-1. Raven: High-Recall Sequence Modeling with Sparse Memory Routing [Arxiv](https://arxiv.org/abs/2607.25357)
+## 2026 papers
+
+1. On the Importance of Gating: Memorization vs. In-Context Learning in State Space Models [Arxiv](https://arxiv.org/abs/2609.16540)
+
+    Studies how gating changes SSM training dynamics: it can favor in-weight memorization and delay an in-context learning solution even when state capacity is sufficient.
+    Gating can still help models generalize to longer sequences, exposing a trade-off between the two behaviors.
+
+2. RunningTensor: Generalizing Linear Attention to Higher-Order Recurrent States [Arxiv](https://arxiv.org/abs/2609.12814)
+
+    Extends linear attention's matrix memory to a higher-order tensor while retaining recurrent and parallel forms with linear sequence-length scaling.
+    An order-3 prototype improves associative recall and downstream retrieval, at the cost of a larger state.
+
+3. Kalman Delta Networks: Uncertainty-aware Associative Memory [Arxiv](https://arxiv.org/abs/2609.07816)
+
+    Treats recurrent associative memory as a state estimate with uncertainty, so each delta-style write can respond to accumulated evidence rather than only the current token.
+    Diagonal and isotropic approximations preserve associative scans; the authors report gains over linear-attention baselines at 750M and 1.3B parameters.
+
+4. Raven: High-Recall Sequence Modeling with Sparse Memory Routing [Arxiv](https://arxiv.org/abs/2607.25357)
 
     Interpolates between the two failure modes of linear-time recall: SSMs write *densely* (every token touches the whole state, causing interference) while sliding-window attention writes *sparsely* but hard-evicts past its window.
     Raven keeps a fixed set of memory slots and decays/updates only a routed subset per step, staying effective when extrapolated to 16x its training context.
 
-2. Sparse Delta Memory: Scaling the State of Linear RNNs through Sparsity [Arxiv](https://arxiv.org/abs/2607.07386)
+5. Sparse Delta Memory: Scaling the State of Linear RNNs through Sparsity [Arxiv](https://arxiv.org/abs/2607.07386)
 
     Extends Gated DeltaNet by replacing the dense key-value outer product with sparse reads and writes into a large explicit memory, buying orders of magnitude more state capacity without the usual FLOP cost.
     Under an isoFLOP and iso-parameter constraint the extra capacity clearly helps in-context learning and long-context retrieval; learning the initial memory turns it into a parametric store that also lifts knowledge and reasoning tasks.
 
-3. [ICML 2026 Oral] MuonSSM: Orthogonalizing State Space Models for Sequence Modeling [Arxiv](https://arxiv.org/abs/2606.30461)
+6. [ICML 2026 Oral] MuonSSM: Orthogonalizing State Space Models for Sequence Modeling [Arxiv](https://arxiv.org/abs/2606.30461)
 
     Conditions the *geometry of the memory update* rather than the recurrent transition matrix, adding a momentum pathway and a light Newton-Schulz transform on low-rank input injections while preserving parallel-scan complexity.
     Gives bounded, spectrally conditioned updates with theory for improved gradient propagation and reduced spectral amplification; gains hold across language, vision and time series on several SSM backbones.
 
-4. Parallax: Parameterized Local Linear Attention for Language Modeling [Arxiv](https://arxiv.org/abs/2605.29157)
+7. Parallax: Parameterized Local Linear Attention for Language Modeling [Arxiv](https://arxiv.org/abs/2605.29157)
 
     Upgrades softmax attention's local *constant* estimate to a local *linear* one from the test-time regression view, dropping LLA's numerical solver in favour of a learned projector that probes the KV covariance.
     The hardware-aware algorithm raises arithmetic intensity over FlashAttention, pushing attention into a more compute-bound regime; the prototype decode kernel matches or outperforms FlashAttention 2/3 across batch sizes and context lengths, and pretraining at 0.6B/1.7B is a Pareto improvement under both parameter- and compute-matched controls. Notable for identifying architecture-optimizer codesign — Muon specifically unlocks its capacity.
 
-5. Flash PD-SSM: Memory-Optimized Structured Sparse State-Space Models [Arxiv](https://arxiv.org/abs/2605.19150)
+8. Flash PD-SSM: Memory-Optimized Structured Sparse State-Space Models [Arxiv](https://arxiv.org/abs/2605.19150)
 
     Attacks the expressivity/efficiency tradeoff dictated by the transition matrix: it keeps a trainable set of structured sparse matrices and discretely selects one per time-step, reaching unstructured-matrix FSA expressivity at structured-SSM cost.
     Sets a new SoTA among SSMs on multivariate time series beyond 17k steps, and works as a drop-in replacement in hybrid LLMs with higher throughput and lower memory.
 
-6. [ICLR 2026 Oral] Mamba-3: Improved Sequence Modeling using State Space Principles [Arxiv](https://arxiv.org/abs/2603.15569)
+9. [ICLR 2026 Oral] Mamba-3: Improved Sequence Modeling using State Space Principles [Arxiv](https://arxiv.org/abs/2603.15569)
 
     Replaces Mamba-2's first-order exponential-Euler discretization with a second-order exponential-trapezoidal rule, adds complex-valued state updates to recover state tracking, and introduces a MIMO formulation that raises arithmetic intensity at decode.
     Matches Mamba-2 perplexity at **half the state size**; at 1.5B it improves average downstream accuracy by 0.6 points over Gated DeltaNet, and by 1.8 points for the MIMO variant.
 
-7. M$^2$RNN: Non-Linear RNNs with Matrix-Valued States for Scalable Language Modeling [Arxiv](https://arxiv.org/abs/2603.14360)
+10. M$^2$RNN: Non-Linear RNNs with Matrix-Valued States for Scalable Language Modeling [Arxiv](https://arxiv.org/abs/2603.14360)
 
     Revisits **non-linear** RNNs with matrix-valued hidden states, arguing their language-modeling quality is bottlenecked by state size and that expanding the state is what lets the recurrence use tensor cores efficiently.
     Achieves perfect state-tracking generalization beyond training length, and dropping even a *single* M$^2$RNN layer into a Gated DeltaNet hybrid gains up to 8 points on LongBench.
 
-8. Learning State-Tracking from Code Using Linear RNNs [Arxiv](https://arxiv.org/abs/2602.14814)
+11. Learning State-Tracking from Code Using Linear RNNs [Arxiv](https://arxiv.org/abs/2602.14814)
 
     Closes the awkward gap in the state-tracking literature: permutation composition is a seq-to-seq task, incompatible with next-token prediction, so this recasts it as code via REPL traces that interleave state reveals through prints.
     Linear RNNs that can state-track excel here while Transformers still fail — but when actions are only partially observable (a probabilistic FSA with deterministic reveals), linear RNNs can be *worse* than non-linear ones.
 
-## 2025 Arxiv
+## 2025 papers and related work
 
 1. [NeurIPS 2025] Nested Learning: The Illusion of Deep Learning Architectures [Arxiv](https://arxiv.org/abs/2512.24695)
 
@@ -116,7 +133,7 @@ Collection of papers/repos on state-space models, hybrid models.
 
 23. Zamba: A Compact 7B SSM Hybrid Model [Arxiv](https://arxiv.org/abs/2405.16712)
 
-## Selected Oral / Spotlight / Highlight papers
+## Selected highlights
 
 Peer-reviewed architecture work on language and vision tasks. The rating in brackets is the one the
 authors report on arXiv. This is a curated, non-exhaustive selection.
@@ -167,7 +184,13 @@ authors report on arXiv. This is a curated, non-exhaustive selection.
 
 ## ICML 2025
 
-TODO
+Selected sequence-model papers from ICML 2025. Some also appear in the year and highlights sections above.
+
+1. Understanding and Improving Length Generalization in Recurrent Models [PMLR](https://proceedings.mlr.press/v267/buitrago25a.html)
+
+2. Implicit Language Models are RNNs: Balancing Parallelization and Expressivity [PMLR](https://proceedings.mlr.press/v267/schone25a.html)
+
+3. Training Dynamics of In-Context Learning in Linear Attention [PMLR](https://proceedings.mlr.press/v267/zhang25br.html)
 
 ## ICLR 2025
 
@@ -234,7 +257,7 @@ TODO
 14. Universality of Linear Recurrences Followed by Non-linear Projections: Finite-Width Guarantees and Benefits of Complex Eigenvalues (https://arxiv.org/abs/2307.11888)
 
 
-## Input-dependent gating. 
+## Input-dependent gating
 
 1. Mamba (https://arxiv.org/abs/2312.00752) [Official GitHub](https://github.com/state-spaces/mamba)
 
@@ -639,4 +662,3 @@ I try to use the most important 2-3 sentences in the abstract to summarize the p
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=radarFudan/Awesome-state-space-models&type=Date)](https://star-history.com/#radarFudan/Awesome-state-space-models)
-
