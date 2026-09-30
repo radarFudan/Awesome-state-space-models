@@ -7,7 +7,7 @@ A curated collection of papers and repositories on state-space models, recurrent
 - **Recent papers:** [2026](#2026-papers) · [2025](#2025-papers-and-related-work)
 - **Curated reading:** [Selected highlights](#selected-highlights)
 - **By venue:** [ICML 2025](#icml-2025) · [ICLR 2025](#iclr-2025)
-- **By topic:** [Input-dependent gating](#input-dependent-gating) · [SSMs as alternatives to attention](#on-the-replacement-of-transformerattention-by-ssms)
+- **By topic:** [Research themes](topics/README.md) · [Input-dependent gating](#input-dependent-gating) · [SSMs as alternatives to attention](#on-the-replacement-of-transformerattention-by-ssms)
 - **Archive:** [Older venue and year lists](archive/README.md)
 
 ## 2026 papers
